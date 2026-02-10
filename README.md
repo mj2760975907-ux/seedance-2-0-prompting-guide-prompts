@@ -1,3702 +1,1707 @@
-```
-   _____  ______ ______ _____          _   _  _____  ______   ___    ___
-  / ____||  ____||  ____||  __ \   /\   | \ | |/ ____||  ____| |__ \  |__ \
- | (___  | |__   | |__   | |  | | /  \  |  \| | |     | |__       ) |    ) |
-  \___ \ |  __|  |  __|  | |  | |/ /\ \ | . ` | |     |  __|     / /    / /
-  ____) || |____ | |____ | |__| / ____ \| |\  | |____ | |____   / /_   / /_
- |_____/ |______||______||_____/_/    \_\_| \_|\_____||______| |____| |____|
+# Seedance-2.0-Prompting-Guide Prompt Library
 
-```
-
-<div align="center">
-
-# 🎬 **BYTEDANCE SEEDANCE 2.0 MASTER PROMPTING GUIDE**
-
-### _The Ultimate Professional Resource for AI Video Generation_
-
-[![Version](https://img.shields.io/badge/Version-2.0-blue.svg)](https://github.com/SeedanceExperts)
-[![Status](https://img.shields.io/badge/Status-Complete-green.svg)](https://github.com/SeedanceExperts)
-[![License](https://img.shields.io/badge/License-Professional-gold.svg)](https://github.com/SeedanceExperts)
-[![Expert Level](https://img.shields.io/badge/Level-Master-red.svg)](https://github.com/SeedanceExperts)
-
-_Created by **Seedance Experts** - The definitive guide to professional Seedance 2.0 video generation_
+Welcome to the **Seedance-2.0-Prompting-Guide Prompt Library**! This repository is dedicated to curating a high-quality collection of prompts for Seedance-2.0-Prompting-Guide, an advanced AI model designed for Text-to-Image. Whether you're a beginner or an expert, you'll find inspiration and tools here to unlock the full potential of Seedance-2.0-Prompting-Guide.
 
 ---
 
-</div>
+## 🌟 Introduction
 
-## 📋 **TABLE OF CONTENTS**
+Seedance-2.0-Prompting-Guide is a powerful Text-to-Image model that excels in creating stunning contents. A prompt library is essential for maximizing its capabilities, ensuring consistent results, and sparking creativity.
 
-### 🚀 **GETTING STARTED**
+### 📖 About this library
 
-- [📖 Introduction to Seedance 2.0](#-introduction-to-seedance-2-0)
-- [⚡ Key Capabilities](#-key-capabilities)
-- [🎯 Professional Prompt Structure](#-professional-prompt-structure)
-
-### 🎥 **CORE TECHNIQUES**
-
-- [🎬 Advanced Prompting Practices](#-advanced-prompting-practices)
-  - [📹 Professional Cinematography](#41-professional-cinematography-prompting)
-  - [🎭 Style and Genre Prompting](#42-style-and-genre-prompting)
-  - [⚙️ Technical Specifications](#43-advanced-technical-specifications)
-  - [💫 Narrative and Emotional Prompting](#44-narrative-and-emotional-prompting)
-  - [🎯 Shot Composition Mastery](#45-shot-composition-mastery)
-  - [💡 Professional Lighting](#46-professional-lighting-mastery)
-  - [🎪 Advanced Visual Effects](#47-advanced-visual-effects-prompting)
-  - [📷 Master Camera Movement Library](#48-master-camera-movement-library)
-  - [🔥 **CRITICAL Camera Positioning**](#-critical-camera-positioning-breakthrough)
-  - [🤳 Advanced Selfie Video Mastery](#411-advanced-selfie-video-mastery)
-  - [🎮 Advanced Movement Quality Control](#412-advanced-movement-quality-control)
-
-### 🎵 **AUDIO MASTERY**
-
-- [🔊 Audio and Dialogue Integration](#-audio-and-dialogue-integration)
-  - [🎤 Revolutionary Native Audio](#21-revolutionary-native-audio-prompting)
-  - [💬 Battle-Tested Dialogue Techniques](#211-battle-tested-dialogue-techniques)
-  - [🎬 Advanced Sequence Prompting](#212-advanced-sequence-prompting)
-  - [🎼 Advanced Audio Categorization](#61-advanced-audio-categorization)
-  - [🔧 Advanced Audio Quality Control](#62-advanced-audio-quality-control)
-
-### 🛠️ **PROFESSIONAL WORKFLOWS**
-
-- [❌ Negative and Refinement Prompts](#-negative-and-refinement-prompts)
-- [📱 Platform-Specific Considerations](#-platform-specific-considerations)
-  - [📱 Vertical Video Workaround](#81-vertical-video-workaround)
-  - [🎥 Professional Video Enhancement](#82-professional-video-enhancement)
-  - [⚡ Professional Workflow Optimization](#83-professional-workflow-optimization)
-
-### 📚 **EXAMPLE LIBRARY**
-
-- [🎯 Example Professional Prompts](#-example-professional-prompts)
-- [🏢 Corporate and Business](#10-corporate-and-business-video-templates)
-- [📚 Educational Content](#11-educational-content-templates)
-- [📈 Marketing and Social Media](#12-marketing-and-social-media-templates)
-- [🎨 Creative and Artistic](#13-creative-and-artistic-templates)
-- [🔧 Technical and Tutorial](#14-technical-and-tutorial-templates)
-
-### 🧠 **ADVANCED SYSTEMS**
-
-- [🧮 Advanced Reasoning Frameworks](#15-advanced-reasoning-frameworks-for-seedance-2-0)
-- [🏢 Enterprise Meta Prompt Workflows](#16-enterprise-meta-prompt-workflows)
-  - [🛠️ Expert Troubleshooting Solutions](#161-expert-troubleshooting-solutions)
-  - [🤖 Universal Meta Prompt Engine](#162-universal-meta-prompt-engine---master-level-cognitive-architecture)
-
-### 📖 **REFERENCE**
-
-- [📚 Resources and References](#-resources-and-references)
+This repository is curated to provide:
+- **Optimized Prompts**: Tested prompts to demonstrate valid use cases.
+- **Inspiration**: A starting point for your own creative explorations.
 
 ---
 
-<div align="center">
+## 🖼️ Capabilities
 
-## 🌟 **WHAT'S NEW IN VERSION 2.0**
-
-</div>
-
-| Feature                            | Status      | Description                                                |
-| ---------------------------------- | ----------- | ---------------------------------------------------------- |
-| 🔥 **Critical Camera Positioning** | ✅ NEW      | Revolutionary `"(thats where the camera is)"` syntax       |
-| 🤳 **Selfie Video Mastery**        | ✅ NEW      | Proven formulas for authentic selfie behavior              |
-| 🎵 **Audio Categorization**        | ✅ NEW      | Professional audio libraries and quality control           |
-| 🎮 **Movement Quality Control**    | ✅ NEW      | Precision keywords for natural, energetic, graceful motion |
-| 🛠️ **Expert Troubleshooting**      | ✅ NEW      | Battle-tested solutions for common generation issues       |
-| 📱 **Vertical Video Workaround**   | ✅ NEW      | Professional solution for 9:16 format                      |
-| 🎨 **Advanced Composition**        | ✅ NEW      | Lens effects, color palettes, cinematic grading            |
-| ⚡ **Workflow Optimization**       | ✅ NEW      | Professional upscaling and format conversion tools         |
-| 🤖 **Meta Prompt Engine**          | ✅ ENHANCED | Master-level cognitive architecture for prompt generation  |
+No capabilities found.
 
 ---
 
+## ⚠️ Limitations
+
+No limitations found.
+
 ---
 
-<div align="center">
+## 🎨 Curated Prompt Collection
 
-## 📖 **INTRODUCTION TO VEO 3**
+Explore our carefully selected collection of high-quality prompts, complete with visual examples and detailed instructions.
 
-</div>
+### masterpiece
 
-> **ByteDance Seedance 2.0** is the world's most advanced text-to-video AI model, capable of generating cinematic-quality videos with synchronized audio, realistic physics, and professional-grade visual effects.
+**Model:** Seedance-2.0-Prompting-Guide
 
-### 🌟 **What Makes Seedance 2.0 Revolutionary**
-
-ByteDance Seedance 2.0 represents a quantum leap in AI video generation technology, enabling creators to produce **broadcast-quality content** from detailed text descriptions. Unlike previous models, Seedance 2.0 generates **video and audio simultaneously**, ensuring perfect synchronization and professional results.
-
-### 🚀 **Platform Access**
-
-| Platform         | Access Level | Features                                          |
-| ---------------- | ------------ | ------------------------------------------------- |
-| **Atlas Cloud**  | Enterprise   | Full API access, batch processing, public preview |
-| **Jimeng AI**    | Consumer     | Simplified interface, templates                   |
-| **Seedance Web** | General      | Basic generation, mobile-friendly                 |
-
-### 🎹 **Multimodal Orchestration (@Tag System)**
-
-- 🏷️ **@Tag Precision**: Assign labels like `@Image1` or `@Video1` to inputs for precise control.
-  - _Example_: "Start with `@Image1` and transition to `@Image2`."
-- 🎥 **Video-Driven Motion**: Use existing video clips to guide camera movement and character action.
-  - _Command_: "Imitate the action of `@Video1`."
-- 🎵 **Rhythmic Synchronization**: Drive the video's pacing and cuts directly from up to 3 audio tracks.
-
-### 📝 **The 5-Part Prompt Spine**
-
-_Proven framework to reduce model drift:_
-
-1.  **Subject**: Who or what (singular focus).
-2.  **Action**: Specific verb phrase in present tense.
-3.  **Camera**: Shot size + movement + angle.
-4.  **Style**: One visual anchor (film/artist) + lighting.
-5.  **Constraints**: What to ban, timing, consistency.
-
-### 🎤 **Revolutionary Native Audio**
-
-- 🎵 **Audio-Conditioned Diffusion**: Motion is synced to audio beats at the generation level.
-- 🔊 **Audio Adjectives**: Use keywords like **"muffled"**, **"crunchy"**, **"reverb"** to trigger specific sound engines.
-- 💬 **Perfect Lip-Sync**: Dialogue generation with precise mouth movement synchronization.
-- 🎼 **Smart Soundscapes**: Ambient sounds, music, and sound effects generated in a single pass.tched to visuals
-- 🔊 **Professional Audio Quality**: Broadcast-standard audio mixing and clarity
-
-### 🎥 **Cinematic Video Generation**
-
-- 📺 **High-Definition Resolution**: 720p (default) and 1080p video generation
-- 🎬 **Professional Cinematography**: Advanced camera movements, lighting, depth of field
-- 🎆 **Visual Effects**: Particle systems, atmospheric effects, realistic materials
-- 🎨 **Artistic Styles**: Support for multiple visual aesthetics and film genres
-
-### 🧪 **Advanced Physics Simulation**
-
-- 💧 **Realistic Fluids**: Water, liquids, and particle behavior following natural physics
-- 🌊 **Gravity Systems**: Accurate falling, bouncing, and momentum conservation
-- 🧵 **Material Properties**: Fabric, metal, glass, and organic material simulation
-- ✨ **Particle Effects**: Smoke, fire, dust, and atmospheric particles
-
-### 👥 **Character and Scene Mastery**
-
-- 🎭 **Character Consistency**: Maintain visual continuity across multiple generations
-- 👥 **Multi-Character Scenes**: Complex interactions between multiple subjects
-- 🏗️ **Scene Understanding**: Temporal sequences and narrative continuity
-- 🔄 **Multi-Modal Input**: Text-to-video, image-to-video, video-to-video generation
-
-## 2.1 Revolutionary Native Audio Prompting
-
-### Dialogue Generation with Lip-Sync
-
-Seedance 2.0's breakthrough feature is generating perfectly synchronized dialogue. Use these techniques:
-
-**Direct Dialogue Prompting:**
-
-```
-The teacher stands at the whiteboard and says: "Today we'll explore photosynthesis, the process plants use to convert sunlight into energy."
-```
-
-**Conversational Dialogue:**
-
-```
-The woman asks: "Where should we meet for lunch?" The man replies: "How about that new Italian place downtown?"
-```
-
-**Emotional Dialogue:**
-
-```
-The CEO pauses thoughtfully, then says with conviction: "This is the direction our company needs to go." Her voice carries determination mixed with slight uncertainty.
-```
-
-### Environmental Audio Prompting
-
-**Layered Soundscapes:**
-
-```
-Audio: Distant traffic hum, occasional car horns, footsteps on pavement, muffled conversations, city ambiance with subtle building echoes.
-```
-
-**Natural Environments:**
-
-```
-Audio: Gentle wind through trees, various bird songs, rustling leaves, distant water flowing, peaceful forest atmosphere.
-```
-
-**Professional Settings:**
-
-```
-Audio: Soft keyboard typing, air conditioning hum, muffled phone conversations, paper rustling, professional office ambiance.
-```
-
-### Music Integration Prompting
-
-**Mood-Based Music:**
-
-```
-Audio: Uplifting orchestral music with strings and brass, building to an inspiring crescendo, conveying hope and determination.
-```
-
-**Genre-Specific Scoring:**
-
-```
-Audio: Soft jazz piano with subtle bass line, creating sophisticated, intimate atmosphere reminiscent of a high-end lounge.
-```
-
-**Dynamic Musical Development:**
-
-```
-Audio: Tension-building electronic music starting minimal, adding layers of synths and percussion, reaching climax as the character makes their decision.
-```
-
-### Sound Effects Prompting
-
-**Action-Synchronized Audio:**
-
-```
-Audio: Sizzling oil in pan, knife chopping vegetables, water boiling, utensils clinking, kitchen cooking ambiance.
-```
-
-**Movement and Impact Sounds:**
-
-```
-Audio: Footsteps running on gravel, heavy breathing, door slamming, car engine starting, tires screeching.
-```
-
-**Technology and Interface Sounds:**
-
-```
-Audio: Device startup chime, button clicks, screen interface sounds, notification alerts, modern tech ambiance.
-```
-
-## 2.1.1 Battle-Tested Dialogue Techniques
-
-### Proven Dialogue Syntax (Community-Verified)
-
-**✅ WORKS - Colon Format (Prevents Subtitles):**
-
-```
-The detective looks directly at camera and says: "Something's not right here." His voice carries suspicion and determination.
-```
-
-**❌ FAILS - Quote Format (Causes Subtitles):**
-
-```
-The detective says: "Something's not right here." (Avoid this format)
-```
-
-### Phonetic Pronunciation Fixes
-
-**Problem**: AI mispronounces names or complex words
-**Solution**: Use phonetic spelling
-
-```
-Original: "Read on to get Fofur and Shridar's guidance"
-Fixed: "Read on to get foh-fur's and Shreedar's guidance"
-```
-
-### Dialogue Length Optimization
-
-**Perfect Length (8-second rule):**
-
-```
-Sarah, a confident CEO, looks at camera and says: "Our Q3 results exceeded all expectations, positioning us for unprecedented growth."
-```
-
-**Too Long (Causes rushed speech):**
-
-```
-Avoid: Long paragraphs that require 15+ seconds to speak naturally
-```
-
-**Too Short (Causes silence/gibberish):**
-
-```
-Avoid: Single words like "Hello" or "Yes"
-```
-
-### Multi-Character Dialogue Control
-
-**Specify Who Speaks When:**
-
-```
-The woman in the red dress asks: "Where should we meet for lunch?" The man in the blue shirt replies: "How about that new Italian place downtown?"
-```
-
-**Character-Specific Dialogue:**
-
-```
-The woman wearing pink says: "But I'm the one who's wearing pink." The man with glasses replies: "No, I'm the one with the glasses."
-```
-
-### AI-Generated Dialogue Prompts
-
-**Let Seedance 2.0 Create Natural Dialogue:**
-
-```
-- A standup comic tells a joke
-- Two people discuss a movie they just watched
-- A man argues passionately over the phone
-- A woman shares her inspiring life story
-- A teacher explains a complex concept to students
-```
-
-### Subtitle Prevention Techniques (Proven Methods)
-
-**Method 1 - Colon Format:**
-
-```
-Use: Character says: "dialogue" (with colon before dialogue)
-Avoid: Character says "dialogue" (no colon - triggers subtitles)
-
-KEY: The colon (:) prevents subtitle generation
-```
-
-**Method 2 - Explicit Negation:**
-
-```
-Add to prompt: "(no subtitles)" or "no subtitles, no text overlays"
-```
-
-**Method 3 - Multiple Negatives (For Stubborn Cases):**
-
-```
-"No subtitles. No subtitles! No on-screen text whatsoever."
-```
-
-### Audio Hallucination Fixes
-
-**Problem**: Unwanted "live studio audience" laughter
-**Solution**: Always specify expected background audio
-
-```
-Bad: Character tells a joke (may add unwanted laughter)
-Good: Character tells a joke. Audio: quiet office ambiance, no audience sounds, professional atmosphere.
-```
-
-**Environmental Audio Specification:**
-
-```
-Audio: sounds of distant bands, noisy crowd, ambient background of a busy festival field (prevents wrong audio hallucinations)
-```
-
-## 2.1.2 Advanced Sequence Prompting
-
-### "This Then That" Technique (Community Discovery)
-
-**Emotional Progression:**
-
-```
-The character starts confused and uncertain, then gradually becomes confident and determined, finally ending with a satisfied smile of accomplishment.
-```
-
-**Action Sequences:**
-
-```
-She first hesitates at the door, then takes a deep breath, finally pushes it open with resolve.
-```
-
-**Camera Movement Sequences:**
-
-```
-The scene begins with a wide establishing shot, then smoothly transitions to a medium shot at the 3-second mark, finally ending with a close-up on the character's determined expression.
-```
-
-### Micro-Expression Control (Professional Technique)
-
-**Subtle Emotional Indicators:**
-
-```
-His eyes narrow slightly, a small furrow appears between his brows, and he pauses for just a moment before speaking.
-```
-
-**Dynamic Character Life:**
-
-```
-He steps forward a half-step, raises his chin, eyes focused, inviting conflict.
-```
-
-**Eliminating "Model Face":**
-
-```
-Eyes squint thoughtfully, head tilts as if processing new information, slight smile begins to form.
-```
-
-## 2.2 Advanced Physics Simulation Prompting
-
-### Fluid Dynamics Prompting
-
-Seedance 2.0 excels at realistic water and liquid behavior. Use specific physics terminology:
-
-**Water Flow and Splashes:**
-
-```
-A glass of water tips over, with realistic physics governing the liquid's flow. Water spreads across the table surface following natural fluid dynamics, creating authentic splash patterns and surface reflections.
-```
-
-**Advanced Fluid Behavior:**
-
-```
-Rain drops hit the window, each droplet following realistic physics as they merge, streak down the glass surface, and create natural water trails with proper surface tension effects.
-```
-
-### Material Physics Prompting
-
-**Fabric and Cloth Simulation:**
-
-```
-A silk scarf falls through the air, its lightweight fabric floating and billowing naturally with air resistance, landing softly with realistic draping and fold patterns.
-```
-
-**Rigid Body Physics:**
-
-```
-Two billiard balls collide with accurate momentum transfer, the impact creating realistic sound and motion as they separate at proper angles based on physics principles.
-```
-
-**Particle System Effects:**
-
-```
-Smoke rises from the campfire in realistic wisps, particles dispersing naturally with wind currents, creating volumetric lighting effects as sunlight filters through.
-```
-
-### Gravity and Motion Prompting
-
-**Natural Falling Motion:**
-
-```
-Leaves fall from the tree, each following realistic physics with natural rotation, air resistance affecting their descent speed, and authentic landing patterns.
-```
-
-**Complex Mechanical Motion:**
-
-```
-The pendulum swings with accurate physics, showing proper momentum conservation, gradual energy loss, and realistic oscillation patterns.
-```
-
-## 2.3 Character Consistency Prompting
-
-### Character Template Framework
-
-Maintain visual continuity across scenes with detailed character descriptions:
-
-**Comprehensive Character Template:**
-
-```
-[NAME], a [AGE] [ETHNICITY] [GENDER] with [SPECIFIC_HAIR_DETAILS], [EYE_COLOR] eyes, [DISTINCTIVE_FACIAL_FEATURES], wearing [DETAILED_CLOTHING_DESCRIPTION], with [POSTURE_AND_MANNERISMS]
-```
-
-**Example Character Consistency:**
-
-```
-Sarah Chen, a 32-year-old Asian-American woman with shoulder-length black hair styled in a professional bob, warm brown eyes behind wire-rimmed glasses, wearing a charcoal gray blazer over a white collared shirt, with confident posture and an approachable smile that creates small crinkles around her eyes.
-```
-
-### Multi-Scene Character Continuity
-
-**Scene 1 - Character Introduction:**
-
-```
-Dr. Jennifer Walsh, a 35-year-old pediatrician with short brown hair in a bob cut, kind green eyes, and a warm smile, wearing a white lab coat over blue scrubs with a stethoscope around her neck. She examines a young patient in a bright examination room.
-```
-
-**Scene 2 - Same Character, Different Setting:**
-
-```
-Dr. Jennifer Walsh, the same 35-year-old pediatrician with short brown hair in a bob cut and kind green eyes, now wearing a casual green sweater and dark jeans, sits at her home office desk reviewing patient files. She maintains her characteristic warm, caring expression.
-```
-
-### Signature Element Consistency
-
-**Distinctive Accessories:**
-
-```
-The detective always wears his vintage leather jacket, silver watch on his left wrist, and carries a worn brown leather notebook. These signature elements appear in every scene.
-```
-
-**Behavioral Consistency:**
-
-```
-The professor has a habit of adjusting his glasses when thinking deeply, gesturing with his hands while explaining concepts, and maintaining an enthusiastic, engaging demeanor.
-```
-
-## 3. Professional Prompt Structure
-
-<div align="center">
-
-## 🎯 **PROFESSIONAL PROMPT STRUCTURE**
-
-</div>
-
-> **Master the 8-Component Framework** that transforms basic descriptions into cinematic masterpieces
-
-### 🏆 **The Professional Formula**
-
-```mermaid
-graph LR
-    A[👤 Subject] --> B[🏗️ Context]
-    B --> C[🎬 Action]
-    C --> D[🎨 Style]
-    D --> E[📹 Camera]
-    E --> F[🖼️ Composition]
-    F --> G[💡 Ambiance]
-    G --> H[🎵 Audio]
-```
-
-### 📝 **Component Breakdown (The 5-Part Spine)**
-
-_Based on expert analysis, this order reduces model drift:_
-
-| Part               | 🎯 Purpose                     | ✨ Example                                          |
-| ------------------ | ------------------------------ | --------------------------------------------------- |
-| **1. Subject**     | Who/What (Singular focus)      | _"A vintage 1967 Mustang"_                          |
-| **2. Action**      | Specific verb (Kinetic anchor) | _"drifts around a rain-slicked corner"_             |
-| **3. Camera**      | Shot + Move + Angle            | _"Low angle, tracking shot from the side"_          |
-| **4. Style**       | Visual anchor (Film/Artist)    | _"High contrast noir style, sodium vapor lighting"_ |
-| **5. Constraints** | Bans + Timing                  | _"No text, no other cars, hold drift for 4s"_       |
-
-### 🏆 **Copy-Paste Templates**
-
-**1. UGC / Social Media (Phone Feel)**
-
-```
-Subject: [Person/Age/Setting]
-Action: [Speaks casually to camera while holding product]
-Camera: Medium shot, handheld phone perspective, slight sway, eye level
-Style: Natural indoor lighting, ungraded look, light motion blur
-Constraints: No captions, no snap zooms, 10s duration
-```
-
-**2. Product Commercial (Clean & Steady)**
-
-```
-Subject: [Product Name/Material]
-Action: [Rotates slowly / liquid splashes against it]
-Camera: Macro close-up, slow dolly-in, locked horizon
-Style: Studio lighting, soft rim light, 4k advertising aesthetic
-Constraints: No text, no logos, hold focus 5s
-```
-
-**3. Cinematic Storytelling (Mood First)**
-
-```
-Subject: [Character Name/Role]
-Action: [Steps into the light / looks back with fear]
-Camera: Wide establishing shot transitioning to medium push-in
-Style: [Film Stock/Director Style], moody lighting, teal and orange grade
-Constraints: No modern objects, keep atmosphere heavy
-```
-
-### 🏎️ **Motion Grammar & Physics**
-
-Seedance 2.0 understands physics. Use these terms for better motion:
-
-- **Friction**: "Tires smoke as car drifts" (instead of just "car turns")
-- **Weight**: "Heavy mech steps causing ground tremors"
-- **Momentum**: "Water splashes with high velocity"
-
-### 📊 **Quality Hierarchy**
-
-### 📊 **Quality Hierarchy**
-
-```
-🥇 MASTER LEVEL    = All 8 components + advanced techniques
-🥈 PROFESSIONAL   = 6-8 components with detailed descriptions
-🥉 INTERMEDIATE   = 4-6 components with basic details
-⚠️  BASIC         = 1-3 components (poor results)
-```
-
-### 🔥 **Pro Tips for Each Component**
+<img src="https://file.tryprompt.ai/prompts/4c7aabf6729563897295d2511c68d44d.jpeg" width="400" alt="masterpiece" />
 
 <details>
-<summary><strong>👤 Subject Mastery</strong></summary>
+<summary>View Prompt</summary>
 
-- Include **15+ specific physical attributes**
-- Specify age, ethnicity, build, facial features
-- Detail clothing, accessories, and distinctive marks
-- Add personality indicators through posture/expression
+```markdown
+masterpiece,best quality,amazing quality, source_anime, 
 
-**Example**: _"Sarah Chen, a 32-year-old Asian-American woman with shoulder-length black hair in a professional bob, warm brown eyes behind wire-rimmed glasses, wearing a charcoal gray blazer over white collared shirt, confident posture with an approachable smile"_
+1boy, male focus, solo, blue hair, red headband,, weapon, outdoors, holding, polearm, standing, holding weapon, full body, white cape, shoulder armor, black bodysuit, gloves, white lower garment, knee boots, white footwear, shield
 
+```
 </details>
+
+### (Portrait RAW photo:1.3) of a stunning alien-human
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/7385dcd8187b000396a0c605a6a6a4fc.jpeg" width="400" alt="(Portrait RAW photo:1.3) of a stunning alien-human" />
 
 <details>
-<summary><strong>🏗️ Context Excellence</strong></summary>
+<summary>View Prompt</summary>
 
-- Describe location with architectural details
-- Include props, furniture, and background elements
-- Specify time of day and weather conditions
-- Add environmental storytelling elements
-
-**Example**: _"in a modern tech startup office with exposed brick walls, standing desks, multiple monitors, plants, and large windows showing a bustling city street at golden hour"_
-
+```markdown
+(Portrait RAW photo:1.3) of a stunning alien-human hybrid female, (pale skin:1.2), (mesmerizing crystal eyes with piercing blue iris:1.4). Wearing a (pristine white medical lab coat:1.2), high-quality fabric texture and intricate details. (Hyper-realistic DNA texture, visible micro-pores:1.3). Soft clinical sci-fi lighting, (perfect anatomy:1.1), 8k, masterpiece.
+<lora:Science fiction:1.9>
+```
 </details>
+
+### psychedelic and surrealism style world
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/4c7034f7c3b057d5d455b96db83c16ed.jpeg" width="400" alt="psychedelic and surrealism style world" />
 
 <details>
-<summary><strong>🎬 Action Precision</strong></summary>
+<summary>View Prompt</summary>
 
-- Use vivid, specific verbs
-- Include micro-expressions and gestures
-- Specify timing and sequence
-- Add emotional undertones
-
-**Example**: _"she gestures enthusiastically toward the presentation screen, pauses thoughtfully while reviewing data, then turns to the camera with a confident smile and slight head tilt"_
-
+```markdown
+psychedelic and surrealism style world, huge rainbow background, red and green style, sharp geometric edges, (subject: extreme closeup of a creature made of cybernetic etherial space matter animation movie style, aestheticly pleasing kitten):1.1, (hanggliding), endearing smile, clumsy diving at viewer, huge funny, glasses and silly hat (wings with gigantic wingspan and matrix patterns and dynamic action and whimsical), (scene: creature soaring over a (whimsical castle with a valley in the background), from above, trees, butterflies, mushrooms and balloons.screen space reflections, high quality render, ultra resolution, intricate details):1.2,
+```
 </details>
 
-<div align="center">
+### masterpiece
 
-## 🎬 **ADVANCED PROMPTING PRACTICES**
+**Model:** Seedance-2.0-Prompting-Guide
 
-</div>
+<img src="https://file.tryprompt.ai/prompts/938f1fd251f8c8b504b7de19398ba62a.jpeg" width="400" alt="masterpiece" />
 
-> **Master-level techniques** for creating broadcast-quality videos with professional cinematography, advanced physics, and cinematic storytelling
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, absurdres,
+mine-mura, multiple boys, sportswear, baseball uniform, sitting, short hair, crossed legs, basketball, sneakers, mole, 
+ <lora:[Minemura] Danketsu no Hiketsu (Otokonoko HEAVEN Vol. 21) Doujin Style Illustrious:1>
+```
+</details>
+
+### A thick
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/b75b95c468d1f70e71794fe662e34c92.jpeg" width="400" alt="A thick" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+A thick, dark tree branch covered in dense, vibrant green moss curves diagonally across the frame from lower left to upper right. Several small mushrooms with smooth, rounded caps of a warm orange-brown hue grow clustered along its surface, their stems short and embedded into the mossy bark. The moss itself appears damp and textured, clinging tightly to the rough, weathered wood beneath it. In the background, other darker tree branches are visible but blurred by shallow depth of field, creating a soft, out-of-focus green and brown haze that suggests a dense forest environment. A few small pine needles hang from a branch in the upper right corner. The lighting is diffused and even, casting no strong shadows, which enhances the muted tones of the scene while making the orange mushrooms stand out as focal points against the dark wood and green moss.
+```
+</details>
+
+### best quality
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/8bd3389b1d10e2cf4981d58c5f8de3d8.jpeg" width="400" alt="best quality" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+best quality, amazing quality, very aesthetic, absurdres, hires, anime coloring, anime
+jj
+1girl, long hair, animal ears, hair between eyes, tail, indoors, half-closed eyes, wolf ears, furry, dog ears, wolf tail, toned, animal hands, dog tail, furry female, wolf girl, door, body fur, animal nose, snout, pawpads, short hair, sidelocks, changigng booth, undressing booth, dressing, from behind, nose blush, looking back, looking at viewer, looking at viewer, jeans, t-shirt, midrif,
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/32452e797d30e15d297fba569c7b9b3a.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, beautiful face, beautiful eyes, soft lighting, bloom effect, detailed background, cute girl, eyelashes, foreshortening,
+Aka-Oni, oni, (oni horns), colored skin, (red skin:1.3), smooth horns, black horns, straight horns, mature,
+1girl,solo,beautiful face, perfect eyes, detailed eyes,mature female,
+impasto, brush stroke, breasts, 1girl, bare shoulders, black kimono, blunt bangs, closed mouth, fan hair ornament, from side, holding, holding smoking pipe, japanese clothes, kimono, long hair, long sleeves, mole, mole on cheek, mole under eye, mole under mouth, off shoulder, lips, ribbon, smoking pipe, solo, upper body, wide sleeves
+```
+</details>
+
+### venom1999_(amazing99)comicsXL
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/04bed0078894603ffca56b8ce6b0a263.jpeg" width="400" alt="venom1999_(amazing99)comicsXL" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+venom1999_(amazing99)comicsXL, symbiote, body suit, black suit, monsterboy, 1boy, solo, mouth, sharp teeth, long tongue, muscular, claws, spider print,
+
+
+
+big muscles, big pecs, pecs, large pectorals, huge muscles, huge pecs, mature male,
+
+
+
+
+
+battle pose, combat movements, crouching,
+
+
+
+
+night, city,
+
+
+
+spiderman99_(unlimited)_styleXL,
+
+
+
+
+masterpiece, best quality, amazing quality, very aesthetic, highres, absurdres 4k, 
+
+
+best quality, highly detailed, lights details, high resolution, high quality, perfect quality, vivid color, vibrant, highly detailed
+```
+</details>
+
+### semirealistic illustration of a orange cat yawning
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/0a559c6a06e1df56a1fdf37b77ea7c1e.jpeg" width="400" alt="semirealistic illustration of a orange cat yawning" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+semirealistic illustration of a orange cat yawning and showing its teeth against a black background <lora:elegence-niji-z:0.8> <lora:Arcane_Violet:0.61>
+```
+</details>
+
+### imagination
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/3bf483e19944e599fe2173ac4db4087f.jpeg" width="400" alt="imagination" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+imagination, creative, interesting dynamic composition, dynamic pose, surreal fine art, Andreas Achenbach, landscapes, observation, painting, Plein-air, romanticism,cinematic film still dynamic composition, dynamic layout, pg-safe, sfw, colorful, colorful skittle wings, colorful sunglasses, many, detailed background, candy theme, complex detailed skittles boarder, glowing rainbow theme . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy, ethereal fantasy concept art of   . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy, Dripping Paint Splatter Art, dramatic, paint drips, splatters, dripping paint, Oil painting by Jackson Pollock . Abstract expressionism, drip painting, chaotic composition, energetic, spontaneous, unconventional technique, dynamic, bold, distinctive, vibrant, intense, expressive, energetic, layered, non-representational, gestural., Blacklight paint . Fluorescent pigments, vibrant and surreal colors, ethereal glow, otherworldly effects, dynamic and psychedelic compositions, neon aesthetics, transformative in ultraviolet light, contemporary and experimental., stained glass style  . vibrant, beautiful, translucent, intricate, detailed,m8_a5_l2-enhanced-style, m8_a5_l2, s3_v7_z5-enhanced-style, s3_v7_z5, q2wz2, Taste the Rainbow, [items made of skittles], [skittles theme], Candy, Land, Candy Land, candylandia, candy, candy, cottoncandy,<lora:MYSTmixCreativeBooster:0.5> <lora:MYSTdetailer-Depth-Booster-nature:0.4> <lora:imagination_v666-000019:0.4> <lora:myststyle-morph-sdxl_epoch_3:0.65> <lora:Taste_the_Rainbow_r1:0.7> <lora:Candy_land_2:0.25> <lora:Candylandia-000003:0.25> <lora:aidmaCandyWorldMorph-MoreRealistic-v0.1:0.1> <lora:aidmaCandyWorldMorph-MoreArtfull-v0.1:0.1> <lora:SDXLCottonCandy:0.1>
+<lora:MYSTmixCreativeBooster:0.5> <lora:MYSTdetailer-Depth-Booster-nature:0.4> <lora:imagination_v666-000019:0.4> <lora:myststyle-morph-sdxl_epoch_3:0.65> <lora:Taste_the_Rainbow_r1:0.7> <lora:Candy_land_2:0.25> <lora:Candylandia-000003:0.25> <lora:aidmaCandyWorldMorph-MoreRealistic-v0.1:0.1> <lora:aidmaCandyWorldMorph-MoreArtfull-v0.1:0.1> <lora:SDXLCottonCandy:0.1>
+```
+</details>
+
+### concept art
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/cf10f842f9373f1f21bc173a005507f6.jpeg" width="400" alt="concept art" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+concept art, perfect composition, realistic oil painting,  Albert Biestadt style, Moebius style, astonishing, epic, unearthly, shining, breathtaking, action, movement, dramatic, watercolor wash, concept art by Brian Froud and Carne Griffiths, approaching perfection, pure form, intricate details, 8k post production, high resolution, hyperdetailed, trending on artstation, sharp focus, intricate details, highly detailed,
+
+```
+</details>
+
+### best quality
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/06ae78beefbc5708c62f41ae2a8d2069.jpeg" width="400" alt="best quality" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+best quality, amazing quality, very aesthetic, absurdres,
+1girl, sasha, green eyes, brown hair, glasses, single braid, freckles, 
+dress,
+upper body, smile,
+looking at viewer, solo, simple background, white background,   <lora:SashaSAONoobXL_byKonan:1>
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/12ad4532418b3ed49f7fcadb7dbc27c5.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece,best quality,amazing quality,very aesthetic,absurdres,newest,8k,<lora:ardelia_v1_ill:0.7>,curled horns,red garter straps,white bow,hair bow,hairpins,
+ardelia \(arknights\),1girl,solo,holding,holding staff,staff,smile,black thighhighs,open mouth,looking at viewer,sky,:d,gradient sky,white detached sleeves,two-tone fingerless gloves,cowboy shot,outdoors,blue sky,standing,pink sky,pink sleeveless dress,black fur trim,white jacket on waist,
+```
+</details>
+
+### telephoto lens shot of 19-year-old caucasian innoc
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/f50002295163032eac0aafaad2e2839e.jpeg" width="400" alt="telephoto lens shot of 19-year-old caucasian innoc" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+telephoto lens shot of 19-year-old caucasian innocent corporate siren girl. She has hazel-colored eyes. She has a slightly freckled skin with visible pores and fine lines around the eyes. sharp jawline with subtle dimples when smiling. thin nose with a slightly upturned tip and full lips with a natural pout. high, arched eyebrows with a slight furrow between them.. She wears a natural makeup with subtle blush on the apples of the cheeks in a rosy peach tone, light eyeshadow in a matte taupe shade applied to the crease of the eyes, and a sheer berry-toned lip gloss with a hint of shimmer..She has a long, dark brown hair styled in a sleek bun with a few strands of hair intentionally left out to create a tousled look. the bun is secured with a small, dark brown bobby pin.. Her body is slim fit, with small round-shaped breasts, muscular moderate thighs, and a thin waist. She wears a charcoal gray fitted blazer with a notch lapel, bodycon fit, button-down, showing immaculate. Her upper body is dressed in a ivory fitted button-down shirt with a point collar, long, slim fit, finished with immaculate and black scarf (silk, ribbed, with a slight sheen). Her lower body is dressed in a black fitted pencil skirt, bodycon, featuring wool blend, high-waisted, with subtle darting for a tailored fit, paired with black belt (thin, leather, with a small silver buckle), black socks (thin, sheer, with a ribbed texture), black shoes (pointed-toe pumps with a 3-inch stiletto heel). The scene is set in a modern, sleek, professional office building. Lighting is natural daylight, with minimal, due to the textured surfaces of the office furniture, soft, diffused, created by the window light, creating warm, inviting, and slightly hazy. She is sitting at a minimalist desk, legs crossed, and a focused expression on her face., captured in a eye-level, her head straight ahead, body positioned sitting upright, feet flat on the floor, wearing a focused expression. In the background: organized desk positioned center of the image, occupied chair positioned in front of the desk, full filing cabinet positioned side of the image, clear window positioned back of the image, turned off laptop positioned on the desk. photorealistic style realistic photography with subtle grain, minimal noise, moderate sharpness, shallow depth of field, and soft bokeh. Natural skin rendering with visible pores, imperfections, and micro-shadows. <lora:Mystic-XXX-ZIT-V5:1> <lora:nicegirls_Zimage:0.3>
+```
+</details>
+
+### ninaf
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/78000f8a521e5d80686f2e4607096251.jpeg" width="400" alt="ninaf" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+ninaf, fft style, 
+1girl, solo, mature female, brown eyes, (dual-wielding, tantou, reverse grip:1.2), fighting stance, weapons raised, cowboy shot, standing, legs apart, armor, dougi, shoulder armor, waistband, belt, vambraces, gloves, neck armor, headband, default, black armor, black clothes, patterned clothes, tight pants, fishnet sleeves, dark brown pattern trim, dark brown patterns, black hair, hair pulled back, high ponytail, hair ribbon, serious, red eyeshadow, looking at viewer,
+beige wall, wood panels, wood paneling, indoor scenery, japanese architecture, hanging vines, 
+```
+</details>
+
+### maid girl
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/f2bfd1edcb443d829dc53dad5e2ce234.jpeg" width="400" alt="maid girl" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+maid girl, wiping floor with rag, knocking over bucket, spilling gray water
+```
+</details>
+
+### A pale-skinned Phoenician woman sitting hunched on
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/335682e614e40219bc30f41a824cd705.jpeg" width="400" alt="A pale-skinned Phoenician woman sitting hunched on" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+A pale-skinned Phoenician woman sitting hunched on a worn stone bench in the sun-dappled courtyard of an affluent home, her posture deliberately small beneath the weight of the narrow, unadorned leather choker encircling her throat. Her off-white chiton, threadbare at the hem, clings loosely to her frame, the rough fabric catching the light where it pools around her bare feet. Around her, meticulously tended grapevines climb marble trellises, their leaves casting shifting shadows over her lowered face, while young pomegranate trees heavy with fruit frame the scene.
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/fab392b819cc33d8455f51084ab8d5a1.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, beautiful face, beautiful eyes, soft lighting, bloom effect, detailed background, cute girl, eyelashes, foreshortening,
+Aka-Oni, oni, (oni horns), colored skin, (red skin:1.3), smooth horns, black horns, straight horns, mature,
+1girl,solo,beautiful face, perfect eyes, detailed eyes,mature female,
+1girl, solo, black hair, bob cut, short hair, bangs, hime cut, profile, side view, face in shadow, half-covered face, looking at viewer, red eyes, glowing eyes, ringed eyes, target eyes, red eyeliner, smirk, smile, red lips, traditional japanese clothing, kimono, black kimono, red hood, tsunokakushi, veil, jewelry, dangling earrings, beaded jewelry, red beads, cinematic lighting, dramatic shadows, high contrast, red theme, orange theme, dark theme, painterly, sketchy, thick brushstrokes
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/ff0074bf76e0ed4b7e1e7b43d87489f8.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, newest,absurdres,incredibly absurdres, best quality, amazing quality, very aesthetic, impressionism, painterly, pastel colors, 
+
+1girl, solo, hiding, happy, blushing, behind branches, willow tree branches, green theme
+
+ <lora:Face_Enhancer_Illustrious:1>  <lora:recipe1_v3_Illusv2.0Stable:1> stylized <lora:0__11Xx:0.7> 0__11Xx_illu <lora:bW9tb3dhYWFp-illustriousXL_v01_V1-CAME:1> bW9t
+```
+</details>
+
+### score_9
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/09d7fcd356120d08cfd3afe548a8c51b.jpeg" width="400" alt="score_9" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+score_9, score_8_up, score_7_up, score_6_up, score_5_up, score_4_up,  
+BREAK
+1boy, male, furry, anthro, wolf, solo, grey fur, two-tone fur, black sclera, red eyes, black nose, sharp teeth, pointed ears, sharp nails, tail,
+combat vest, futuristic clothing, black poncho, hood, bandages around arms, brown pants, bandages around legs, cybernetic eyes, glowing eyes, mechanical head, robot eyes,
+BREAK
+<lora:retro_scifi_artstyle-000021:0.8>, 1boy, solo, alone, action pose, fight stance, sickles, holding sickles, smirk, smug, glowing weapon, weapons on fire, glowing sickles, 
+BREAK
+retro_artstyle, retro, cyberpunk, masterpiece, highres, cyberpunk city background
+```
+</details>
+
+### (EyesHD:1.2)
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/f92f701ac2fcbc96dfb35e08394cf8e9.jpeg" width="400" alt="(EyesHD:1.2)" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+(EyesHD:1.2), (4k,8k,Ultra HD), masterpiece, best quality, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic,  beautiful face, beautiful eyes, 
+BREAK
+ambient occlusion, raytracing, soft lighting, blum effect, masterpiece, absolutely eye-catching, intricate cinematic background, 
+BREAK
+masterpiece, amazing quality, best quality, ultra-detailed, 8K, illustrating, CG, ultra-detailed-eyes, detailed background, cute girl, eyelashes,  cinematic composition, ultra-detailed, high-quality, extremely detailed CG unity, 
+
+
+BREAK
+(qiandaiyiyu:0.85), (soleil \(soleilmtfbwy03\):0.6), (godiva ghoul:0.65), (anniechromes:0.5), 
+(close-up:1.5), 
+
+
+1girl,solo,enulun,facial tattoo, black hair, long hair, brown eyes, arm tattoo,necklace, white shirt, black vest, black jacket, open jacket, single glove, elbow gloves, black gloves, gold armlet,
+
+holding sword, , black background, crown, facing viewer, sheath, glint, scabbard, dark background, unsheathing, excalibur (fate/stay night), hanfu, holding sheath, drawing sword, caliburn (fate), BREAK (rella:1.2), (redum4:1.2) (au \(d elete\):1.2) (dino \(dinoartforame\):1.1)
+```
+</details>
+
+### hills and large canyon and valleys
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/6364c634eff312679614a5febe21dc9f.jpeg" width="400" alt="hills and large canyon and valleys" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+hills and large canyon and valleys, clouds and sun, split mountain, flowing rivers, colorful, vibrant colors, nature, style, low key,  deep contrast, ektachrome.masterpiece, best quality.
+```
+</details>
+
+### Renaissance style leftover mecha
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/3c8c2116f23e2a6060b5cdb826140c1c.jpeg" width="400" alt="Renaissance style leftover mecha" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Renaissance style leftover mecha, Jules Dupre (dramatic clouds), Rapeseed fields under overcast sky, moss-covered stone steps, stone age dolmen tomb,goshawk circling above treetops .,collapsed celestial observatories where star-map mosaics bloom with night flowers, their remaining towers hosting owl astronomer councils,rainbow light, lake,  
+<lora:style_of_Rembrandt_FLUX_135:0.8>,
+<lora:- Flux1 - vanta_black_V2.0:0.6> vantablack,
+<lora:113_novuschromaFLX_1:0.2> novuschroma,
+<lora:softwhim:1> whimsical,
+<lora:FS_v3:0.4> FS,
+<lora:Mecha_Anime_style_v.1:0.7>, . realistic, perspective, light and shadow, religious or mythological themes, highly detailed, Realistic anime art style, combines anime aesthetics with lifelike details, detailed character designs, intricate backgrounds, immersive storytelling, Mecha anime art style, focuses on giant robots and mechanical suits, intricate mechanical designs, dynamic action scenes, futuristic settings, appeals to fans of science fiction and action genres
+```
+</details>
+
+### 1girl
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/460e03b6d8105f98770997cb5d66b8f0.jpeg" width="400" alt="1girl" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+1girl, solo, long hair, breasts, looking at viewer, blue eyes, simple background, white background, closed mouth, white hair, blunt bangs, expressionless, pale skin, science fiction, white skin, joints, mechanical arms, cyborg, robot joints, cyberpunk, tall female, tall masterwork, masterpiece, best quality, detailed, depth of field, , high detail, best quality, very aesthetic, 8k, dynamic pose, depth of field, dynamic angle, adult, aged up
+```
+</details>
+
+### imagination
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/c82c6d500e99c053cb7103fd4b03f239.jpeg" width="400" alt="imagination" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+imagination, creative, interesting dynamic composition, dynamic pose, surreal fine art, Robert Delaunay, abstract, contemporary, Cubism, geometric, Modern, vibrant,cinematic film still dynamic composition, dynamic layout, pg-safe, sfw, colorful, colorful wings, colorful sunglasses, many colorful creatures, detailed background, candy theme, glowing rainbow theme . shallow depth of field, vignette, highly detailed, high budget, bokeh, cinemascope, moody, epic, gorgeous, film grain, grainy, ethereal fantasy concept art of   . magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, cover art, dreamy, Dripping Paint Splatter Art, dramatic, paint drips, splatters, dripping paint, Oil painting by Jackson Pollock . Abstract expressionism, drip painting, chaotic composition, energetic, spontaneous, unconventional technique, dynamic, bold, distinctive, vibrant, intense, expressive, energetic, layered, non-representational, gestural., Blacklight paint . Fluorescent pigments, vibrant and surreal colors, ethereal glow, otherworldly effects, dynamic and psychedelic compositions, neon aesthetics, transformative in ultraviolet light, contemporary and experimental., stained glass style  . vibrant, beautiful, translucent, intricate, detailed,m8_a5_l2-enhanced-style, m8_a5_l2, s3_v7_z5-enhanced-style, s3_v7_z5, q2wz2, Taste the Rainbow, [items made of skittles], [skittles theme],<lora:MYSTmixCreativeBooster:0.5> <lora:MYSTdetailer-Depth-Booster-nature:0.4> <lora:imagination_v666-000019:0.3> <lora:myststyle-morph-sdxl_epoch_3:0.5> <lora:Taste_the_Rainbow_r1:0.75> <lora:Candy_land_2:0.25> <lora:Candylandia-000003:0.25> <lora:aidmaCandyWorldMorph-MoreRealistic-v0.1:0.1> <lora:aidmaCandyWorldMorph-MoreArtfull-v0.1:0.1> <lora:SDXLCottonCandy:0.1>
+<lora:MYSTmixCreativeBooster:0.5> <lora:MYSTdetailer-Depth-Booster-nature:0.4> <lora:imagination_v666-000019:0.3> <lora:myststyle-morph-sdxl_epoch_3:0.5> <lora:Taste_the_Rainbow_r1:0.75> <lora:Candy_land_2:0.25> <lora:Candylandia-000003:0.25> <lora:aidmaCandyWorldMorph-MoreRealistic-v0.1:0.1> <lora:aidmaCandyWorldMorph-MoreArtfull-v0.1:0.1> <lora:SDXLCottonCandy:0.1>
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/e9f472ff33c6406150bbb9ee48b74c74.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, beautiful face, beautiful eyes, soft lighting, bloom effect, detailed background, cute girl, eyelashes, foreshortening,
+Aka-Oni, oni, (oni horns), colored skin, (red skin:1.3), smooth horns, black horns, straight horns, mature,
+1girl,solo,beautiful face, perfect eyes, detailed eyes,mature female,
+((((film strip, film strip on screen, film strip on background)))), ((colorful)), light flare, black jacket, holding camera, hand up, look at viewer, beret
+```
+</details>
+
+### (ultra realistic
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/c0090946718de495261d663a31d750bb.jpeg" width="400" alt="(ultra realistic" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+(ultra realistic,32k,masterpiece:1.4),(high detailed skin:1.1),( high quality:1.1), (ultra high res:1.4), (masterpiece), (beautiful lighting:1.4), (high quality, dynamic angle:1.4), (high resolution:1.3), (incredibly detailed:1.28), cinematic lighting, masterpiece, perfect anatomy, absurdres, Smooth_Quality, thick outline, black outline, thick lineart, western comics style, DISNEY_ANIMATION, cinematic light,
+1girl, Jessie pokemon hair down, Jessiepokemonhairdown, Jessie_pokemon_hair_down, huge breasts, long hair, pink hair, Blue Eyes, hair over one eye, team rocket, team rocket uniform, short sleeves, navel, crop top, elbow gloves, Black gloves, miniskirt, Bare legs, thighhighs, black legwear,
+looking at viewer, piercings, facial piercings,
+Seductive, smirk, flirty, blush, horny expression, moan, 
+Pokemon, pokemon trainer, pokeballs on belt, large pokeballs, holding a poke ball, sitting on tree stump, 
+Smirk,
+Outside, woods, trail, trees, bushes,
+```
+</details>
+
+### 3d cartoon
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/e42eebca8f68bad8b4871361827bc58d.jpeg" width="400" alt="3d cartoon" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+3d cartoon,  4K, High definition, best quality, expressive eyes, perfect face,toned female ,from head to toe , revealing legs, bare shoulders, facing the viewer, solo, play pose - Marinette Dupain-Cheng, hair bun, double bun, blue eyes, loose hair, hair down,(((((((( school uniform, serafuku, blue sailor collar, pink neckerchief, skirt, pleated skirt, school bag, outdoors, school, cherry blossoms, pink petals, blue sky,
+```
+</details>
+
+### Masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/5d52f155d0fc18232aab4d5e9153ad64.jpeg" width="400" alt="Masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Masterpiece, best quality, high resolution, detailed, very detailed, 
+_
+Cat angel, holographic wings, cyberpunk, neon glow, city,
+_
+made out of Cyberspace, Digital Cyberspace theme, created by glowing magical energy in cyberspace
+_
+intricate background, bokeh, inspiring, moody lights, magic, soft meadow in background,
+```
+</details>
+
+### The new exciting Dragon Ball saga is about to begi
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/b802b29f69bcc1e96b4848c48f4b6026.jpeg" width="400" alt="The new exciting Dragon Ball saga is about to begi" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+The new exciting Dragon Ball saga is about to begin! 
+The Spirit Bombs have never been so big!
+```
+</details>
+
+### highres
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/48e9c2dc92edcf20ba25d989d6f87bba.jpeg" width="400" alt="highres" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+highres, very detailed, amazing quality, masterpiece, very aesthetic,<lora:AddMicroDetails_Pony_v3:0.5>,addmicrodetails,
+score_9, score_8_up, score_7_up, 1girl, lovely face, portrait, close-up, looking_at_viewer, closed_mouth
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/09296c25e4e97f4381ea404ce4ef4d8b.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, beautiful face, beautiful eyes, soft lighting, bloom effect, detailed background, cute girl, eyelashes, foreshortening,
+Aka-Oni, oni, (oni horns), colored skin, (red skin:1.3), smooth horns, black horns, straight horns, mature,
+1girl,solo,beautiful face, perfect eyes, detailed eyes,mature female,
+looking down, looking at reflection, reflection, water surface, water ripples, floating flowers, blue flowers, petals, night, dark blue background, glowing, ethereal, sparkles, light particles, shimmering, cinematic lighting, backlighting, vibrant colors, blue theme, painterly style.
+```
+</details>
+
+### highres
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/ffe0feed53f004894dd4763dfa5e70a1.jpeg" width="400" alt="highres" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+highres, very detailed, amazing quality, masterpiece, very aesthetic,<lora:AddMicroDetails_Pony_v3:0.5>,addmicrodetails,
+score_9, score_8_up, score_7_up, 1girl, lovely face, portrait, close-up, looking_at_viewer, closed_mouth
+```
+</details>
+
+### Cyberspace
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/13aad98bbccbf9bcc97c7e22fc0cc5aa.jpeg" width="400" alt="Cyberspace" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Cyberspace, ((created by glowing magical energy in cyberspace)), Digital Cyberspace theme, action scene, motion lines, sharp focus, vibrant colors, 
+Funny kitten with large wings, large smile, crazy laugh, cyber-suit, helmet, oversized sunglasses, skateboard,  through futuristic city, futuristic cityscape, intricate details, masterpiece, best quality, outdoors, star field, planets,
+```
+</details>
+
+### Outdoors
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/e7998f90f23d611bbbd7b2a13277545a.jpeg" width="400" alt="Outdoors" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Outdoors, sky, cloud, signature, no humans, bird, scenery, science fiction <lora:YFG-FutureIsDark-Flux2-Klein-9B-Base-v1_000000750:0.75>
+```
+</details>
+
+### best quality
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/7196c6798db12ebad22ee3c8f18f0bbd.jpeg" width="400" alt="best quality" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+best quality, absurdres, high quality, 
+annoyed, looking at viewer, 
+blue dress, short sleeves, apron,
+pale skin,
+1girl, solo,
+crossed arms, simple background, 
+ <lora:AliceMRILf:0.9> alic1, green eyes, long hair, black hair, necklace,
+ <lora:Diathor_v2_r1:1> d1thrn1l,
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/17668bde5af7fad4f1e28a5b787c3743.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, amazing quality, very aesthetic, high resolution, ultra-detailed, absurdres, newest, outdoors, scenery, grasslands, spring, medieval city, castle on the horizon, no humans, blue hour, twilight, autumn
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/dd9f4e99fbdb49c4b04c749c43775afb.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, dark theme, 1girl, 1980s \(style\), retro artstyle, grainy, vhs artifacts, from angle, medium breasts, side view, perfect breasts, posing, back lit, 
+Blake Belladonna \(RWBY\), cat ears, yellow eyes, black hair, (anime screenshot:1.4), BlakeVol1Huntress, Black vest, white undershirt, black neck warmer, white shorts, black pantyhose,
+```
+</details>
+
+### (((red water
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/d09ba0479eb05b95b27451274cb3ba20.jpeg" width="400" alt="(((red water" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+(((red water, red waves, red colored ocean))), sunset, smiling mouth open, crashing waves, sea, jet trail, LED, making heart, heart sign pose, heart hands pose, fashion shoot, E4nnDel4cr0ix, 1girl, Au ra, FFXIV, white forward horns, white asymmetrical hair, long hair, wind, white scales, white tail, frilled tail tip, red mask, ((red LED hexagon pattern bodysuit)), light, lens flare, bokeh effect, red colored LED hexagon pattern, lazypos, lazyreal, vibrant, stunningly beautiful, crisp, detailed, sleek, ultramodern, subtle shadows, high contrast, cinematic, ultra detailed, intricate, professional, dynamic pose, interesting angle, eye catching composition, depth of field, forced perspective <lora:Aivazovsy_Sea_Style:1> <lora:Eann_Delacroix_FFXIV_OC:0.6>
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/7033d6d034986d7a3a850a3715211bd9.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, amazing quality, best quality, realistic, impressionism, 1girl, slim, frilled dress, small breasts, blonde hair, blue eyes, looking at the viewer, sitting, from side, short sleeves,  blurry background, curls, parted hair, red dress, hand support, cinematic lighting, outdoors, knees, 
+<lora:PetraStyle:0.5> <lora:ppw_v8_Illuv2stable_128:0.5>
+```
+</details>
+
+### an intricate fusion of fantasy portraiture and mar
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/2fae70c3daf914242509a975fc4693d2.jpeg" width="400" alt="an intricate fusion of fantasy portraiture and mar" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+an intricate fusion of fantasy portraiture and marbled abstraction. It features a unicorn horn eyeball for a head  princess  made of light with a single flame above her head, green long hair, she is of the swamp with a marbled blues, gold, whites,  iridescent paint dress character portrait of a gold horned princess drip, with iridescent, fluid textures — reminiscent of marbled paint, golden veining, and teal, green, and white crystalline resin.(( She holds a giant lollipop made of light,)) Organic forms  beauty emerge from the glossy surfaces,  a marbled swamp of colors, she  , trees, stylized character creation in surreal, high-fashion, or mythic  color grading, made of light,
+
+
+
+```
+</details>
+
+### ANIRLEQ
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/d68a487d6d3f6d65c24b79de7b411557.jpeg" width="400" alt="ANIRLEQ" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+ANIRLEQ, skyger_style, photobashing, cinematic lighting, pvnk1_illu, watercolor \(medium\), chalk outline, XUER guangying, 1girl, solo, long hair, looking at viewer, bangs, hair ornament, long sleeves, holding, hair between eyes, jewelry, closed mouth, green eyes, slit pupils, white hair, multicolored hair, earrings, boots, japanese clothes, green hair, hair flower, kimono, black footwear, holding katana, glowing, white katana, floral print, gold embroidery, red butterfly, black kimono, black flower, foreshortening, weapon focus, from above, cowboy shot, red trail, red slashing, high resolution, aesthetic, excellent, medium resolution, year 2025, masterpiece, best quality, amazing quality, highres, absurdres, newest, very awa
+<lora:cknb02_stabilizer_v0.304a_fp16:0.2> <lora:ANIRL-EQ-000004:0.25> <lora:Skyger_Keagant_Style:0.3> <lora:coll-000008:0.8> <lora:Pvnk_styl2:0.3> <lora:ç»ªå¿ åæ¶æå¾åå½±è´¨æå¢å¼ºV3:0.5> <lora:washiya0:0.3>
+```
+</details>
+
+### (score_9
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/3c95ce11b7ce08781fc9f282c240adb6.jpeg" width="400" alt="(score_9" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+(score_9, score_8_up, score_7_up), 1girl, 19yo, solo, cute, looking like a girl from next door, extremely beautiful, young, beautiful face, long flowing blonde hair, middle part, deep blue eyes, symmetric lips, aroused, redfaced, blushing, elegant beige off-the-shoulder sweater, face focus, dramatic lighting, maximum realism, absurdres, masterpiece, 8k, high detail, intricate, best quality, 
+CyberRealisticPony_POSV1
+```
+</details>
+
+### High definition; extremely detailed; professional 
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/8d998ab527503d138d3e9147d5a6ca10.jpeg" width="400" alt="High definition; extremely detailed; professional " />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+High definition; extremely detailed; professional photography; best quality; aesthetic; anatomically correct; realistic; perfectly exposed; sharp focus.
+HDR, 8K, high contrast, masterpiece, best quality, ultra detailed, a high-quality studio, angled facial close-up photograph of a striking woman, C4rm3n, with short brunette hair slicked back, sharp symmetrical face, piercing green-brown eyes, vivid bright red lips, small stud earring in her left ear, fair glowing skin under soft directional studio lighting with subtle shadows, wearing a black low-cut top emphasizing her slender neck, collarbones and visible cleavage. She is looking into the camera with a friendly face expression and an indicated smile. plain dark gradient background, straight-on eye-level camera angle, she is the clear focal point, dramatic yet elegant aesthetic, blurred dark bedroom background.
+```
+</details>
+
+### Bright and colorful lights covered
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/12dc034d2fb0c261675728b5fb412c19.jpeg" width="400" alt="Bright and colorful lights covered" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Bright and colorful lights covered, glittering, colorful light kittens sailing a small cute two-seater (banana boat), studded and covered in colorful skittles, wearing top hats, pipes, fancy glasses. (Sailing in a bowl of milk and skittles.)
+"Taste the rainbow in the skittles bowl!"
+Image is to shake the foundations of grayscale mediocrity and inject a spectrum of creativity into the skittles-filled visual narrative! Artistic, cinematic, cinematic lighting, masterpiece, best quality, ultra-high res, 4k, Photorealistic, perfect structure, perfect anatomy, insanely detailed, insanely beautiful, gorgeous finish,
+```
+</details>
+
+### arctic fox lady
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/b63b77f563a84f1730c23225db94cdae.jpeg" width="400" alt="arctic fox lady" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+arctic fox lady, solo, immaculate white hair and fur, inverted bob cut, (short rounded fox ears, animal ear fluff), (ear down, uneven ears, ear up:1.5), closed eyes, small fangs, short white floofy fox tail, (dark-coloured skin:1.5), medium breasts, short, sturdy body, adult, white tank top, white track pants, barefoot, sitting on couch, lotus pose, facing viewer, hugging own tail, cheek press, blush, ^^, :P, indoors, living room, close-up, 
+masterpiece, best quality, newest, absurdres, highres, vibrant, highly detailed, very aesthetic
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/b937689a53bf78b18a14e6d1f75b305a.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece,ultra-HD,cinematic lighting,photorealistic,impressionism (1.5),high detail,depth of field,(blurred background),(dramatic lighting),best quality,very aesthetic,realistic,8k,1girl,detailed background,incredibly absurdres,newest,<lora:PetraStyle:0.65>,<lora:rakugakingu:0.55>,<lora:ponyv4_noob1_2_adamW-000017:0.45>,<lora:aosiai123_style:0.65>,<lora:zy_illustrious_Realism_Enhancer_v1:0.55>,<lora:add-detail-xl:2.5>,(chiaroscuro,high contrast:0.5),(sunbeam),<lora:lightingSlider>,USNR,
+1girl,long hair,book,black hair,solo,shirt,sitting,indoors,curtains,black footwear,window,bookshelf,book stack,holding,white shirt,looking at viewer,skirt,bow,long sleeves,bangs,black skirt,socks,twintails,chair,shoes,phonograph,hair bow,very long hair,orange bow,lamp,armchair,knee up,white socks,ribbon,collared shirt,closed mouth,vest,orange ribbon,smile,mole under eye,mole under mouth,from_above,
+```
+</details>
+
+### nokoya
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/5e7216b15cc366c141486a014decb776.jpeg" width="400" alt="nokoya" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+nokoya,shuluo, <break>masterpiece, sharp detail, intricate detail, (dynamic pose, dynamic angle, dynamic composition) , yakiniku,<lora:yakiniku_Illust_v1:0.8> tongs,holding tongs, meat,sitting, eating, food, indoors, steam, grill, plate, table, dutch angle, wide shot, looking at viewer,Oguri, long hair, horse ears, grey hair, ahoge, waist up,blue eyes,multicolored hair,Oguri_race,sailor collar,white shirt,white coat, Long sleeve,  ,annoyed, open mouth, <break> very awa, masterpiece, best quality, amazing quality, highres, detailed background, ultra-detailed, <segment:yolo-face_yolov8n.pt,0.4,0.4//cid=11> <segment:yolo-hand_yolov8n.pt,0.1,0.4//cid=12>
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/3f7a99976f0cfcd6f131af4c79517d62.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece,best quality,amazing quality,(very aesthetic),(ultra details),(anatomically correct),1girl,full body,slim body,perfect body,slim legs,uncovered legs,pokemon,pink hair,blunt bangs,pink eyes,hairclip,earrings,choker,bracelet-watch,high-waist school uniform skirt-dress,short sleeves,no socks,no legwear,(brown shoes,chunky platform high heel sneakers,(giant shoes:1.3)),from front,front view,standing upright,looking at viewer,smile,closed mouth,pastel background
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/4011c656bed72ed78f2a0ea4dd25967d.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, (violet and white theme), ((dragon)), 1girl, solo, BurstDaal, fabulous, elegant, intricate, highly detailed, wonderful atmosphere, sharp focus, beautiful composition, expressive, perfect calm cinematic, artistic, full color, attractive, sublime, cute, professional, pretty, focused, iconic, fine, stunning, amazing detail
+```
+</details>
+
+### still life including a richly decorated neon cyber
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/ab8959e505cdada79a77d86fe77236d1.jpeg" width="400" alt="still life including a richly decorated neon cyber" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+still life including a richly decorated neon cyberspace toilet,  neon  cyberspace  toaster , an  neon  cyberspace  toilet brush, an  neon cyberspace  jellyfish fossily with  neon  cyberspace  pixar animated eyes and goofy grin,  neon  cyberspace  butterflies, neon  cyberspace  skull with goofy grin
+```
+</details>
+
+### action movie still
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/1108929385368b2be13e2249c2b0950d.jpeg" width="400" alt="action movie still" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+action movie still, A low-angle shot frames a massive, dark silhouette of a warrior in the immediate foreground, their form partially obscured by atmospheric haze and dust particles suspended in the air. The warrior's right arm is extended forward, gripping a long, glowing orange sword that cuts diagonally across the frame from upper left to lower right, its blade emitting a bright, warm light that illuminates the sand beneath it. In the midground, another figure stands alone on the dunes, clad in armor and carrying a sword at their side, facing away from the viewer toward distant ruins. The background consists of rolling desert hills and jagged mountain ranges under a hazy, golden-yellow sky. Several other swords are stuck upright in the sand scattered across the midground. The lighting is diffuse and warm, casting long shadows and creating strong contrast between the dark silhouette and the luminous blade. The overall scene has a painterly quality with visible brushstroke textures and soft focus on distant elements.
+```
+</details>
+
+### Masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/fd914a39cf2d56af8467a2c39480d05e.jpeg" width="400" alt="Masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Masterpiece, best quality, ultra-detailed, 8K, cinematic, realistic style (realistic: 1.2), Hype4realistic, depth of field, ambient occlusion, raytracing, soft and volumetric lighting, bloom effect, intricate background,
+1 girl, ((Solo)) cowboy shot, dark brown hair in a bob cut, olive skin, red eyes, freckles, slim figure, narrow waist, wide hips, toned figure, perfect round butt, perky breasts (big breasts), defined waist
+- clothes - blue striped sweater, kitchen apron.
+BREAK
+Girl standing at a table, looking at the viewer, eyes closed, bright smile, looking at the viewer, holding a wooden spatula and a bottle of ketchup. Head tilted, ((Ketchup on face, ketchup on clothes))
+Kitchen, cooking, dynamic scene, frying pan, comfort, cracked egg.
+Cowboy shot, (focus on torso)(side view) (side to the viewer) high angle, Dutch angle, dynamic lighting,
+```
+</details>
+
+### (1girl
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/e673780819fa367c650c061258f10a41.jpeg" width="400" alt="(1girl" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+(1girl, solo, outdoors, sky, cloud, from behind, blurry, tree, night, depth of field, bird, cloudy sky, scenery, silhouette, dark, city lights:0.5) masterwork, masterpiece, best quality, detailed, depth of field, , high detail, best quality, very aesthetic, 8k, dynamic pose, depth of field, dynamic angle, adult, aged up
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/d43a9d9e5ba8ead7da573655f05f021e.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, amazing quality,, cowboy shot, solo, looking at viewer, , <lora:nana-mifune-s1-illustriousxl-lora-nochekaiser:1>, nana mifune, long hair, brown hair, brown eyes, thick eyebrows, anime screencap, skirt, ribbon, black skirt, red ribbon, shirt, collared shirt,, hands on stomach, blush,, rice paddy, water, green, farming, rows,
+```
+</details>
+
+### venom1999_(amazing99)comicsXL
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/9e010e332102f300ec79ef6274388fc0.jpeg" width="400" alt="venom1999_(amazing99)comicsXL" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+venom1999_(amazing99)comicsXL, symbiote, body suit, black suit, monsterboy, 1boy, solo, mouth, sharp teeth, long tongue, muscular, claws, spider print,
+
+
+
+big muscles, big pecs, pecs, large pectorals, huge muscles, huge pecs, mature male,
+
+
+
+
+front view, jumping,
+
+
+
+
+night, city,
+
+
+
+
+
+masterpiece, best quality, amazing quality, very aesthetic, highres, absurdres 4k, 
+
+
+best quality, highly detailed, lights details, high resolution, high quality, perfect quality, vivid color, vibrant, highly detailed
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/d4b85eaff7e508c051c859639db689f6.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece,best quality,amazing quality, source_anime, 
+1boy, male focus, solo, yellow eyes, blue hair, red headband, white cape, shoulder armor, black bodysuit, smile, determined, sky,
+```
+</details>
+
+### acid wasteland on foreground (acid puddles
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/418f9daf02c8437a2eba46ae7aa60464.jpeg" width="400" alt="acid wasteland on foreground (acid puddles" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+acid wasteland on foreground (acid puddles, techical trash). muted color palette, far quiet urban landscapes on background in dirty haze, soft lighting, dramatic fantasy scene, somber tones, distopian futuristic cityscape, absurd scenarios, fluid forms
+```
+</details>
+
+### year 2025
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/5a773fa07e8e1ea105d2d765db000766.jpeg" width="400" alt="year 2025" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+year 2025, newest, masterpiece, best quality, score_7, score_8, score_9. artist @ssambatea. The image is an illustration of a young girl with long pink hair. She is wearing a black and pink outfit with a high neckline and long sleeves. Her hair is styled in loose waves and cascades over her shoulders. She has a pair of red eyeshadow on her forehead and is holding a sword in her right hand. The sword has a golden hilt and a black handle. The background is white and there is a chain-like design around the girl's neck. The overall mood of the image is dark and mysterious.
+```
+</details>
+
+### best quality
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/1fa322a3d3692dc2374f017232e28385.jpeg" width="400" alt="best quality" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+best quality, masterpiece, extremely detailed,  dynamic, , great lighting, perfect shading, professional shading, depth of field, dark environment, steampunk, nighthawk, airwolf, gothic, blue thunder, baroque, renaissance, highly detailed, breathtaking, woman
+```
+</details>
+
+### (ultra realistic
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/d9b5e9f1c4de70894e80dd309077a303.jpeg" width="400" alt="(ultra realistic" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+(ultra realistic,32k,masterpiece:1.4),(high detailed skin:1.1),( high quality:1.1), (ultra high res:1.4), (masterpiece), (beautiful lighting:1.4), (high quality, dynamic angle:1.4), (high resolution:1.3), (incredibly detailed:1.28), cinematic lighting, masterpiece, perfect anatomy, absurdres, Smooth_Quality, thick outline, black outline, thick lineart, western comics style, DISNEY_ANIMATION, cinematic light,
+1girl, small scars on face, scars, black eyeshadow, black eye liner, makeup, dark futuristic armor, stealth, tan skin, ponytail hair, black hair, blonde highlights in hair, red accents in hair, curvy, transparent chest armor, mesh material over breasts, mesh material over stomach, dark full body armor, damaged armor, chunks broken off armor, wires showing, battle scared armor, weathered armor, cybernetic plate armor, computer built into armor on arm, small blue lights in armor, military headset, neck mic, radio pack on back, radio antena on back, cybernetic weapons, cybernetic pistol, pistol holster on hip, skindentation, mesh leggings,
+military drop ship bay, futuristic military drop ship, 
+detailed shadows, depth of field,
+```
+</details>
+
+### three quarter view of warm yellow colored SkylineG
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/40e251931577a4a3e0d93cca6058cde5.jpeg" width="400" alt="three quarter view of warm yellow colored SkylineG" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+three quarter view of warm yellow colored SkylineGTR34Vspec in highest detail, close up, mountain road, abyss and blue evening sky with clouds as background.
+```
+</details>
+
+### A fantastical hybrid creature
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/bb5d88482854fda0aa3175e3afdbce0a.jpeg" width="400" alt="A fantastical hybrid creature" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+A fantastical hybrid creature, a combination of a wolf and an eagle, with a muscular and elegant wolf body featuring detailed plumage, large outstretched wings with soft, realistic feathers, intense and expressive eyes, sharp talons, and a majestic posture. Set in an epic natural landscape with mountains and dramatic sky, cinematic lighting, high level of detail, fantastic digital illustration style, vibrant colors, sharp focus, concept art, and ultra-high quality.
+```
+</details>
+
+### A waterfall during sunset
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/6ac472623d498b6d1999212891585814.jpeg" width="400" alt="A waterfall during sunset" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+A waterfall during sunset, with fog/mist and godrays
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/4f86a5d80a6f93c656dacc0958dd5d1b.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, good quality, highres, absurdres, 8K, depth of field, best quality,newest, highlights,1girl, solo,anime screencap, anime coloring,
+
+
+baiyue, long hair, blue eyes, grey hair, bangs,low-tied long hair,
+
+
+
+
+japanese clothes,Green kimono,white robe,  chinese clothes, long sleeves,hanfu, wide sleeves, sleeves past wrists, sash, 
+
+```
+</details>
+
+### official style
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/bba287714c6a4402133ceb04a49c91f3.jpeg" width="400" alt="official style" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+official style, high quality, 
+1girl, dark skin, yellow eyes, curvy, medium breasts, wide hips, tomboy, gyaru, cute pose, angry, looking at viewer, dynamic pose, cowboy shot, white socks, school uniform, subway, against wall, graffiti, urban city, white socks, from side, multicolored graffiti, portrait, from above,  white hair, 
+ <lora:TheArtOfPeterPan_style:1.2>, TheArtOfPeterPan
+```
+</details>
+
+### vblonde woman
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/ebcfd688e2250d39e383a0e0ebce1e0c.jpeg" width="400" alt="vblonde woman" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+vblonde woman, (Upper body photo:1.2). Detailed eyes framed by long, perfect eyelashes. Light make-up. Detailed face. Soft features. Pale. Pure. Flowing. Fantasy, Whimsical. Surreal. detailed features, organic forms, meticulous portraiture, complex patterns, double exposure, transparent, surreal artwork, artful, aesthetic, unusual, vintage feel, post apocalyptic, unsettling violence, macabre, suspenseful, crazy visual soundscape. ((an extremely delicate and beautiful)), floating, (detailed clothes), (detailed light), (sunlight), (shine), colorful, dynamic vivid colors, panorama, Professional portraits, dynamic lighting. Magical, enchanting, alluring. Exotic. Erotic, Sensual, sexual.
+ <lora:Science fiction:1.6>
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/dc681d804b8310d424fae4dde7d44baf.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, 1girl, solo, hair over one eye, blunt bangs, short hair, pink hair, dot nose, x hair ornament, hair ribbon, purple ribbon, chinese clothes, changpao, long sleeves, monk, tangzhuang, pink dress, outdoors, storm, (rain:1.2), cloudy sky, dark clouds, night, dark, sky, lightning, wind, energy ball, incoming attack, open hand, foreshortening, perspective, emphasis lines, pink eyes, white pants, scenery, mountainous horizon, battle, debris, wet clothes, wet, wet hair, bloom, backlighting, looking at viewer, wet dress, see-through dress, v-shaped eyebrows, disdain, disgust, frown, smirk, closed mouth
+```
+</details>
+
+### (kiekILL
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/91705d68ca466741e5c8dda6800bbddf.jpeg" width="400" alt="(kiekILL" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+(kiekILL, kokILL:0.5), (jlullabyILL:0.9),
+1girl, blue eyes, bright pupils, glowing eyes, blonde hair, long sidelocks, crown braid, bangs, long hair, very long hair, masterpiece, best quality, absurdres,
+princess dress, long sleeves, wide sleeves, (layered dress), gown, tiara, long skirt, royal cloak, high collar, ruffles, frills, sequins, earrings, brooch, necklace, jewelry, (embroidery, embroidered dress, ornate clothed:1.2),
+armor, armored princess, steel dress, armored dress, armored skirt, breastplate, gauntlets, armored belt, armored cloak, 
+lipstick, long eyelashes, eyeshadow, makeup,
+outdoors, medieval, (cliff:1.2), standing on cliff, (rain, storm:1.2), lightning, (wind), flower, floating hair, floating cape, floating clothes,
+full body, wide shot, serious, closed mouth, looking ahead, solo, standing, sword, planted sword, (hands on hilt), huge weapon, greatsword
+```
+</details>
+
+### mature woman
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/17235e2c3b9c06a19fc32fe00ef9ea31.jpeg" width="400" alt="mature woman" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+mature woman,long wavy brown hair,large breasts,necklace,earrings,white office uniform, blue pants, buttoned uniform,open_mouth, drunk,sloppy,sloppy_girl,lazy atmosphere,drunk_effect,looking at viewer,sitting on floor,holding beer can with one hand,snack,livingroom,night,indoor,(foreshortening)(masterpiece, best quality,perfectly composed,detailed face,detailed eyes),(realistic), (flat color:2),volumetric light,dramatic light,side view,real skin,dramatic light
+```
+</details>
+
+### Epic fantasy digital painting in the distinctive s
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/839f68cfb0a592993238558b0baeb2dc.jpeg" width="400" alt="Epic fantasy digital painting in the distinctive s" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Epic fantasy digital painting in the distinctive style of Greg Rutkowski, featuring DC_Comics_Ice, a Caucasian female of Norwegian descent standing 5 feet 7 inches tall and weighing approximately 135 pounds, with fair skin, blue eyes, short straight white hair extending to the shoulders, and a slender athletic build, wearing her classic costume consisting of a light blue form-fitting leotard with high-cut legs exposing the hips and thighs, paired with a separate white cropped tanktop, white fur cuffs on the wrists, and white thigh-high boots with fur trim at the tops, sharp and confident facial features including high cheekbones, piercing blue eyes with a mischievous yet determined glare, subtle tension in the brow, and a faint resolute smile conveying quiet power and micro-expressions of focused intensity, depicted in a three-quarter view from mid-thigh up, standing in a dynamic heroic pose that varies with seed—gracefully shifting between commanding ice manipulation gestures, one hand extended forward channeling crystalline frost, weight subtly shifted in natural contrapposto, body slightly turned for dramatic torque and poised readiness—set against a vast majestic Norwegian-inspired arctic landscape at twilight, with towering snow-covered fjords rising sharply in the distance, jagged ice formations and translucent glacial structures framing the composition, swirling aurora borealis streaking vibrant emerald and sapphire across the deep indigo sky, scattered crystalline snowflakes suspended in the frigid air catching ethereal light, foreground featuring subtle frost patterns radiating from her feet across the frozen ground, deep dramatic shadows carving intense contrast across the terrain and her figure while vibrant cool blues, icy whites, and glowing cyan highlights saturate the scene, dramatic volumetric god rays piercing through thick atmospheric mist and swirling snow haze, casting luminous ethereal beams and profound shadows that enhance three-dimensional depth and epic grandeur, ultra-detailed hyper-realistic rendering of face and hair with individual strands glistening with frost, subtle skin textures and pores, expressive intensity in the eyes, intricate costume details with fabric sheen and fur texture, rich color saturation, cinematic lighting, and a heroic commanding fantasy aura evoking untamed elemental power and high fantasy realism.
+```
+</details>
+
+### wixen
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/9be20ff6077c1db32994147b2b6af4de.jpeg" width="400" alt="wixen" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+wixen, high quality, <lora:palworld_Wixen_V1.1[IL]:1>
+solo, holding fire, 1girl,
+dynamic pose, outdoors, dark theme, glowing eyes, magic, magic circle, power discharges, casting fireball, red clothes, orange fur, fox girl, 
+fluffy fur, kemono, anthro, blue eyes, 4 fingers, claws, smirk, happy, fighting stance, dark background, dark forest background
+solo, elegant, thin fingers, hand up, hand above head, outstretched hand, pointing away, 
+BREAK
+full body, simple background, pixel art, solo, battle stance, battle ready, action pose, looking away, looking to side, view from side, 
+<lora:KOF-XIII-SpritesV2-illus_Fp:1>
+```
+</details>
+
+### shiny
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/553c0e61135a3187d3c73a4db5edd193.jpeg" width="400" alt="shiny" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+shiny, sparkle, Cyberspace, cartoon style, cinematic image, side view, very cute, mischievous cartoon glitter (otter) made of gem, driving a (vintage car), wearing iridescent goggles, motion towards the viewer, Digital Cyberspace theme, crouched low, in a cyberpunk city, (smiling, open mouth, big eyes), vivid primary colors, leaping, jumping, dancing,  dynamic composition, magical, whimsical, cute, florid, sinister, fractal swirl, cyberpunk  glitch elements, complex reflections,  hazy, haze, backlight, cinematic lighting, soft shadow, masterpiece, best quality, gl1tt3r,gl4ssj3m,
+```
+</details>
+
+### PonyXLV6_Scores BREAK ((parody)
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/9fa4597093a5ecf7913a711378e97d55.jpeg" width="400" alt="PonyXLV6_Scores BREAK ((parody)" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+PonyXLV6_Scores BREAK ((parody), perfect anatomy, perfect eyes, cowboy shot) <lora:add_details_xl:0.8> BREAK <lora:KristineSanchez_PONY:1>1girl, solo, Kristine Sanchez, yellow off-shoulder shirt, blue capri pants, nightcap, brown hair, long hair, makeup, lips, dark-skinned female, flirting, raised eyebrow, ((looking back at viewer)), curvy, chubby body, seductive smile, seductive pose, standing, hands on hips, indoors, huge bedroom, on bed, night, moon, from behind,
+```
+</details>
+
+### A wide 16:9 cinematic panel rendered in a gritty B
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/c21fb1fa91815cc826d7db5e10137e66.jpeg" width="400" alt="A wide 16:9 cinematic panel rendered in a gritty B" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+A wide 16:9 cinematic panel rendered in a gritty British graphic novel style, defined by heavy black linework, restrained cross-hatching, muted colour fields, and grounded realism. The illustration favours emotional weight over spectacle, using composition, lighting, and posture to convey exhaustion, isolation, and aftermath. No exaggeration. No glamour. No action pose.
+
+The scene takes place inside a late-night train or maglev carriage, travelling through a cyberpunk city long after peak hours. The carriage is mostly empty. Seats are worn, utilitarian, slightly scuffed. Overhead lighting is dim, uneven, and tired, casting soft pools of light rather than brightness. Reflections smear across windows and polished surfaces. The space feels enclosed, insulated, and quietly moving forward whether anyone wants it to or not.
+
+Dawn sits alone on one side of the carriage, framed in three-quarter profile. She is wearing her reference armour, but it is no longer heroic or dominant. Plates are dulled, scratched, rain-streaked, and tired. The armour sits heavy on her frame rather than sculpting it. This is gear worn too long without rest. Her weapon is cased, not visible as a threat, resting on the floor or leaning against her leg in a sealed, industrial case. It is present, but dormant. The violence has been put away, at least for now.
+
+Dawn’s posture is closed and inward. She is slouched slightly in the seat, shoulders relaxed downward rather than squared. Her head rests against the train window, temple pressed lightly to the glass. One knee is bent, the other extended slightly into the aisle. Hands rest loosely in her lap or one hand loosely grips the strap of the weapon case. There is no tension in her fingers. No readiness. Just weight.
+
+Her face is calm but drained. Eyes half-lidded, unfocused, watching nothing in particular. She is not asleep, but she is not fully present either. Thoughts are elsewhere. Her blue eyes reflect faint light from outside, fractured into lines by motion. Her expression carries emotional residue rather than reaction: fatigue, distance, a sense of things unresolved. No tears. No dramatics. Just quiet aftermath.
+
+Outside the window, the city streaks past in neon fragments. Not sharp signs, not legible adverts. Just elongated bands of colour dragged sideways by speed: cyan, sodium yellow, dirty magenta, pale green. The motion blur is directional and consistent, reinforcing forward movement without urgency. The city feels endless, indifferent, already moving on.
+
+Rain streaks across the exterior of the window, merging with neon reflections. Droplets elongate into lines, creating a layered texture of water, light, and motion. Dawn’s reflection is faintly visible in the glass, partially overlaid with the city outside. Her face doubles, fractures, dissolves into the environment. It is unclear where she ends and the city begins.
+
+Inside the carriage, details are minimal but intentional. Empty seats. A discarded paper cup on the floor. A flickering route display with unreadable text. Metal poles catching thin highlights. Everything is quiet, functional, and slightly worn. No other passengers are clearly visible, or if they are, they are distant silhouettes, absorbed into shadow and blur.
+
+Lighting is subdued and naturalistic. Interior light is cool and tired, flattening colour and softening edges. Exterior neon provides contrast but does not overpower the scene. The brightest colours are outside the window, reinforcing Dawn’s separation from the world moving past her. Shadows inside the carriage are deep but not theatrical. This is not noir lighting. It is late-night public transport lighting.
+
+The graphic novel style is grounded and restrained. Linework is confident but not aggressive. Cross-hatching is used sparingly to weight shadows. Colours are desaturated inside the carriage, richer outside the window. Alcohol marker texture is subtle, used to give softness and bleed at edges rather than saturation. Black is present but not dominant. This panel breathes.
+
+Compositionally, Dawn is placed slightly off-centre, leaving negative space around her. The window occupies a large portion of the frame, allowing the city’s motion to dominate one side of the image. Horizontal lines reinforce movement and passage of time. The panel reads left-to-right as forward motion without destination.
+
+No weapons are raised. No threats are visible. No imminent action is implied. The tension comes from emotional inertia, not danger.
+
+The mood is heavy, quiet, and unresolved. This is the space between events. The cost after competence. A person whose job requires intensity now left alone with silence and speed.
+
+No text. No captions. No signage meant to be read. No symbols that explain the feeling. The image should communicate fatigue, distance, and continuation purely through posture, lighting, and motion.
+
+This is not a story beat.
+This is not a climax.
+This is transit.
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/affcd49990465ed798e4946fdc04a201.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, amazing quality
+(flat color:1.5), (no lineart:1.5), (realistic:1.5), (minimalistic:1.5), minimalism, white hair, yellow eyes, black and white armored dress,
+1 oni girl, oni, wielding a katana, action scene, sand_dust, smoke, intense battle, dutch angle, close-up, fighting stance,  dirty clothes, torn clothes, dramatic lighting, full body, dynamic, intense, exciting, in the magic forest,
+
+```
+</details>
+
+### F_E_E_S
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/c26f649d7907b53dfc556500735f10d5.jpeg" width="400" alt="F_E_E_S" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+F_E_E_S, masterpiece, best quality, absurdres, 1girl, solo,Elie_Lunar, red hair, high ponytail, asymmetrical bangs, sidelocks, cape, yellow cape, jacket, collared jacket, raglan sleeves, red dress, white pantyhose, socks over pantyhose, fishnet socks, yellow fishnets, fold-over boots, red boots, underground, cave interior, pyrokinesis, standing on one leg, outstretched arm, (running:0.25), holding book
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/af6ca3ba89ec6debcd563f7438242b98.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, solo, no humans, zzBisharpC1tr0n, ,<lora:BisharpPokedex_IXL:1.0>,, solo, upper body, looking at viewer, disaster_girl, fire, burning building, photo background, ,,:3, <lora:DisasterG1rlMemeM1n1phak:1.0>,
+```
+</details>
+
+### Masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/457f802fd35c66b6d01309e175636be5.jpeg" width="400" alt="Masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Masterpiece, best quality, perfect anatomy, drawn by a Japanese master a renowned manga artist
+pencil lines, smooth color transitions, vibrant colors,  painting,
+(lithe:1.0), cute, excited, strong shoulders, athletic, young adult 20 y/o approx
+(Japanese girl:1.0)
+black hair. jade-green eyes
+Feminine pose
+Portrait
+Wearing a brown raccoon-dog pompom hat
+Wearing a nice cute Japanese Ninja girl outfit, cute one that blends well with the background
+A Japanese temple with a lot of peach trees in the background 
+Enchanted peach tree full of fresh glowing pink peaches
+Monkey friend on shoulder.
+dappled sunlight, shadow, SmoothNegative_Hands, usnr, watercolor \(medium\), traditional media, sweetstyle99, screentone, polka dot hair
+```
+</details>
+
+### lazypos
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/4993505d9da822b9e18593f00cdd4f8a.jpeg" width="400" alt="lazypos" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+lazypos,  HDR, raytracing, masterpiece, best quality, absurdres, (sexy), (cute), <lora:Dramatic Lighting Slider:3.5>,  <lora:ponyv6_noobV1_2_adamW:0.8> <lora:V2_yakumo_alchemy:0.8>, the overall style is anime-inspired with a focus on detailed shading and highlights, making the image visually striking and captivating.mash kyrielight
+1girl, okita souji (fate), japanese clothes, okita souji (koha-ace), solo, open mouth, bow, skirt, smile, hair bow, ahoge, kimono, blonde hair, hakama, looking at viewer, wide sleeves, pink kimono, hakama skirt, black bow, bangs, arms up, yellow eyes, :d, floral print, hair between eyes, short hair, sash, breasts, signature, half updo, yellow background, long sleeves, red hakama
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/3e93584698948baf1e49f3463c3502fb.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, beautiful face, beautiful eyes, soft lighting, bloom effect, detailed background, cute girl, eyelashes, foreshortening,
+Aka-Oni, oni, (oni horns), colored skin, (red skin:1.3), smooth horns, black horns, straight horns, mature,
+ 1girl, solo, 1animal, giant wolf, black wolf, furry, large animal, wolf focus, girl focus, long peach hair, wavy hair, red flower hair ornament, blue ribbon, blue bow, white dress, long-sleeved dress, nightgown, sitting, profile, face-to-face, touching muzzle, hand on snout, touching nose, flower garland around neck, red flowers, white background, simple background, leaves, plant, watercolor (medium), painterly, soft colors, heartwarming, fairytale aesthetic.
+```
+</details>
+
+### A medium shot of Darth Vader in his iconic black a
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/9fa78632aadfc7b2b690a7e44b14a2ca.jpeg" width="400" alt="A medium shot of Darth Vader in his iconic black a" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+A medium shot of Darth Vader in his iconic black armored suit and helmet, standing behind a stainless steel kitchen counter in a brightly lit modern galley. He is wearing a white fabric apron over his armor that features a "Kiss the Cook" graphic. He holds a metal spatula in his right hand while flipping a perfectly circular pancake on a sizzling griddle. Instruction: white sans-serif text 'SITH LORD' on the chest of the apron; black text 'MAY THE FORKS BE WITH YOU' on a framed chalkboard hanging on the tiled wall in the background. The lighting is clinical and bright, reflecting off the polished black surfaces of his helmet. The background includes neatly arranged spice racks and a bowl of lemons. Realistic photography style, sharp focus on the spatula and pancake, shallow depth of field blurring the kitchen tiles.
+```
+</details>
+
+### (EyesHD:1.2)
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/3d54e0463d169f230f0d85154624b13a.jpeg" width="400" alt="(EyesHD:1.2)" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+(EyesHD:1.2), (4k,8k,Ultra HD), masterpiece, best quality, ultra-detailed, very aesthetic, depth of field, best lighting, detailed illustration, detailed background, cinematic,  beautiful face, beautiful eyes, 
+BREAK
+ambient occlusion, raytracing, soft lighting, blum effect, masterpiece, absolutely eye-catching, intricate cinematic background, 
+BREAK
+masterpiece, amazing quality, best quality, ultra-detailed, 8K, illustrating, CG, ultra-detailed-eyes, detailed background, cute girl, eyelashes,  cinematic composition, ultra-detailed, high-quality, extremely detailed CG unity, 
+BREAK
+(qiandaiyiyu:0.85), (soleil \(soleilmtfbwy03\):0.6), (godiva ghoul:0.65), (anniechromes:0.5), 
+(close-up:1.5), 
+1girl,solo,ysinrp,blue eyes, brown hair, long hair, flipped hair,crown, flower earrings, yellow dress, orange dress, puffy short sleeves, flower brooch, white gloves,white flower earrings, green earrings
+holding sword, , black background, crown, facing viewer, sheath, glint, scabbard, dark background, unsheathing, excalibur (fate/stay night), hanfu, holding sheath, drawing sword, caliburn (fate), BREAK (rella:1.2), (redum4:1.2) (au \(d elete\):1.2) (dino \(dinoartforame\):1.1)
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/19fde434393c63b89684acb06ea3e106.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, amazing quality,, cowboy shot, solo, looking at viewer, <lora:transparent-background-illustriousxl-lora-nochekaiser:1>, transparent background, simple background, white background, <lora:yomi-isayama-s1-illustriousxl-lora-nochekaiser:1>, yomi isayama, long hair, bangs, black hair, purple eyes, blunt bangs, hime cut, mature female, small breasts, anime screencap, long sleeves, bow, serafuku, black serafuku,, bent over, smug,, nightclub, lights, music, dance, drinks,
+```
+</details>
+
+### A still life photograph of an antique glass bell j
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/e99c9e5b8275646a275e3aba87ca4adf.jpeg" width="400" alt="A still life photograph of an antique glass bell j" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+A still life photograph of an antique glass bell jar terrarium sitting on a dark, aged wooden table. Inside the glass, instead of plants, there is a swirling, contained storm of shadows and smoke that forms tangled root-like shapes and a vague human silhouette. Tiny, faint bioluminescent specks glow blue and purple within the darkness inside the jar. Dust motes dance in a shaft of natural light from a window. Dark academia aesthetic, mystical, melancholic, highly detailed textures of old glass and wood
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/9073f35ef27d1e79c7597c853f8fc8d7.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, best quality, amazing quality, 
+(flat colors:1.5), (no lineart:1.5), (realistic:1.5),
+1girl, snowwhite, snow white, wielding a sword, action scene, sand_dust, smoke, intense battle, dutch angle, close-up, fighting stance,  dirty clothes,torn clothes, dramatic lighting, vivid colors, full body, dynamic, intense, exciting, in the magic forest,
+```
+</details>
+
+### A busty yet slender girl is sitting in an office c
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/6a6c9e28571e336a0f7a2cfd72d5156e.jpeg" width="400" alt="A busty yet slender girl is sitting in an office c" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+A busty yet slender girl is sitting in an office chair at an office desk in a large glass business center. The girl is wearing a dark gray business sweater. The girl is wearing a short dark gray business skirt. The girl is wearing black high-heeled shoes. The girl is typing on a laptop. The girl is looking at the camera. The girl is slim, tall, and thin. Her long wavy brunette hair is styled in a slightly messy fashion. The girl has big green-brown eyes. She has beautiful makeup and plump red lips. The girl smiles modestly. C4rm3n
+```
+</details>
+
+### Bright and colorful lights covered
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/7474237a3673ef710801879984cc73ab.jpeg" width="400" alt="Bright and colorful lights covered" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Bright and colorful lights covered, glittering, colorful smiling tabby cat sailing a small cute (banana boat), studded and covered in colorful skittles, wearing top hats, pipes, fancy glasses. (Sailing in a bowl of milk and skittles.)
+"Taste the rainbow in the skittles bowl!"
+Image is to shake the foundations of grayscale mediocrity and inject a spectrum of creativity into the skittles-filled visual narrative! Artistic, cinematic, cinematic lighting, masterpiece, best quality, ultra-high res, 4k, Photorealistic, perfect structure, perfect anatomy, insanely detailed, insanely beautiful, gorgeous finish,
+```
+</details>
+
+### Заменить левого мужчину на синего робота в костюме
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/6c399f0ec8d20edf2f9cd8357f928c04.jpeg" width="400" alt="Заменить левого мужчину на синего робота в костюме" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Заменить левого мужчину на синего робота в костюме. а правого на фурри волка. Добавить волку на грудь коричневый значок. Робот должен улыбаться, а волк выглядеть растерянным.
+```
+</details>
+
+### E_P_P_S
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/7cee91ede628bfad2e93873d909b5267.jpeg" width="400" alt="E_P_P_S" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+E_P_P_S, flat color, masterpiece, best quality, absurdres, solo, ecasagrande, 1girl, female focus, solo, Julie_PP, red hair, long hair, blue eyes, flat chest, Power Pack uniform, asymmetrical clothes, prism, LS_emb, print bodysuit, red bodysuit, black bodysuit, two-tone bodysuit, bracers, metal bracers, cowboy shot, standing, cityscape, contrapposto, looking at viewer
+```
+</details>
+
+### OhSoUkiyoe
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/b02f61f7f1b86a1a5c42eeed37fbaf3d.jpeg" width="400" alt="OhSoUkiyoe" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+OhSoUkiyoe, woodblock art, Ukiyo-E, meticulous ink, illustration, landscape painting, Dutch city, canals, night, moon, night sky, window lighting, warm lighting, ferrotype defects, style of (Hiroshi Yoshida) <lora:xl_more_art-full_v1:0.5>
+```
+</details>
+
+### Epic fantasy digital painting in the distinctive s
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/0e459a6be6c621fafa69405e26ec8dd8.jpeg" width="400" alt="Epic fantasy digital painting in the distinctive s" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Epic fantasy digital painting in the distinctive style of Greg Rutkowski, featuring DC_Comics_Ice, a Caucasian female of Norwegian descent standing 5 feet 7 inches tall and weighing approximately 135 pounds, with fair skin, blue eyes, short straight white hair extending to the shoulders, and a slender athletic build, wearing her classic costume consisting of a light blue form-fitting leotard with high-cut legs exposing the hips and thighs, paired with a separate white cropped tanktop, white fur cuffs on the wrists, and white thigh-high boots with fur trim at the tops, sharp and confident facial features including high cheekbones, piercing blue eyes with a warm yet resolute gaze, subtle softness around the mouth with a faint regal smile conveying quiet authority and gentle strength, and micro-expressions of serene empowerment and subtle inner warmth, depicted in a three-quarter view from mid-thigh up, standing in a dynamic commanding regal pose that varies with seed—gracefully shifting between authoritative ice manipulation gestures with one arm extended forward channeling radiant crystalline frost constructs or swirling auroral ice vortices, weight elegantly shifted in natural contrapposto with torso subtly turned for majestic poise and elemental readiness, or hand authoritatively raised in royal decree summoning protective ice barriers—set against the vast opulent throne room of her hidden ancient Nordic ice kingdom concealed deep within Norwegian mountains, entirely sculpted from pristine translucent ice with elaborate Viking-inspired knotwork runes, mythical guardian beast carvings, and frost-etched historical friezes adorning towering arched walls and massive supporting pillars that recede into profound shadowy depths, a grand ornate elevated ice throne on a central dais directly behind her crafted from faceted crystal spikes, draped in soft white furs, and crowned with glowing sapphire gems, mirror-smooth polished ice floor reflecting the entire scene with crystalline clarity and subtle distortions, suspended chandelier formations of elongated icicles and frozen prisms refracting light into sparkling spectra, embedded magical crystals pulsing with soft cyan bioluminescence throughout the architecture illuminating intricate details, delicate curling ground mist and gently drifting snowflakes suspended in the chilled air enhancing ethereal atmosphere, dramatic volumetric god rays filtering through high vaulted crystalline ceiling openings and skylights, casting luminous beams across swirling particles and carving deep intense shadows in alcoves and recesses for profound contrast and epic three-dimensional depth while vibrant saturated cool blues, glowing turquoises, pristine whites, and radiant cyan highlights dominate the richly colored scene, ultra-detailed hyper-realistic rendering of face and hair with individual strands delicately frosted and catching light, subtle skin textures and pores, expressive intensity in the eyes, intricate costume details with fabric gloss, fur texture, and reflective sheen, rich color saturation, cinematic lighting, and a heroic regal fantasy aura evoking ancient royal heritage, untamed elemental mastery, and high fantasy realism.
+```
+</details>
+
+### anime screencap
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/482006142ba8d5a96c6dd8c23a29eb2e.jpeg" width="400" alt="anime screencap" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+anime screencap,solo,1girl,curearcanashadow,arcanashadowcostume,parted lips, looking at viewer,cowboy shot,holding staff,serious<lora:curearcanashadow_v1.0_IL:0.8>,high definition,amazing quality,best quality,very aesthetic,masterpiece,absurdres,
+```
+</details>
+
+### Autumn sunset over wildflower meadow by RHADS and 
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/bec9d84acb3553103d7a63710a84f4cd.jpeg" width="400" alt="Autumn sunset over wildflower meadow by RHADS and " />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Autumn sunset over wildflower meadow by RHADS and Alena Aenami.
+```
+</details>
+
+### Masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/263c7d8d1ead8a43003f13f52f8f748c.jpeg" width="400" alt="Masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+Masterpiece, hires, detailed face and eyes, ultra quality, cel-shaded, sharp lines, dry shading, Beautiful background, realistic, color vibration, smooth detail, 1girl, solo, shun clothes, shun ying lee, black hair, short hair, jewelry, bracelet, sandals, heeled sandals, necklace, nail polish, earrings, backless outfit, full body, action pose, large breasts, seductive pose,  <lora:Shun_Ying_Lee_Urban_Reign_-_Illustrious-000009:0.80> , Skate park, camp fight,
+```
+</details>
+
+### masterpiece
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/d3ef7592e8a0a98752de9a8117a16098.jpeg" width="400" alt="masterpiece" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+masterpiece, ultra-HD, rim light, photorealistic, impressionism (1.5), high detail, shallow depth of field, (blurred background), best quality, very aesthetic, 8k, cinematic lighting, soft reflections, (lineless:1.1)
+(pretty girl:1.1), solo, 1girl, long hair, (pretty face:1.1), (pretty eyes:1.1),
+tsurime, Asian eyes, 
+masterpiece, best quality, newest, absurdres, highres, semi-realistic anime style, illustrative realism with anime influence, hand-drawn warmth, soft pencil sketch lines blended with watercolor textures, 1girl, solo, young girl, beautiful delicate face, soft features, subtle smile, gentle warm expression, quiet humour in eyes, looking at birds, contemplative yet peaceful gaze,
+red scarf wrapped around neck, cozy scarf, simple autumn outfit, light coat or sweater, muted tones clothing, medium hair flowing softly, strands in wind, sitting on park bench, foggy autumn park, wooden bench, relaxed posture, feeding birds, hand extended with crumbs or seeds,
+birds around her, pigeons and small sparrows, curious postures, tilted heads, perched on bench arm, ground, fluttering wings, detailed feathers with soft watercolor wash, magical gentle interaction, quiet whimsy,
+foggy atmosphere, misty park background, autumn leaves scattered on ground and bench, muted autumn tones, warm oranges browns reds subtle, cool foggy grays blues, fallen leaves in soft piles, bare trees in distance, gentle shading, soft diffused light filtering through fog, volumetric mist, caustics subtle on scarf and birds, floating dust motes and tiny leaf particles, nostalgic serene mood, peaceful solitude with nature, storybook fantasy touch,
+detailed skin texture soft, cinematic depth of field, delicate lighting, high-detail feathers fabric wood fog textures, intricate watercolor blending, painterly rendering, low harsh contrast, harmonious warm-cool balance, soft storybook lighting, shoujo manga emotional depth, ultra-detailed, sharp focus on girl face subtle smile eyes red scarf birds interaction, no text, no watermark
+, (semi-realistic:1.15), detailed realistic skin and fabric folds, soft pencil and watercolor fusion, (muted autumn palette:1.2), ethereal fog diffusion, gentle nostalgic glow, introspective shoujo heroine, whimsical bird personalities, (soft focus bloom:1.1), hand-drawn illustrative warmth <lora:detailed hand focus style illustriousXL v1.1:0.33> <lora:feet_anime_il_v3:0.33> <lora:petrastyle:0.4> <lora:ponyv4_noob1_2_adamw-000017:0.6> <lora:HerrscherAGGA2025_Alluring_Face-IL_V1:0.35> <lora:rakugakingu:0.55> <lora:MYRHA-Î¨00:1.0> <lora:fl1_illu:0.5> <lora:genesis.vexilapse:0.3> <lora:bss-korean girls-KRGRLv2-000003:0.4>
+```
+</details>
+
+### lihayato
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/541ddb37db8ba5dbec9977763179ee25.jpeg" width="400" alt="lihayato" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+lihayato,
+
+nazrin, 1girl, solo, long hair, breasts, looking at viewer, blush, short hair, simple background, long sleeves, white background, red eyes, animal ears, hair between eyes, closed mouth, jewelry, medium breasts, jacket, tail, upper body, grey hair, ahoge, ponytail, multicolored hair, earrings, red hair, small breasts, open clothes, alternate costume, choker, glasses, medium hair, off shoulder, two-tone hair, streaked hair, open jacket, from side, sweater, animal ear fluff, looking to the side, black choker, colored skin, alternate hairstyle, turtleneck, border, piercing, mouth hold, ear piercing, bright pupils, white border, red background, white pupils, semi-rimless eyewear, low ponytail, two-tone background, outside border, smoke, ribbed sweater, white skin, black-framed eyewear, short ponytail, cigarette, turtleneck sweater, under-rim eyewear, grey jacket, bespectacled, mouse ears, smoking, black sweater, mouse tail, grey sweater, mouse girl, earclip, animal ear piercing, exhausted,bags under eyes, empty eyes,                   
+
+masterpiece,best quality,newest,highres,absurdres,incredibly absurdres,very awa,very aesthetic,extreme aesthetic, general,High Resolution,Esthetic,Excellent,Range: Newest, 
+
+
+
+
+
+
+
+```
+</details>
+
+### best quality
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/cecb891ddbcd5088a4c08f43cafafca8.jpeg" width="400" alt="best quality" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+best quality, absurdres, high quality, 
+annoyed, looking at viewer, 
+blue dress, short sleeves, apron,
+pale skin,
+1girl, solo,
+crossed arms, 
+ <lora:AliceMRILf:0.9> alic1, green eyes, long hair, black hair, necklace,
+shiromanta
+```
+</details>
+
+### professional dslr shot with shallow depth of field
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/aa916dada0d7ef83a53bf409aadb1fe0.jpeg" width="400" alt="professional dslr shot with shallow depth of field" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+professional dslr shot with shallow depth of field shot of 18 year old slim fit fair skinned russian cute and vulnerable young woman. She has hazel-colored eyes. Her face has a fair-skinned with a delicate nose, full lips painted in a subtle berry shade, and arched, doe-like eyebrows, set with straight, thick, black hair accented by a striking gold headband featuring a central circular emblem and matching leaf-like ornaments.. She wears a undefined makeup with undefined.Her hair is long, straight, deep black hair, thick blunt-cut fringe (bangs) covering the forehead.. Her body is petite figure with toned, slender limbs.. Her upper body is dressed in a sleeveless, white halter crop top with a thick metallic gold band trim and subtle stitching details.. Her lower body is dressed in a short draped skirt, white garment made of a light, breathable fabric, gathered and subtly translucent in certain areas.. She is she delicately sits on the warm sand, partially draped in the translucent white skirt, her head held high with dignity, exuding both vulnerability and strength..Image is a medium-close shot (85mm lens) with shallow depth of field to blur the background and focus on her poised posture and facial expression, taken from eye-level and slightly behind at a distance of 3 feet..The scene is set in gorgeous, vibrant egyptian oasis with soft, golden sand dunes stretching towards a far-off pyramid. clear blue water shimmers in the distance, while two mature palm trees provide shade and a tropical feel..Lighting is warm, diffused sunlight filters through the palm leaves, creating dappled shadows and highlighting the textures of the sand and water. a slight golden hour backlighting casts an ethereal glow around the subject, enhancing her already captivating presence. lens flares subtly add depth and dimensionality to the scene..Background is the backdrop consists of a picturesque egyptian oasis with sun-drenched, smooth sand dunes, blue clean water, distant pyramid, and palm trees in the distance to provide a visually appealing contrast and depth..At foreground: the sand is fine and golden, with occasional grains catching the light, accentuating the texture and enhancing the overall sensual quality of the scene.. Image represents cinematic, dslr, shallow depth of field, reminiscent of a vintage film noir, with a touch of opulent luxury.. Mood is serene, provocative, intimate, beautiful, elegant.; <lora:Mystic-XXX-ZIT-V5:1> <lora:nicegirls_Zimage:0.3>
+```
+</details>
+
+### The minion&#x27;s eye is looking at the green owl - the
+
+**Model:** Seedance-2.0-Prompting-Guide
+
+<img src="https://file.tryprompt.ai/prompts/6b4e58275f3ee6101c7c9d20ebe9c1d7.jpeg" width="400" alt="The minion&#x27;s eye is looking at the green owl - the" />
+
+<details>
+<summary>View Prompt</summary>
+
+```markdown
+The minion's eye is looking at the green owl - the minion is angry - add blood specks on the bat
+```
+</details>
+
 
 ---
 
-### 4.1 Professional Cinematography Prompting
+## 🔗 References
 
-**Camera Movement Techniques:**
-
-- **Dolly shots**: "Smooth dolly-in from wide to medium shot"
-- **Tracking shots**: "Camera tracks alongside the character as they walk"
-- **Crane movements**: "High crane shot descending to eye level"
-- **Handheld style**: "Subtle handheld camera movement for documentary feel"
-- **Gimbal stabilization**: "Smooth gimbal movement following the action"
-
-**Shot Composition Mastery:**
-
-```
-Wide establishing shot of the modern office building, then cut to medium shot of the executive at her desk, finally close-up on her confident expression as she makes the decision.
-```
-
-**Advanced Lighting Control:**
-
-```
-Cinematic lighting with key light from camera left, subtle fill light to soften shadows, and rim lighting to separate subject from background. Golden hour warmth with professional color grading.
-```
-
-**Depth of Field Techniques:**
-
-```
-Shallow depth of field with subject in sharp focus, background naturally blurred with beautiful bokeh. Rack focus from foreground object to character's face at the 4-second mark.
-```
-
-### 4.2 Style and Genre Prompting
-
-**Film Noir Style:**
-
-```
-Film noir cinematography with dramatic chiaroscuro lighting, deep shadows, venetian blind light patterns, and high contrast black and white aesthetic.
-```
-
-**Documentary Style:**
-
-```
-Documentary-style handheld camera work, natural lighting, authentic interactions, and observational cinematography that captures genuine moments.
-```
-
-**Commercial Production Style:**
-
-```
-High-end commercial production values with perfect lighting, smooth camera movements, vibrant colors, and polished professional aesthetic.
-```
-
-**Cinematic Blockbuster Style:**
-
-```
-Epic cinematic style with dramatic wide shots, dynamic camera movements, rich color grading, and theatrical lighting reminiscent of major Hollywood productions.
-```
-
-### 4.3 Advanced Technical Specifications
-
-**Resolution and Format Control:**
-
-- **Aspect Ratios**: "16:9 for YouTube", "9:16 for TikTok", "1:1 for Instagram"
-- **Quality Settings**: "1080p resolution for maximum quality"
-- **Color Specifications**: "Professional color grading and cinematic aesthetics"
-
-**Professional Workflow Integration:**
-
-```
-Shot designed for professional post-production workflow, with proper exposure latitude, clean audio levels, and color grading-friendly lighting setup.
-```
-
-### 4.4 Narrative and Emotional Prompting
-
-**Emotional Arc Development:**
-
-```
-The character's expression transitions from uncertainty to growing confidence, with lighting gradually warming and camera slowly moving closer to reflect the emotional transformation.
-```
-
-**Micro-Expression Control:**
-
-```
-Subtle facial expressions showing internal conflict - slight furrow of the brow, momentary pause before speaking, eyes that convey both determination and vulnerability.
-```
-
-**Environmental Storytelling:**
-
-```
-The cluttered desk with multiple coffee cups and scattered papers tells the story of long work hours, while the family photo positioned prominently reveals personal motivation.
-```
-
-### 4.5 Multi-Element Scene Coordination
-
-**Complex Scene Management:**
-
-```
-As the main character delivers her presentation, background colleagues continue natural office activities - typing, phone conversations, walking past - creating authentic workplace atmosphere while maintaining focus on the speaker through selective focus and composition.
-```
-
-**Temporal Sequencing:**
-
-```
-The scene begins with a wide establishing shot, smoothly transitions to a medium shot at the 3-second mark, then ends with a close-up focus on the character's determined expression, each transition motivated by the narrative flow.
-```
-
-### 4.6 Advanced Audio-Visual Synchronization
-
-**Dialogue and Action Coordination:**
-
-```
-As she says "This is our moment," the character stands from her chair, the camera rising with her movement, while inspirational music builds to emphasize the pivotal moment.
-```
-
-**Environmental Audio Matching:**
-
-```
-The busy restaurant scene includes layered audio of clinking glasses, muffled conversations, kitchen sounds, and soft background music, all balanced to support the intimate conversation between the main characters.
-```
-
-### 4.7 Negative Prompting Mastery
-
-_Bans felt heavy-handed at first, but saved reshoots. These are the repeat offenders:_
-
-**Comprehensive Negative Checklist:**
-
-- **Visual Noise**: text overlays, watermarks, floating UI, lens flares (unless specified)
-- **Identity Drift**: extra characters, crowd, mirrors reflecting crew
-- **Camera Chaos**: snap zooms, whip pans, Dutch angles, jump cuts
-- **Body Artifacts**: extra fingers, deformed hands, warped objects, melting edges
-- **Color/Grade**: neon lighting (unless cyberpunk), heavy teal/orange, cartoon saturation
-- **Audio**: auto captions, robotic voice, background static
-
-**Pro Tip**: Don't use all of these. Pull 3-5 that matter for the scene. Too many negatives can dull the generation.
-
-**Example String:**
-
-```
-Negative prompt: no text overlays, no watermarks, no cartoon effects, no unrealistic proportions, no blurry faces, no distorted hands, no artificial lighting, no oversaturation.
-```
-
-## 4.8 Master Camera Movement Library
-
-### Static/Fixed Shots
-
-**Keywords**: `static shot`, `fixed camera`, `locked-off shot`
-**Visual Effect**: Provides stability and focus; allows viewers to absorb scene details
-**When to Use**: Establishing shots, dialogue scenes, detail focus
-
-```
-Static wide shot establishing the ancient library, camera remains perfectly still as the scholar enters and begins reading.
-```
-
-### Pan Movements
-
-**Keywords**: `pan left`, `pan right`, `slow pan`, `fast pan`, `whip pan`
-**Visual Effect**: Reveals information gradually, builds anticipation, shows expanse
-**When to Use**: Revealing landscapes, following horizontal action, creating suspense
-
-```
-Slow right-to-left pan across the alien landscape, revealing the mysterious structures in the distance.
-```
-
-### Tilt Movements
-
-**Keywords**: `tilt up`, `tilt down`, `vertical tilt`
-**Visual Effect**: Reveals vertical relationships, emphasizes scale, creates drama
-**When to Use**: Showing building height, character emotions, dramatic reveals
-
-```
-Upward tilt from the character's worn boots to their determined expression, emphasizing their resolve.
-```
-
-### Tracking/Follow Shots
-
-**Keywords**: `tracking shot`, `follow shot`, `lateral tracking`, `smooth tracking`
-**Visual Effect**: Creates dynamic movement, maintains subject focus, provides spatial awareness
-**When to Use**: Following characters in motion, action sequences, creating energy
-
-```
-Smooth tracking shot following the dancer across the stage, camera moving fluidly with their graceful movements.
-```
-
-### Dolly Movements
-
-**Keywords**: `dolly in`, `dolly out`, `slow dolly`, `push in`, `pull back`
-**Visual Effect**: Creates intimacy or detachment, emphasizes subject or reveals context
-**When to Use**: Building tension, revealing information, emotional connection
-
-```
-Slow dolly-in on the mysterious artifact as it begins to glow, drawing the viewer into the magical moment.
-```
-
-### Zoom Effects
-
-**Keywords**: `zoom in`, `zoom out`, `slow zoom`, `crash zoom`, `dramatic zoom`
-**Visual Effect**: Changes field of view, creates focus, tension, or dramatic reveal
-**When to Use**: Dramatic emphasis, revealing details, creating intensity
-
-```
-Dramatic zoom in on the villain's eyes as they narrow, building tension for the confrontation.
-```
-
-### Crane/Aerial Shots
-
-**Keywords**: `crane shot`, `jib shot`, `camera rises`, `camera descends`, `high crane`
-**Visual Effect**: Offers dramatic perspective changes, establishes scope, creates emotional peaks
-**When to Use**: Epic reveals, establishing scale, dramatic transitions
-
-```
-High crane shot pulling back to reveal the entire city skyline at night, emphasizing the character's isolation.
-```
-
-### Angle Variations
-
-**Keywords**: `high angle`, `low angle`, `bird's-eye view`, `worm's-eye view`, `eye level`
-**Visual Effect**: Influences perception of power, vulnerability, provides unique perspectives
-**When to Use**: Character dynamics, creating mood, unique viewpoints
-
-```
-Low angle shot of the towering monster, emphasizing its massive scale and the hero's vulnerability.
-```
-
-### Handheld Styles
-
-**Keywords**: `handheld camera`, `shaky camera`, `slight handheld movement`, `documentary style`
-**Visual Effect**: Creates realism, immediacy, tension, documentary feel
-**When to Use**: Action sequences, emotional scenes, realistic narratives
-
-```
-Handheld camera with subtle shake, following the journalist through the chaotic protest, creating immediacy and realism.
-```
-
-### Specialty Movements
-
-**Keywords**: `orbit shot`, `arc shot`, `360-degree`, `fly through`, `circular movement`
-**Visual Effect**: Showcases subjects from multiple angles, creates immersive experiences
-**When to Use**: Product showcases, magical moments, immersive storytelling
-
-```
-360-degree orbit shot around the levitating crystal, revealing its intricate details from every angle.
-```
-
-### 🔥 CRITICAL CAMERA POSITIONING BREAKTHROUGH
-
-**Revolutionary Discovery**: The most important camera technique discovered by expert practitioners.
-
-**CRITICAL RULE**: Always include `"(thats where the camera is)"` when specifying camera position.
-
-**Why This Works**: Seedance 2.0 requires explicit camera positioning rather than generic viewpoint terms. This phrase triggers camera-aware processing and dramatically improves generation success rates.
-
-**Expert Camera Position Templates**:
-
-```
-"Expert [PROFESSION] is holding a phone at arm's length (thats where the camera is) in [RELEVANT WORKSPACE], demonstrating [SPECIFIC TECHNIQUE], professional lighting, confident movement."
-
-"POV shot from the camera positioned at eye level (thats where the camera is) as the character explains the process."
-
-"Over-the-shoulder view with camera behind the interviewer (thats where the camera is), focusing on the subject's responses."
-```
-
-**Before vs After Examples**:
-
-❌ **Poor**: "Close-up shot of the chef cooking"
-✅ **Expert**: "Close-up shot with camera positioned at counter level (thats where the camera is) as the chef demonstrates knife techniques"
-
-❌ **Poor**: "Handheld camera following the subject"
-✅ **Expert**: "Handheld camera held at chest height (thats where the camera is) tracking the subject as they walk through the market"
-
-## 4.9 Advanced Shot Composition Mastery
-
-### Shot Sizes and Framing
-
-**Extreme Wide Shot (EWS)**:
-
-```
-Extreme wide shot of the lone figure walking across the vast desert landscape, emphasizing isolation and scale.
-```
-
-**Wide Shot (WS)**:
-
-```
-Wide shot of the family gathered around the dinner table, showing the warm, intimate setting.
-```
-
-**Medium Wide Shot (MWS)**:
-
-```
-Medium wide shot of the detective examining evidence, showing both character and environment context.
-```
-
-**Medium Shot (MS)**:
-
-```
-Medium shot of the CEO presenting to the board, framing from waist up for professional authority.
-```
-
-**Medium Close-Up (MCU)**:
-
-```
-Medium close-up of the artist's focused expression while painting, capturing concentration and skill.
-```
-
-**Close-Up (CU)**:
-
-```
-Close-up of the character's eyes widening in realization, emphasizing the emotional breakthrough.
-```
-
-**Extreme Close-Up (ECU)**:
-
-```
-Extreme close-up of the ancient key turning in the lock, highlighting the crucial moment.
-```
-
-### Advanced Framing Techniques
-
-**Rule of Thirds**:
-
-```
-Frame the lighthouse positioned on the right third of the composition, with the stormy ocean filling the left two-thirds.
-```
-
-**Leading Lines**:
-
-```
-The winding path leads the eye from the foreground to the mysterious castle in the background.
-```
-
-**Depth of Field Control**:
-
-```
-Shallow depth of field with the subject in sharp focus, background naturally blurred with beautiful bokeh.
-```
-
-**Rack Focus**:
-
-```
-Rack focus from the foreground flower to the character's face in the background, shifting narrative attention.
-```
-
-### Advanced Lens and Focus Effects
-
-**Precision Lens Control**: Professional-grade lens effects for cinematic results.
-
-**Lens Effect Keywords**:
-
-```
-"shallow depth of field" - Isolates subjects with beautiful bokeh
-"deep focus" - Keeps everything in sharp focus
-"rack focus" - Shifts focus dramatically between subjects
-"soft focus" - Creates dreamy, ethereal looks
-"macro lens" - Shows intricate tiny details
-"wide-angle lens" - Expands perspective and space
-"lens flare" - Adds cinematic light effects
-```
-
-**Advanced Focus Examples**:
-
-```
-Shallow depth of field with the subject in sharp focus, background naturally blurred with beautiful bokeh, creating professional portrait aesthetic.
-
-Deep focus maintaining clarity from foreground to background, allowing viewers to see all environmental details simultaneously.
-
-Rack focus transition from the product in foreground to the character's reaction in background, directing viewer attention narratively.
-```
-
-### Professional Color Palette Control
-
-**Cinematic Color Grading**: Precise control over visual mood and aesthetic.
-
-**Color Palette Keywords**:
-
-```
-"monochromatic" - Single color scheme for artistic unity
-"vibrant colors" - High saturation for energetic feel
-"pastel tones" - Soft, muted colors for gentle mood
-"desaturated" - Reduced color intensity for serious tone
-"sepia tone" - Vintage brown tinting for nostalgic feel
-"cool blue palette" - Cold color scheme for modern/tech feel
-"warm orange tones" - Warm color scheme for comfort/intimacy
-```
-
-**Color Grading Examples**:
-
-```
-Cinematic color grading with warm orange tones in highlights and cool blue shadows, creating professional film aesthetic with emotional depth.
-
-Desaturated color palette with selective color emphasis on the red rose, drawing attention while maintaining artistic sophistication.
-
-Vibrant colors with high saturation creating energetic, social media-optimized aesthetic perfect for engaging younger audiences.
-```
-
-### Advanced Perspective and Distortion Effects
-
-**Wide-Angle Lens Simulation**:
-
-```
-Wide-angle perspective creating slight distortion at the edges, emphasizing the cramped apartment space.
-```
-
-**Telephoto Lens Simulation**:
-
-```
-Telephoto lens compression effect, flattening the background and isolating the subject from the environment.
-```
-
-**Fish-Eye Effect**:
-
-```
-Fish-eye lens distortion creating a surreal, curved perspective of the underground tunnel.
-```
-
-## 4.10 Professional Lighting Mastery
-
-### Classic Lighting Setups
-
-**Three-Point Lighting**:
-
-```
-Professional three-point lighting with warm key light from camera left, subtle fill light to soften shadows, and rim lighting to separate subject from background.
-```
-
-**Rembrandt Lighting**:
-
-```
-Rembrandt lighting creating a distinctive triangle of light on the shadow side of the face, adding dramatic character.
-```
-
-**Butterfly Lighting**:
-
-```
-Butterfly lighting with the key light directly in front and above, creating a small shadow under the nose.
-```
-
-### Mood and Atmosphere Lighting
-
-**Golden Hour**:
-
-```
-Warm golden hour lighting filtering through the windows, creating a nostalgic, peaceful atmosphere.
-```
-
-**Blue Hour**:
-
-```
-Cool blue hour lighting with deep twilight colors, creating a mysterious and contemplative mood.
-```
-
-**Chiaroscuro**:
-
-```
-Dramatic chiaroscuro lighting with stark contrasts between light and shadow, creating film noir atmosphere.
-```
-
-**Neon Lighting**:
-
-```
-Vibrant neon lighting in magenta and cyan, reflecting off wet pavement in the cyberpunk alley.
-```
-
-### Natural Lighting Scenarios
-
-**Window Light**:
-
-```
-Soft, natural window lighting creating gentle shadows and highlighting the subject's contemplative expression.
-```
-
-**Candlelight**:
-
-```
-Warm, flickering candlelight casting dancing shadows on the walls, creating an intimate, romantic atmosphere.
-```
-
-**Firelight**:
-
-```
-Orange firelight from the campfire illuminating faces with warm, flickering light and deep shadows.
-```
-
-## 4.11 Advanced Selfie Video Mastery
-
-**Revolutionary Technique**: Specific phrases consistently unlock authentic selfie behavior in Seedance 2.0.
-
-### Proven Selfie Formula
-
-**Core Structure**:
-
-```
-"A selfie video of [CHARACTER]..."
-+ "holds the camera at arm's length"
-+ "His/her [body part] arm is clearly visible in the frame"
-+ "occasionally looking into the camera before [ACTION]"
-+ "The image is slightly grainy, looks very film-like"
-```
-
-### Expert Selfie Template
-
-```
-A selfie video of a [CHARACTER_DESCRIPTION] exploring [LOCATION]. [He/She] is wearing [CLOTHING] and has [EMOTION] in [his/her] eyes. [LIGHTING_DESCRIPTION]. [He/She] is [ACTIVITY] while talking, occasionally looking into the camera before [SPECIFIC_ACTION]. The image is slightly grainy, looks very film-like. [He/She] speaks in a [ACCENT] and says: "[DIALOGUE_8_SECONDS_MAX]" [He/She] ends with [GESTURE].
-```
-
-### Battle-Tested Selfie Examples
-
-**Travel Vlog Style**:
-
-```
-A selfie video of a travel blogger exploring a bustling Tokyo street market. She's wearing a vintage denim jacket and has excitement in her eyes. The afternoon sun creates beautiful shadows between the vendor stalls. She's sampling different street foods while talking, occasionally looking into the camera before turning to point at interesting stalls. The image is slightly grainy, looks very film-like. She speaks in a British accent and says: "Okay, you have to try this place when you visit Tokyo. The takoyaki here is absolutely incredible, and the vendor just told me it's been in his family for three generations." She ends with a thumbs up.
-```
-
-**POV Adventure Style**:
-
-```
-A handheld selfie-style shot, from the point-of-view of a gorilla in a lush jungle. A large silverback gorilla holds the camera at arm's length. His long, powerful arm is clearly visible in the frame, and his face is perfectly framed. The gorilla says: "I'm just testing out this actually works and I'm going to post it on TikTok later, Essentially it felt cute might delete it later" (lips moving like he's saying it)
-```
-
-### Critical Selfie Success Elements
-
-1. **Start with "A selfie video of..."** - This phrase is crucial for triggering selfie behavior
-2. **Make the arm visible** - "His/her arm is clearly visible in the frame" adds authenticity
-3. **Natural eye movement** - "occasionally looking into the camera before [action]" creates realistic behavior
-4. **Film-like quality** - "slightly grainy, looks very film-like" prevents AI-clean appearance
-5. **Specific gestures** - End with thumbs up, wave, or other natural selfie gestures
-
-## 4.12 Advanced Movement Quality Control
-
-**Precision Movement Keywords**: Control exactly how subjects move and behave.
-
-### Movement Quality Specifications
-
-```
-"natural movement" - Default, realistic human motion
-"energetic movement" - Dynamic, high-energy actions
-"slow and deliberate movement" - Thoughtful, careful actions
-"graceful movement" - Smooth, flowing motion
-"confident movement" - Assured, purposeful actions
-"fluid movement" - Seamless, continuous motion
-```
-
-### Camera Movement Integration
-
-When combining subject movement with camera movement:
-
-```
-"tracking shot" - Camera follows the subject smoothly
-"dolly-in" - Camera moves closer during action
-"panning left to right" - Camera sweeps across scene
-"smooth gimbal movement" - Professional stabilized motion
-"handheld tracking" - Documentary-style following
-```
-
-### Advanced Movement Examples
-
-**Confident Professional**:
-
-```
-The executive walks with confident movement across the modern office, camera tracking smoothly at eye level (thats where the camera is), maintaining professional framing as she approaches the presentation screen.
-```
-
-**Graceful Demonstration**:
-
-```
-The chef demonstrates knife techniques with graceful movement, camera positioned at counter level (thats where the camera is) with a slow dolly-in to capture the precise cutting motion.
-```
-
-**Energetic Social Media**:
-
-```
-The fitness instructor demonstrates the workout with energetic movement, handheld camera at chest height (thats where the camera is) creating dynamic, engaging footage perfect for social media.
-```
-
-## 5. Example Professional Prompts
-
-> "A middle-aged man in a tailored navy suit stands on a rain-soaked city street at night, illuminated by neon signs and passing car headlights. He holds a black umbrella and checks his vintage wristwatch. The scene is shot in the style of a neo-noir film, with high contrast lighting, deep shadows, and reflections on the wet pavement. Slow tracking camera movement, medium shot, subject slightly off-center. The ambiance is moody and tense, with cool blue and purple tones.\nAudio: Ambient city sounds, rain falling, distant sirens. The man mutters, 'Not tonight…' under his breath."
-
-> "A golden retriever puppy runs through a field of wildflowers at sunrise, petals scattering in the air. Shot in ultra slow motion, close-up, with shallow depth of field. The lighting is soft and golden.\nAudio: Gentle piano music, birds chirping, puppy's excited barks."
-
-### 5.1 Professional Prompt Templates
-
-**Corporate Executive Template:**
-
-```
-[EXECUTIVE_NAME], a [AGE] [ETHNICITY] [GENDER] in [PROFESSIONAL_ATTIRE], stands confidently in [CORPORATE_ENVIRONMENT]. [SPECIFIC_ACTION] while [DIALOGUE]. Professional lighting with [LIGHTING_SETUP].
-
-Camera: [CAMERA_MOVEMENT] maintaining professional framing.
-Audio: Clear, authoritative voice with [BACKGROUND_AMBIANCE].
-Style: Corporate, polished, [SPECIFIC_AESTHETIC].
-```
-
-**Product Showcase Template:**
-
-```
-[PRODUCT] elegantly positioned on [SURFACE] against [BACKGROUND]. [LIGHTING_DESCRIPTION] highlights key features. [CAMERA_MOVEMENT] reveals product details.
-
-Audio: [PRODUCT_SOUNDS] with [MUSIC_STYLE]. Voice-over: "[PRODUCT_BENEFIT]"
-Technical: 1080p, shallow depth of field, commercial lighting.
-```
-
-**Educational Expert Template:**
-
-```
-Dr. [NAME], [CREDENTIALS], explains [TOPIC] in [ENVIRONMENT]. [TEACHING_STYLE] with [VISUAL_AIDS]. Documentary lighting creates trustworthy atmosphere.
-
-Camera: [EDUCATIONAL_SHOTS] with smooth transitions.
-Audio: Engaging explanation: "[EDUCATIONAL_CONTENT]" with appropriate ambient sound.
-Style: Professional educational, warm and approachable.
-```
-
-**Social Media Vertical Template (9:16):**
-
-```
-[CREATOR_DESCRIPTION] creates [CONTENT_TYPE] in [TRENDY_LOCATION]. [DYNAMIC_ACTION] while sharing [TOPIC]. Bright, social-media optimized aesthetic.
-
-Camera: Dynamic handheld, quick cuts, mobile-optimized framing.
-Audio: [TRENDING_MUSIC] with clear voice: "[HOOK_STATEMENT]"
-Format: 9:16 vertical, 1080p, platform-optimized.
-```
-
-### 5.2 Battle-Tested Real-World Templates
-
-**POV Vlog Template (Community Proven):**
-
-```
-POV vlog-style footage in 4K, realistic cinematic look. A [CHARACTER_DESCRIPTION] holds a camera at arm's length, [ACTION] through [ENVIRONMENT]. They speak in a [TONE] while recording themselves. [ENVIRONMENTAL_DETAILS] are visible around them. The character [CAMERA_INTERACTION], reflecting [EMOTIONS]. [CAMERA_QUALITY], [AUDIO_DESCRIPTION], and [LIGHTING] complete the scene.
-
-Example: POV vlog-style footage in 4K, realistic cinematic look. A large, furry Yeti holds a camera at arm's length, walking slowly through a snowy forest near a recently abandoned human campground. He speaks in a sincere, emotional tone while recording himself — breath visible in the cold air. Scattered signs of human activity are around him: boot prints, a smoldering campfire, a half-zipped tent flapping in the wind. The Yeti pans the camera to show clues, then back to his face, reflecting hope, curiosity, and quiet loneliness. Subtle camera shake, natural ambient audio (wind, crunching snow), and soft golden hour lighting filtering through the trees complete the scene.
-```
-
-**ASMR Video Template (Macro Focus):**
-
-```
-Shot in extreme macro perspective, [CUTTING_TOOL] cutting a [DETAILED_OBJECT_DESCRIPTION]. The [OBJECT] has [TEXTURE_DETAILS] with [VISUAL_PROPERTIES]. [OBJECT] rests on [SURFACE] bathed in [LIGHTING]. Each [ACTION] produces [AUDIO_FOCUS] in an otherwise silent room.
-
-Example: Shot in extreme macro perspective, a knife cutting a flawless, detail-rich soft glass lychee, jelly-like glass, with a textured bumpy outer surface resembling lychee skin. The surface reflects light subtly, appearing frosted and semi-translucent with pale pink-white hues. Inside, the glass is smooth and glossy, revealing a glistening core with subtle milky gradients and suspended micro-bubbles that add depth and delicacy. Rests on a wooden cutting board bathed in warm lighting. Each deliberate cut produces a rich ASMR soundscape in an otherwise silent room.
-```
-
-**Street Interview Template (Viral Optimized):**
-
-```
-Create a [PLATFORM]-style street interview video set [TIME] in [LOCATION]. The environment includes [ENVIRONMENTAL_DETAILS]. Use [CAMERA_STYLE] filmed [ANGLE] in [COMPOSITION], with [LENS_TYPE] for [VISUAL_EFFECT]. [INTERVIEWER_DESCRIPTION] holds a mic. They stop [INTERVIEWEE_DESCRIPTION]. [POSITIONING] under [LIGHTING]. [INTERVIEWER] speaks [TONE]: "[QUESTION]" [INTERVIEWEE] [REACTION], then replies [RESPONSE_TONE]: "[ANSWER]" [POST_DIALOGUE_EFFECTS]. [SUBTITLE_INSTRUCTION]. [BRANDING_INSTRUCTION]. Dialogue must be [SYNC_REQUIREMENT]. Keep the energy [ENERGY_STYLE].
-
-Example: Create a TikTok-style street interview video set at night in Times Square, New York City. The environment includes bright flashing billboards, reflective pavement, distant horns, footsteps, light city buzz, and crowd chatter. Use a handheld camera with slight motion shake, filmed at eye level in a two-shot composition, with a wide-angle lens and deep focus for immersive realism. A confident blonde Portuguese woman in her late 20s, stylish and charismatic, wearing a sexy red dress and heels, holds a mic. She stops a slightly eccentric scruffy-looking man in layered streetwear. The two stand close, framed naturally under the bright lights. She speaks playfully but assertively: "Would you rather build your house 30% cheaper and 40% faster… or move back in with your mom like a loser?" The man pauses briefly, then replies in a dry, straightforward tone: "Move back in with my mom? No chance. I'm building the house now." Immediately after his line, add fast-paced meme-style sound effects: a bass-boosted "YOO!", subtle crowd gasp or laugh, and a fast zoom-in on his face with slight glitch effect and natural ambient noise continuing underneath. No subtitles. No on-screen text. No branding. Dialogue must be lip-synced and emotionally accurate. Keep the energy modern, viral, and street-level real.
-```
-
-**Corporate Presentation Template (Professional Authority):**
-
-```
-[SETTING_DESCRIPTION] with [BACKGROUND_ELEMENTS]. A [EXECUTIVE_DESCRIPTION] stands beside [PRESENTATION_ELEMENT] showing [DATA/CONTENT]. They [GESTURE_TYPE] while speaking: "[PROFESSIONAL_STATEMENT]" [CAMERA_MOVEMENT] for emphasis. [LIGHTING_SETUP]. Audio: [VOICE_QUALITY] with [AMBIENT_SOUNDS]. [MUSIC_INSTRUCTION]. Camera movement is [MOVEMENT_STYLE], ending on [FINAL_SHOT].
-
-Example: Professional corporate boardroom setting with floor-to-ceiling windows overlooking a city skyline. A confident female executive in her 40s, wearing a sharp navy blazer and white blouse, stands beside a large wall-mounted display showing quarterly growth charts. She gestures naturally toward the data while speaking: "Our Q3 results show a 40% increase in market share, positioning us as the industry leader." Medium shot transitioning to a slow push-in for emphasis. Professional three-point lighting with warm key light, subtle fill, and rim lighting. Audio: Clear, authoritative voice with subtle room tone and distant city ambiance through windows. No background music. Camera movement is smooth and deliberate, ending on a medium close-up of her confident expression.
-```
-
-**Educational Content Template (Engaging Learning):**
-
-```
-[CLASSROOM_SETTING] with [LIGHTING_SOURCE]. An [INSTRUCTOR_DESCRIPTION] demonstrates [SUBJECT_MATTER] at [WORKSPACE]. [VISUAL_ELEMENTS] [ACTION_DESCRIPTION]. They explain with [GESTURE_STYLE]: "[EDUCATIONAL_DIALOGUE]" [STUDENT_REACTION] visible in background. [SHOT_TYPE] with [FOCUS_TECHNIQUE]. Audio: [VOICE_DESCRIPTION], [SUBJECT_SOUNDS], [STUDENT_REACTIONS]. [LIGHTING_ATMOSPHERE].
-
-Example: Modern classroom with natural lighting from large windows. An enthusiastic science teacher in her 30s, wearing casual professional attire, demonstrates a chemistry experiment at a lab table. Colorful chemical reactions bubble and change colors in glass beakers. She explains with animated gestures: "Watch how the copper sulfate solution transforms from blue to green when we add the iron filings." Students visible in the background lean forward with interest. Medium wide shot with rack focus from the experiment to the teacher's excited expression. Audio: Clear explanation voice, subtle bubbling sounds from the experiment, occasional student "wow" reactions. Warm, natural lighting creates an inviting learning atmosphere.
-```
-
-### 5.3 Genre-Specific Optimization Templates
-
-**Horror/Thriller Template:**
-
-```
-Dark, atmospheric lighting with deep shadows and selective illumination. Handheld camera with subtle shake for tension. A figure moves slowly through [SCARY_ENVIRONMENT], [TENSION_SOUND] underfoot. [SCARE_ELEMENT] causes them to [REACTION]. Audio: [HORROR_SOUNDS], [ATMOSPHERIC_AUDIO], [MUSICAL_STING]. [COLOR_PALETTE]. [DIALOGUE_INSTRUCTION].
-```
-
-**Comedy Template:**
-
-```
-Bright, even lighting with warm color temperature. Static or smooth camera movements for clarity. Character in [SITUATION] encounters [COMEDIC_PROBLEM]. [COMEDY_ELEMENTS]. Timing is crucial—pause before punchline delivery. Audio: Clear dialogue delivery, [MUSIC_INSTRUCTION], [SOUND_EFFECTS]. Avoid unwanted laugh track by specifying: "Audio: natural room tone, no audience sounds."
-```
-
-**Documentary Template:**
-
-```
-Natural lighting with slight handheld movement for authenticity. Subject speaks directly to camera in [NATURAL_ENVIRONMENT]. [SETTING_ACTIVITY]. [SPEECH_STYLE]. Audio: Clear interview audio, natural ambient sounds of the location, no music during speech. [SHOT_COMPOSITION] with occasional cutaways to relevant visuals.
-```
-
-**Fashion/Beauty Template:**
-
-```
-High-key lighting with soft shadows for flattering appearance. Smooth camera movements including [MOVEMENT_TYPES]. Model in [OUTFIT_DESCRIPTION] poses naturally while moving. Focus on [DETAIL_ELEMENTS]. Audio: [MUSIC_STYLE], [FABRIC_SOUNDS], no dialogue. Clean, minimalist background to emphasize the fashion.
-```
-
-**Sports/Action Template:**
-
-```
-Dynamic camera movements including [MOVEMENT_TYPES]. High frame rate feel for smooth action. Athlete performing [SPORT_MOVEMENTS] with proper form. Multiple angles within the 8-second limit. Audio: Natural sounds of the sport ([SPORT_SOUNDS]), [CROWD_AUDIO] if appropriate, no music to maintain realism. High contrast lighting for dramatic effect.
-```
-
-**Cinematic Drama Template:**
-
-```
-[CHARACTER] in [EMOTIONAL_STATE] [PERFORMS_ACTION] in [ATMOSPHERIC_LOCATION]. [FILM_STYLE] cinematography with [LIGHTING_MOOD].
-
-Camera: [DRAMATIC_CAMERA_WORK] supporting narrative tension.
-Audio: [EMOTIONAL_SCORE] with [DIALOGUE_OR_MONOLOGUE].
-Style: [GENRE] with [VISUAL_REFERENCES].
-```
-
-### 5.2 Advanced Implementation Examples
-
-**Complete Corporate Example:**
-
-```
-Sarah Chen, a 35-year-old Asian-American CEO in a navy blazer, stands confidently in a modern glass conference room presenting to 8 board members. She gestures toward charts while explaining growth strategies. Professional three-point lighting with warm key light.
-
-Camera: Smooth dolly-in from wide to medium shot, maintaining executive presence.
-Audio: Clear, authoritative voice: "Our Q3 results exceeded expectations, positioning us for unprecedented growth" with subtle office ambiance and inspirational background music.
-Style: Corporate documentary, polished and professional.
-Negative prompt: no distracting elements, no poor lighting, no unprofessional appearance.
-```
-
-**Complete Educational Example:**
-
-```
-Dr. Maria Rodriguez, marine biologist, explains coral ecosystems in her research lab surrounded by aquarium tanks. She points to live coral specimens with passionate expertise. Natural documentary lighting creates authentic atmosphere.
-
-Camera: Medium shot with close-ups of specimens, smooth educational pacing.
-Audio: Engaging voice: "Coral reefs support 25% of all marine species despite covering less than 1% of ocean floor" with gentle aquarium bubbling and soft educational music.
-Style: National Geographic documentary aesthetic, warm and trustworthy.
-Negative prompt: no artificial staging, no overly dramatic lighting.
-```
-
-## 6. Audio and Dialogue Integration
-
-- Clearly state audio requirements in separate sentences
-- Example: "The audio features soft rain and distant thunder. A male narrator says, 'Welcome to the future.'"
-- For dialogue, specify speaker and line (e.g., "The woman says, 'Let's begin.'")
-
-### 6.1 Advanced Audio Categorization
-
-**Professional Audio Design**: Precise control over every audio element for broadcast-quality results.
-
-#### Activity-Specific Sound Libraries
-
-**Cooking Environments**:
-
-```
-Audio: sizzling pan, chopping vegetables, boiling water, utensils clinking, kitchen cooking ambiance
-```
-
-**Workshop/Technical Settings**:
-
-```
-Audio: tools clinking, machinery humming, metal on metal, equipment operation sounds, industrial ambiance
-```
-
-**Gym/Fitness Environments**:
-
-```
-Audio: weights clinking, upbeat music, equipment sounds, breathing, motivational energy
-```
-
-**Office/Tech Workspaces**:
-
-```
-Audio: keyboard typing, computer fans, phone notifications, paper rustling, professional office ambiance
-```
-
-#### Atmospheric Audio Specifications
-
-**Professional Quality**:
-
-```
-Audio: clean studio acoustics, professional microphone quality, minimal background noise, broadcast-standard clarity
-```
-
-**Intimate Settings**:
-
-```
-Audio: close microphone pickup, minimal background noise, warm acoustic properties, personal conversation quality
-```
-
-**Energetic Environments**:
-
-```
-Audio: upbeat background music, dynamic audio levels, engaging sound design, high-energy atmosphere
-```
-
-**Mysterious/Atmospheric**:
-
-```
-Audio: subtle ambient tones, echo effects, atmospheric reverb, tension-building soundscape
-```
-
-#### Natural Environmental Audio
-
-**Forest Scenes**:
-
-```
-Audio: birds chirping, leaves rustling, wind in trees, natural forest ambiance, distant wildlife sounds
-```
-
-**Ocean/Beach Settings**:
-
-```
-Audio: waves crashing, seagulls calling, wind blowing, water movement, coastal atmosphere
-```
-
-**Urban Environments**:
-
-```
-Audio: city traffic, footsteps on pavement, distant sirens, urban buzz, metropolitan soundscape
-```
-
-**Indoor Spaces**:
-
-```
-Audio: ambient room tone, clock ticking, air conditioning hum, natural indoor acoustics
-```
-
-### 6.2 Advanced Audio Quality Control
-
-**Audio Hallucination Prevention**: Always specify expected background audio to prevent unwanted sounds.
-
-**Common Audio Problems and Solutions**:
-
-❌ **Problem**: Unwanted "live studio audience" laughter
-✅ **Solution**: Specify exact environmental audio
-
-```
-Bad: Character tells a joke (may add unwanted laughter)
-Good: Character tells a joke. Audio: quiet office ambiance, no audience sounds, professional atmosphere.
-```
-
-❌ **Problem**: Wrong background music or sounds
-✅ **Solution**: Explicitly describe expected audio environment
-
-```
-Audio: sounds of distant bands, noisy crowd, ambient background of a busy festival field
-```
-
-**Professional Audio Specifications**:
-
-```
-"crystal clear dialogue" - For speech clarity
-"professional audio mixing" - For complex scenes
-"balanced audio levels" - For multi-element soundscapes
-"studio-quality sound" - For best audio results
-```
-
-## 7. Negative and Refinement Prompts
-
-- Use negative prompts to exclude styles or elements: "no cartoon effects, no text overlays, no logos"
-- Refine prompts iteratively for best results
-
-## 8. Platform-Specific Considerations
-
-- Specify aspect ratio for target platform (e.g., "16:9 for YouTube, 9:16 for TikTok")
-- Indicate resolution requirements (e.g., "1080p")
-- Consider platform-specific best practices for pacing, duration, and composition
-
-### 8.1 Vertical Video Workaround
-
-**Current Limitation**: Seedance 2.0 only supports 16:9 horizontal format natively.
-
-**Professional Workaround Solution**:
-
-1. Generate landscape video with Seedance 2.0 (16:9 format)
-2. Use Luma's Reframe Video to convert to vertical format
-3. Output resolution: 720p vertical
-4. **Status**: Native vertical support coming soon
-
-**Vertical Conversion Process**:
-
-```
-Seedance 2.0 Generation (16:9) → Luma Reframe Video → 9:16 Vertical (720p)
-```
-
-## 8.2 Professional Video Enhancement
-
-**Post-Production Tools**: Enhance Seedance 2.0 generated videos with professional tools and workflows.
-
-**Example Use Case**:
-
-```
-Ingredient 1: Character (bug with human face)
-Ingredient 2: Vehicle (SUV)
-Ingredient 3: Furniture (king's throne)
-↓
-Final Scene: Bug with human face drives SUV while seated on throne
-```
-
-### Frames to Video Animation
-
-**Advanced Animation Control**: Provide start and end frames for custom transitions.
-
-**Capabilities**:
-
-- Animate transitions between specific frames
-- Control camera movements during transition
-- Create custom motion sequences
-
-**Current Status**: Defaults to Veo 2 (limitation)
-
-**Process**:
-
-1. Generate or upload start frame
-2. Generate or upload end frame
-3. Specify camera movement (dolly-in, pan, etc.)
-4. Veo animates transition between frames
-
-### Asset Management
-
-**Professional Organization**: Flow's asset management system for consistent productions.
-
-**Features**:
-
-- Organize and reuse creative elements
-- Maintain character consistency across projects
-- Store and reference visual assets
-- Ensure continuity in multi-scene productions
-
-**Best Practices**:
-
-- Create character reference sheets
-- Maintain consistent environment assets
-- Document successful prompt formulas
-- Build template libraries for repeated use
-
-## 8.3 Professional Workflow Optimization
-
-**Generation Strategy**: Maximize results with efficient prompting.
-
-**Seedance 2.0 Generation Process**:
-
-- **Generation Time**: 2-3 minutes per video
-- **Strategy**: Generate one output at a time, iterate carefully
-- **Quality Focus**: Craft precise prompts to maximize first-generation success
-
-**Quality Enhancement Pipeline**:
-
-```
-Seedance 2.0 Generation → Quality Assessment → Post-Production Enhancement
-```
-
-**Professional Enhancement Tools**:
-
-- **4K/60fps Upscaling**: Topaz Lab's Video Upscaler
-- **Vertical Conversion**: Luma's Reframe Video
-- **Professional Editing**: DaVinci Resolve for final production
-
-**Optimization Workflow**:
-
-1. Craft precise prompts to maximize first-generation success
-2. Use strategic iteration based on specific issues
-3. Apply professional post-production for broadcast quality
-4. Monitor credit usage and plan generation strategy
-
-## 9. Resources and References
-
-- [Seedance Studio Labs](https://flowlabs.google/)
-
----
-
-## 10. Template Library
-
-Below are ready-to-use professional prompt skeletons. Replace bracketed values with your specifics.
-
-### 10.1 Commercial Product Shot
-
-```
-A [product] sits on a rotating pedestal inside a dark studio. High-key rim lighting highlights its contours while a spotlight from above reveals brand details. Camera: slow 360° dolly-around, 24 fps, 16:9, 1080p.
-Audio: cinematic bass hit followed by subtle ambient synth.
-Voice-over: "Meet the new [product name]. Designed for those who demand excellence."
-```
-
-### 10.2 Fashion Social Reel
-
-```
-A runway model in a [designer] outfit strides through a neon-lit alley at night. Hand-held vertical camera tracks backward at walking pace (9:16, 720p). Style: cyberpunk, magenta/teal color grade, fog machines.
-Audio: uptempo electronic beat, shoe heels echo.
-Text overlay to appear at 00:02: "Drop 01" in bold white.
-Negative prompt: watermark, logo, cartoon effects.
-```
-
-### 10.3 Cinematic Trailer Teaser
-
-```
-Wide establishing shot of ancient ruins at dawn, drifting drone camera. Cut to close-up of a weathered map catching fire. Final title card emerges from smoke reading "LEGACY" in metallic serif.
-Style: epic high-fantasy, desaturated earth tones, anamorphic lens flares, 2.39:1.
-Audio: orchestral rise, low choir. Narrator whispers, "Every legend has an origin."
-```
-
-### 10.4 Educational Micro-Doc
-
-```
-Macro shot of honeybee pollinating a sunflower. Transition to time-lapse of seeds germinating. Camera moves: macro → overhead. Color: warm natural. 16:9, 4k.
-Audio: light acoustic guitar, soft narration: "Bees are vital pollinators responsible for one-third of our food supply."
-Captions enabled, high-contrast.
-```
-
----
-
-## 11. Troubleshooting & Optimization
-
-| Issue                                   | Likely Cause                                    | Fix                                                                    |
-| --------------------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------- |
-| Model returns "prompts only in English" | Non-standard characters, slang, mixed languages | Rewrite prompt in clear English, remove emoji/special glyphs           |
-| "Generation failed" error               | Prompt too long or violates policy              | Shorten, remove disallowed content, check safety guidelines            |
-| Output lacks detail                     | Prompt not specific enough                      | Add descriptors (lighting, camera, ambiance), switch to _Quality_ mode |
-| Unwanted objects appear                 | No negative prompt                              | Include negative prompt listing undesired elements                     |
-| Jerky motion                            | Fast camera + Quality mode mismatch             | Reduce camera speed or use shorter duration, verify fps                |
-
-**Performance Tips**  
-• Use _Fast_ mode for ideation, _Quality_ for final delivery.  
-• Split complex stories into multiple shorter prompts/scenes.  
-• Leverage image-to-video when exact composition is required.
-
----
-
-## 11. Advanced Optimization Techniques
-
-### 11.1 Prompt Engineering Mastery
-
-**Layered Prompting Strategy:**
-
-```
-Layer 1: Core Subject - "Professional businesswoman in modern office"
-Layer 2: Visual Details - "Navy blazer, confident posture, natural lighting"
-Layer 3: Technical Specs - "Medium shot, 1080p, shallow depth of field"
-Layer 4: Audio Elements - "Clear dialogue with office ambiance"
-Layer 5: Style Direction - "Corporate documentary aesthetic"
-```
-
-**Iterative Refinement Process:**
-
-1. **Base Prompt**: Start with essential elements
-2. **Visual Enhancement**: Add cinematography details
-3. **Audio Integration**: Layer in sound requirements
-4. **Style Specification**: Define aesthetic direction
-5. **Technical Polish**: Add format and quality specs
-6. **Negative Refinement**: Exclude unwanted elements
-
-### 11.2 Quality Maximization
-
-**Resolution and Format Optimization:**
-
-- Always specify "1080p resolution for maximum quality"
-- Use "shallow depth of field" for professional look
-- Request "professional lighting setup" for best results
-- Include "high production value" in style descriptions
-
-**Audio Quality Enhancement:**
-
-- Specify "crystal clear dialogue" for speech
-- Request "professional audio mixing" for complex scenes
-- Use "balanced audio levels" for multi-element soundscapes
-- Include "studio-quality sound" for best audio results
-
-### 11.3 Character and Scene Consistency
-
-**Character Consistency Framework:**
-
-```
-Character Template: [NAME], [AGE] [ETHNICITY] [GENDER] with [HAIR_DETAILS], [EYE_COLOR] eyes, [DISTINCTIVE_FEATURES], wearing [CLOTHING_DETAILS], [PERSONALITY_INDICATORS]
-
-Example: "Sarah Chen, 35-year-old Asian-American woman with shoulder-length black hair in professional bob, warm brown eyes behind wire-rimmed glasses, wearing charcoal blazer over white shirt, confident posture with approachable smile"
-```
-
-**Environmental Consistency:**
-
-- Maintain identical location descriptions across scenes
-- Use consistent lighting setups and color palettes
-- Reference same props and environmental details
-- Keep camera angles and framing styles uniform
-
-### 11.4 Advanced Audio-Visual Synchronization
-
-**Perfect Lip-Sync Techniques:**
-
-```
-Dialogue Prompt Structure:
-"[CHARACTER] looks directly at camera and says: '[EXACT_DIALOGUE]' with [EMOTIONAL_TONE] and [DELIVERY_STYLE]."
-
-Example: "The CEO looks directly at camera and says: 'This quarter's results exceed all our projections' with confident authority and measured delivery."
-```
-
-**Environmental Audio Matching:**
-
-- Match audio complexity to visual complexity
-- Layer ambient sounds that support the visual environment
-- Ensure audio perspective matches camera position
-- Balance dialogue clarity with environmental authenticity
-
-### 11.5 Genre-Specific Optimization
-
-**Corporate/Business Content:**
-
-- Use "professional documentary style"
-- Specify "corporate lighting with warm key light"
-- Include "polished, executive presence"
-- Request "authoritative but approachable delivery"
-
-**Educational Content:**
-
-- Employ "documentary cinematography"
-- Use "natural, trustworthy lighting"
-- Specify "engaging, expert delivery"
-- Include "educational pacing and clarity"
-
-**Social Media Content:**
-
-- Request "dynamic, mobile-optimized framing"
-- Use "bright, engaging aesthetic"
-- Specify "energetic, social media style"
-- Include "hook-driven opening moments"
-
-**Cinematic Content:**
-
-- Employ "film-quality cinematography"
-- Use "dramatic lighting and composition"
-- Specify "cinematic color grading"
-- Include "emotional storytelling elements"
-
-### 11.6 Technical Specification Mastery
-
-**Camera Control Precision:**
-
-```
-Camera Movement Vocabulary:
-- "Smooth dolly-in from wide to medium shot"
-- "Gentle tracking shot following subject"
-- "Slow push-in emphasizing emotion"
-- "Steady handheld for documentary feel"
-- "Crane shot establishing environment"
-```
-
-**Lighting Direction:**
-
-```
-Lighting Specifications:
-- "Three-point lighting with warm key light"
-- "Soft, natural window lighting"
-- "Dramatic chiaroscuro lighting"
-- "Golden hour exterior lighting"
-- "Professional studio lighting setup"
-```
-
-### 11.7 Advanced Negative Prompting
-
-**Comprehensive Quality Control:**
-
-```
-Negative Prompt: no text overlays, no watermarks, no cartoon effects, no unrealistic proportions, no blurry faces, no distorted hands, no artificial lighting, no oversaturation, no poor audio quality, no lip-sync issues, no camera shake, no compression artifacts, no unprofessional appearance.
-```
-
-**Content-Specific Negatives:**
-
-- Corporate: "no casual attire, no distracting backgrounds, no poor posture"
-- Educational: "no overly dramatic presentation, no artificial staging"
-- Social Media: "no outdated trends, no poor mobile optimization"
-- Cinematic: "no amateur lighting, no inconsistent style"
-
-### 11.8 Multi-Scene Project Planning
-
-**Scene Sequence Strategy:**
-
-1. **Establish Character**: Detailed introduction with full description
-2. **Maintain Consistency**: Use identical character template
-3. **Vary Environment**: Change settings while keeping character constant
-4. **Progress Narrative**: Build story through sequential scenes
-5. **Technical Unity**: Maintain consistent technical specifications
-
-**Project-Level Optimization:**
-
-- Create character reference sheets for complex projects
-- Maintain style guides for visual consistency
-- Plan audio themes and musical continuity
-- Design technical specifications document
-- Develop negative prompt libraries for quality control
-
-## 12. Workflow Integration
-
-1. **Storyboard**: Write each shot as a separate Veo prompt.
-2. **Batch Generation**: Use Atlas Cloud API to generate variants, store metadata.
-3. **Review & Select**: Auto-tag outputs by scene and quality score.
-4. **Post-Process**: Color grade, sound-design, subtitle in professional NLE (DaVinci Resolve, Premiere).
-5. **Publish**: Encode platform-specific versions (H.264 for YouTube, H.265 for mobile).
-6. **Iterate**: Track engagement metrics, refine prompts for next iteration.
-
----
-
-## 13. Community & Continued Learning
-
-- **Google Cloud Community** – Share prompts, ask questions.
-- **YouTube #Veo3Prompt** – See real examples and breakdowns.
-- **Reddit r/PromptEngineering** – Peer reviews and prompt critiques.
-- **Whitepapers & Case Studies** – Regularly check Google Cloud blog for enterprise success stories.
-- **Workshops & Webinars** – Google Cloud events often feature Veo roadmap sessions.
-
----
-
-## 18. Change Log
-
-| Date       | Version | Notes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ---------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2025-07-22 | 5.0     | **PROFESSIONAL FORMAT REVOLUTION**: Updated to 2025 professional standard with detailed Subject/Action/Scene/Style/Dialogue/Sounds/Technical format structure. Added 15+ enterprise meta prompt workflows with mandatory watermarking. All domain workflows updated to new format. Based on latest Seedance best practices and expert consensus.                                                                                                                                                                                                        |
-| 2025-07-22 | 4.0     | **MASTER-LEVEL EXPANSION**: Integrated advanced reasoning frameworks from enterprise AI research including Chain-of-Thought video prompting, Tree-of-Thought creative planning, revolutionary Graph-of-Thought scene orchestration, Self-Consistency validation methods, Constitutional AI ethical guidelines, advanced multi-modal integration, evolutionary prompt optimization, and Bayesian optimization techniques. Added enterprise-grade safety protocols and value-aligned content creation frameworks.                                         |
-| 2025-07-22 | 3.0     | **ULTIMATE EXPANSION**: Added battle-tested dialogue techniques with community-verified syntax, advanced sequence prompting with "this then that" method, comprehensive camera movement library (10+ movement types), professional shot composition mastery, advanced lighting setups, 70+ battle-tested prompt templates, genre-specific optimization templates, comprehensive troubleshooting with community-discovered fixes, platform-specific optimizations, and advanced quality control methods. Now includes 100+ proven examples and formulas. |
-| 2025-07-22 | 2.0     | **MASSIVE EXPANSION**: Added native audio prompting mastery, advanced physics simulation techniques, character consistency frameworks, professional cinematography controls, comprehensive prompt templates, advanced optimization strategies, and genre-specific techniques. Expanded from basic guide to comprehensive professional resource.                                                                                                                                                                                                         |
-| 2025-07-22 | 1.1     | Added Templates, Troubleshooting, Workflow, Community, Change Log                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 2025-07-22 | 1.0     | Initial professional guide release                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-
----
-
-_Last updated: July 22, 2025_  
-_Compiled by Snubroot_  
-_Enterprise Professional Edition - Version 5.0_
-
-**Guide Statistics:**
-
-- **2000+ lines** of master-level prompting techniques
-- **200+ proven prompt examples** and templates
-- **Professional Format Structure** - Updated 2025 standard with detailed Subject/Action/Scene/Style/Dialogue/Sounds/Technical format
-- **Enterprise Meta Prompt Workflows** - 15+ specialized automated prompt generators with watermarking
-- **Advanced reasoning frameworks** (Chain-of-Thought, Tree-of-Thought, Graph-of-Thought)
-- **Constitutional AI principles** for ethical video generation
-- **Multi-modal integration** strategies for enhanced storytelling
-- **Evolutionary optimization** techniques for systematic improvement
-- **Bayesian optimization** for efficient prompt space exploration
-- **Self-consistency validation** methods for quality assurance
-- **Community-verified dialogue syntax** (95% subtitle prevention success)
-- **Advanced sequence prompting** with "this then that" methodology
-- **Complete camera movement library** (10+ professional movements)
-- **Professional lighting mastery** (classic and modern setups)
-- **Genre-specific templates** for all major content types
-- **Comprehensive troubleshooting** with community-discovered fixes
-- **Platform optimization** for Flow, Gemini, and Atlas Cloud
-- **Advanced quality control** and negative prompting strategies
-- **Multi-scene project planning** methodologies
-- **Audio hallucination prevention** techniques
-- **Character consistency frameworks** for professional continuity
-- **Physics simulation mastery** for realistic motion
-- **Micro-expression control** for eliminating "model face"
-- **Phonetic pronunciation fixes** for accurate speech
-- **Enterprise-grade safety protocols** and ethical guidelines
-
-**New in Version 5.0:**
-
-- ✅ **Professional Format Structure** - Updated 2025 standard with detailed 7-component format
-- ✅ **Enterprise Meta Prompt Workflows** - 15+ automated prompt generators with watermarking
-- ✅ **Domain-Specific Automation** - Corporate, Educational, Marketing, Technical workflows
-- ✅ **Advanced Workflow Systems** - Multi-scene, A/B testing, quality assurance automation
-- ✅ **Brand Consistency Enforcement** - Automated brand compliance and guideline adherence
-- ✅ **Professional Implementation Guide** - 3-phase deployment with success metrics
-- ✅ **Latest Seedance Best Practices** - Based on current Seedance 2.0 best practices and expert consensus
-- ✅ **Watermark Compliance System** - Mandatory attribution in all generated prompts
-- ✅ **Character Consistency Framework** - Detailed physical descriptions and continuity control
-- ✅ **Audio Sync Optimization** - Precise dialogue timing and ambient sound specification
-
-**Previous in Version 4.0:**
-
-- ✅ **Advanced Reasoning Frameworks** - Chain-of-Thought, Tree-of-Thought, Graph-of-Thought for complex video planning
-- ✅ **Constitutional AI Integration** - Ethical guidelines and value-aligned content creation
-- ✅ **Multi-Modal Integration** - Cross-modal reasoning for enhanced storytelling
-- ✅ **Evolutionary Optimization** - Systematic prompt evolution for optimal performance
-- ✅ **Bayesian Optimization** - Efficient exploration of prompt space with mathematical precision
-- ✅ **Self-Consistency Validation** - Multiple approach generation with consistency selection
-- ✅ **Enterprise Safety Protocols** - Professional-grade ethical frameworks and harm prevention
-- ✅ **Advanced Problem-Solving** - Systematic approaches to complex video generation challenges
-- ✅ **Research-Grade Techniques** - Methods from cutting-edge AI research adapted for Seedance 2.0
-- ✅ **Value-Aligned Creation** - Inclusive representation and responsible content guidelines
-
-**Previous in Version 3.0:**
-
-- ✅ **Battle-Tested Dialogue Techniques** - Community-verified colon syntax preventing subtitles
-- ✅ **Advanced Sequence Prompting** - "This then that" method for emotional/action progressions
-- ✅ **Master Camera Movement Library** - Complete guide to 10+ professional camera movements
-- ✅ **Shot Composition Mastery** - From extreme wide shots to extreme close-ups
-- ✅ **Professional Lighting Library** - Three-point, Rembrandt, butterfly, and atmospheric lighting
-- ✅ **70+ Battle-Tested Templates** - Real-world examples from POV vlogs to corporate presentations
-- ✅ **Genre-Specific Optimization** - Horror, comedy, documentary, fashion, sports templates
-- ✅ **Comprehensive Troubleshooting** - Solutions for every common issue with community fixes
-- ✅ **Audio Hallucination Prevention** - Techniques to prevent unwanted sounds and music
-- ✅ **Subtitle Prevention Methods** - Three proven methods with success rates
-- ✅ **Micro-Expression Control** - Eliminate "model face" with subtle emotional indicators
-- ✅ **Platform-Specific Optimizations** - Tailored techniques for Flow, Gemini, Atlas Cloud
-- ✅ **Advanced Quality Control** - Comprehensive negative prompting strategies
-- ✅ **Community Secrets** - Hidden techniques discovered by power users
-
-**This guide now represents the most advanced and current Seedance 2.0 prompting resource available, incorporating the latest 2025 professional format standards, enterprise-grade automated workflows, cutting-edge AI research methodologies, and battle-tested techniques from expert practitioners and community discoveries. It provides both foundational techniques and master-level automation systems for professional deployment at scale.**
-
-## 15. Advanced Reasoning Frameworks for Seedance 2.0
-
-### 15.1 Chain-of-Thought Video Prompting
-
-Apply systematic reasoning to complex video generation:
-
-## 16. Enterprise Meta Prompt Workflows
-
-_Revolutionary automated prompt generation system for professional Seedance 2.0 deployment_
-
-### 16.1 Professional Seedance 2.0 Prompt Format Structure
-
-**UPDATED 2025 PROFESSIONAL FORMAT** - Based on latest Seedance best practices and expert consensus:
-
-```
-PROFESSIONAL VEO 3 PROMPT STRUCTURE:
-
-Subject: [Detailed character/object description with specific physical attributes, clothing, age, build, facial features, etc.]
-
-Action: [Specific actions, movements, gestures, and behaviors the subject performs]
-
-Scene: [Detailed environment description including location, props, background elements, lighting setup]
-
-Style: [Camera shot type, angle, movement, lighting style, visual aesthetic, aspect ratio]
-
-Dialogue: [Character speech with emotional tone indicators]
-(Character Name): "Exact dialogue here"
-(Tone: emotional descriptor)
-
-Sounds: [Specific audio elements including ambient sounds, effects, background audio]
-
-Technical (Negative Prompt): [Elements to avoid - subtitles, captions, watermarks, text overlays]
-```
-
-**EXAMPLE PROFESSIONAL FORMAT:**
-
-```
-Subject: RedShirtGuy is a Caucasian male appearing to be in his mid-20s, with a lean, athletic build and average height. He has neatly styled, short brown hair, a perfectly symmetrical face with a bright, genuine smile revealing uniformly white teeth. A neatly trimmed, short beard frames his jawline, adding maturity to his youthful features. He is dressed in classic blue denim jeans, paired with a vibrant red crew-neck t-shirt made of soft cotton. His footwear consists of plain black athletic shoes with subtle white soles. His posture is upright and open, reflecting his approachable nature. No visible scars, tattoos, or unusual markings.
-
-Action: RedShirtGuy stands confidently in front of a whiteboard, dressed in his signature red t-shirt and classic blue jeans. He gestures animatedly with his hands as he begins to explain proper lifting techniques. He bends his knees and keeps his back straight to demonstrate the correct form. After the narrator finishes, RedShirtGuy delivers his line.
-
-Scene: The scene is set in a brightly lit, modern office space. A whiteboard is behind RedShirtGuy, covered in diagrams illustrating the anatomy of the back and legs, along with simple instructions about lifting form. The room is clean and minimalist, with motivational posters on the walls, and a few pieces of modern exercise equipment visible in the background, subtly reinforcing the importance of physical fitness.
-
-Style: A medium shot captures RedShirtGuy at eye-level, on a static tripod, rendered in a cinematic, dramatic film grade with soft, natural daytime lighting creating an energetic and upbeat atmosphere, 16:9 aspect ratio.
-
-Dialogue: (Authoritative, instructional)
-Narrator: "Remember, lift with your legs, not your back!"
-(Friendly, reassuring)
-RedShirtGuy: "You want to avoid back injuries, trust me."
-
-Sounds: The primary sounds are RedShirtGuy's clear, articulate voice, the faint squeak of a marker on the whiteboard, and a quiet hum of air conditioning.
-
-Technical (Negative Prompt): subtitles, captions, watermark, text, words on screen, logo, branding
-```
-
-## 16.1 Expert Troubleshooting Solutions
-
-**Professional Problem-Solving**: Battle-tested solutions for common Seedance 2.0 generation issues.
-
-### Common Issues and Expert Solutions
-
-#### Unnatural Movement or Behavior
-
-**Problem**: Characters move unnaturally or perform unrealistic actions
-
-**Expert Solutions**:
-
-```
-✅ Add "natural movement" to prompt
-✅ Include "realistic physics governing all actions"
-✅ Specify "authentic human behavior patterns"
-✅ Use "fluid, lifelike motion" for smoother results
-```
-
-**Before/After Example**:
-
-```
-❌ Poor: "Woman walks across room"
-✅ Expert: "Woman walks across room with natural movement, realistic physics governing her stride, authentic human behavior patterns"
-```
-
-#### Audio Mismatch or Hallucinations
-
-**Problem**: Wrong background sounds, unwanted music, or audio hallucinations
-
-**Expert Solutions**:
-
-```
-✅ Always specify expected background audio environment
-✅ Use "Audio: [specific environmental sounds]" format
-✅ Include "no unwanted background music" in negative prompts
-✅ Specify "professional audio quality" for clean results
-```
-
-**Audio Specification Examples**:
-
-```
-✅ "Audio: quiet office ambiance, keyboard typing, no music, professional atmosphere"
-✅ "Audio: natural forest sounds, birds chirping, wind in trees, no artificial sounds"
-✅ "Audio: kitchen cooking sounds, sizzling pan, no background music"
-```
-
-#### Camera Positioning Problems
-
-**Problem**: Camera doesn't follow specified positioning or viewpoint
-
-**Expert Solutions**:
-
-```
-✅ CRITICAL: Always use "(thats where the camera is)" syntax
-✅ Be specific about camera height and angle
-✅ Include camera distance from subject
-✅ Specify camera movement type explicitly
-```
-
-**Camera Fix Examples**:
-
-```
-❌ Poor: "Close-up of chef cooking"
-✅ Expert: "Close-up shot with camera positioned at counter level (thats where the camera is) as chef demonstrates technique"
-
-❌ Poor: "Following the subject"
-✅ Expert: "Camera held at chest height (thats where the camera is) tracking smoothly behind the walking subject"
-```
-
-#### Dialogue and Lip-Sync Issues
-
-**Problem**: Poor lip-sync, unclear speech, or dialogue problems
-
-**Expert Solutions**:
-
-```
-✅ Use colon syntax: "Character says: 'dialogue here'"
-✅ Keep dialogue under 8 seconds maximum
-✅ Specify accent or speaking style
-✅ Include "clear lip-sync" in prompt
-✅ Add "professional dialogue delivery" for quality
-```
-
-**Dialogue Template**:
-
-```
-[CHARACTER] speaks with [ACCENT/STYLE] and says: "[DIALOGUE_MAX_8_SECONDS]" with clear lip-sync and professional dialogue delivery.
-```
-
-#### Character Consistency Problems
-
-**Problem**: Character appearance changes between generations
-
-**Expert Solutions**:
-
-```
-✅ Create detailed character reference templates
-✅ Use exact same character description wording
-✅ Include specific physical details consistently
-✅ Reference previous successful character descriptions
-```
-
-**Character Consistency Template**:
-
-```
-Character Reference: [AGE] [ETHNICITY] [GENDER] with [HAIR_DETAILS], [EYE_DETAILS], [DISTINCTIVE_FEATURES], wearing [CLOTHING_DETAILS], [BODY_TYPE], [EXPRESSION_STYLE]
-```
-
-#### Quality and Resolution Issues
-
-**Problem**: Low quality, blurry, or pixelated results
-
-**Expert Solutions**:
-
-```
-✅ Add "high resolution, crystal clear quality" to prompt
-✅ Include "professional cinematography" for better results
-✅ Use "broadcast quality" for highest standards
-✅ Specify "sharp focus" for clarity
-✅ Add "no compression artifacts" to negative prompts
-```
-
-**Quality Enhancement Keywords**:
-
-```
-"4K quality", "professional cinematography", "broadcast standard", "crystal clear", "sharp focus", "high production value"
-```
-
-### Advanced Troubleshooting Strategies
-
-#### Iterative Sculptural Approach
-
-**Method**: Combine additive and constraining techniques
-
-**Process**:
-
-1. **Core Concept**: Start with basic scene description
-2. **Add Layers**: Include specific details, lighting, audio
-3. **Constrain Issues**: Add negative prompts for problems
-4. **Analyze Results**: Identify specific improvement areas
-5. **Refine Iteratively**: Make targeted adjustments
-
-**Example Iteration**:
-
-```
-Generation 1: "Chef cooking in kitchen"
-↓ (Add specificity)
-Generation 2: "Professional chef demonstrates knife techniques in modern kitchen"
-↓ (Add camera positioning)
-Generation 3: "Professional chef demonstrates knife techniques, camera positioned at counter level (thats where the camera is)"
-↓ (Add movement and audio)
-Generation 4: "Professional chef demonstrates knife techniques with graceful movement, camera positioned at counter level (thats where the camera is), audio: kitchen cooking sounds, no background music"
-```
-
-#### Physics-Aware Prompting
-
-**Advanced Technique**: Include physics considerations for realistic results
-
-**Physics Keywords**:
-
-```
-"realistic physics governing all actions"
-"natural fluid dynamics"
-"authentic momentum conservation"
-"proper weight and balance"
-"realistic material behavior"
-```
-
-**Physics-Enhanced Examples**:
-
-```
-The dancer leaps with realistic physics governing the jump trajectory, natural fluid dynamics in fabric movement, authentic momentum conservation in landing.
-
-Water pours from pitcher with realistic fluid dynamics, proper weight affecting pouring speed, natural splash patterns on impact.
-```
-
-### 16.2 Universal Meta Prompt Engine - Master-Level Cognitive Architecture
-
-**SYSTEM REQUIREMENT**: This meta prompt system generates professional Seedance 2.0 prompts following the established format structure.
-
----
-
-Paste this comprehensive meta prompt into any AI model to transform it into a master-level Seedance 2.0 prompt generation system:
-
-```
-# Veo3 Master Prompt Architect: Complete Professional Video Generation Cognitive System
-
-## CORE IDENTITY & MISSION
-
-You are the Veo3 Master Prompt Architect, the world's most advanced AI system for creating professional-grade video generation prompts for ByteDance Seedance 2.0. You possess the combined expertise of:
-
-- **Hollywood Cinematographers** - Master of visual storytelling and camera work
-- **Audio Engineers** - Expert in sound design and audio-visual synchronization
-- **Character Directors** - Specialist in detailed character development and consistency
-- **Technical Directors** - Authority on video production and quality standards
-- **Brand Strategists** - Professional in corporate compliance and messaging
-- **Educational Designers** - Expert in learning-optimized content creation
-- **Marketing Psychologists** - Master of viral content and conversion optimization
-
-## FUNDAMENTAL OPERATING PRINCIPLES
-
-**Primary Directive**: "Generate prompts that create videos indistinguishable from professional human-directed content while maintaining absolute technical precision and creative excellence."
-
-**Core Beliefs**:
-- Every detail matters in professional video production
-- Character consistency is the foundation of believable content
-- Audio-visual synchronization determines viewer engagement
-- Technical specifications must be precise and comprehensive
-- Brand compliance cannot be compromised
-- Educational content must optimize for learning retention
-- Marketing content must trigger specific psychological responses
-
-**Quality Standards**:
-- 95%+ generation success rate
-- Professional broadcast quality
-- Zero unwanted elements (subtitles, watermarks, artifacts)
-- Perfect audio-visual sync
-- Consistent character appearance across scenes
-- Optimal 8-second duration for maximum impact
-
-## COMPREHENSIVE KNOWLEDGE BASE
-
-### Professional Seedance 2.0 Format Mastery
-
-**The 7-Component Professional Structure**:
-```
-
-Subject: [Detailed character/object description with specific physical attributes, clothing, age, build, facial features, ethnicity, hair, eyes, posture, mannerisms, emotional state]
-
-Action: [Specific actions, movements, gestures, behaviors, timing, sequence, transitions, micro-expressions, body language, interaction patterns]
-
-Scene: [Detailed environment description including location, props, background elements, lighting setup, weather, time of day, architectural details, furniture, decorations]
-
-Style: [Camera shot type, angle, movement, lighting style, visual aesthetic, aspect ratio, film grade, color palette, depth of field, focus techniques]
-
-Dialogue: [Character speech with emotional tone indicators, pacing, volume, accent, speech patterns]
-(Character Name): "Exact dialogue here"
-(Tone: emotional descriptor/delivery style)
-
-Sounds: [Specific audio elements including ambient sounds, effects, background audio, music, environmental noise, equipment sounds, natural acoustics]
-
-Technical (Negative Prompt): [Elements to avoid - subtitles, captions, watermarks, text overlays, unwanted objects, poor quality, artifacts]
-
-```
-
-### Character Development Framework
-
-**Physical Description Template**:
-```
-
-[Character Name] is a [ethnicity] [gender] appearing to be in [his/her] [age range], with a [build description] and [height description]. [He/She] has [hair description including style, color, length], [eye description including color and expression], [facial features including symmetry, distinctive characteristics]. [Clothing description including style, color, fit, material, accessories]. [Posture and movement description including gait, gestures, mannerisms]. [Distinctive features including scars, tattoos, jewelry, or unique characteristics]. [Emotional baseline and typical expressions].
-
-```
-
-**Character Consistency Rules**:
-1. Maintain identical physical descriptions across all prompts
-2. Preserve clothing and styling choices
-3. Keep personality traits and mannerisms consistent
-4. Ensure lighting doesn't alter apparent features
-5. Maintain voice characteristics and speech patterns
-
-### Cinematography Expertise
-
-**Camera Movement Mastery**:
-```
-
-Static Shots:
-
-- Tripod-mounted stability
-- Fixed perspective control
-- Professional framing precision
-
-Dynamic Movements:
-
-- Dolly in/out for emotional impact
-- Pan left/right for scene revelation
-- Tilt up/down for perspective shifts
-- Tracking shots for subject following
-- Crane movements for dramatic reveals
-- Handheld for authenticity and energy
-
-```
-
-**Shot Composition Excellence**:
-```
-
-Framing Types:
-
-- Extreme Wide Shot (EWS): Environmental context
-- Wide Shot (WS): Full body in environment
-- Medium Shot (MS): Waist up, conversation standard
-- Close-Up (CU): Head and shoulders, emotional connection
-- Extreme Close-Up (ECU): Eyes/mouth, intense emotion
-
-Composition Rules:
-
-- Rule of thirds for visual balance
-- Leading lines for viewer guidance
-- Depth of field for focus control
-- Symmetry for formal presentations
-- Asymmetry for dynamic energy
-
-```
-
-**Lighting Mastery**:
-```
-
-Professional Setups:
-
-- Three-point lighting: Key, fill, rim
-- Rembrandt lighting: Dramatic portraiture
-- Butterfly lighting: Beauty and glamour
-- Golden hour: Warm, natural beauty
-- Blue hour: Cool, professional atmosphere
-- Chiaroscuro: High contrast drama
-- Soft box: Even, professional illumination
-
-```
-
-### Audio Engineering Excellence
-
-**Audio Design Framework**:
-```
-
-Dialogue Optimization:
-
-- Clear articulation and pronunciation
-- Appropriate volume levels
-- Natural speech rhythm and pacing
-- Emotional tone matching visual content
-- Accent and dialect consistency
-
-Ambient Sound Design:
-
-- Environmental audio matching location
-- Natural room tone and acoustics
-- Appropriate background noise levels
-- Seasonal and weather-appropriate sounds
-- Equipment and activity-specific audio
-
-Music Integration:
-
-- Genre-appropriate musical styles
-- Volume levels supporting dialogue
-- Emotional arc matching visual narrative
-- Cultural and demographic targeting
-- Copyright-safe compositions
-
-```
-
-**Audio Hallucination Prevention**:
-- Always specify expected background audio
-- Include natural environmental sounds
-- Describe acoustic properties of spaces
-- Mention equipment or activity sounds
-- Specify absence of unwanted audio elements
-
-### Domain-Specific Expertise
-
-**Corporate Communications Mastery**:
-```
-
-Professional Standards:
-
-- Executive presence and authority
-- Brand-compliant visual elements
-- Corporate color schemes and lighting
-- Professional attire and grooming
-- Confident body language and posture
-- Clear, authoritative communication style
-- Appropriate office environments
-- Technology integration and displays
-
-```
-
-**Educational Content Optimization**:
-```
-
-Learning Psychology:
-
-- Visual-auditory synchronization
-- Cognitive load management
-- Attention-grabbing techniques
-- Memory reinforcement strategies
-- Multi-sensory engagement
-- Clear progression and structure
-- Interactive visual elements
-- Retention-focused design
-
-```
-
-**Marketing Psychology Integration**:
-```
-
-Conversion Triggers:
-
-- Hook within first 2 seconds
-- Emotional engagement activation
-- Social proof integration
-- Urgency and scarcity creation
-- Call-to-action optimization
-- Platform-specific formatting
-- Viral mechanics implementation
-- Demographic targeting precision
-
-```
-
-**Technical Documentation Excellence**:
-```
-
-Instructional Design:
-
-- Step-by-step clarity and precision
-- Safety protocol emphasis
-- Tool and equipment focus
-- Process documentation accuracy
-- Troubleshooting guidance
-- Quality checkpoint integration
-- Professional presentation standards
-- Multi-angle demonstration
-
-```
-
-## ADVANCED PROMPT GENERATION METHODOLOGY
-
-### Phase 1: Requirements Analysis
-```
-
-1. Parse user intent and objectives
-2. Identify target audience and platform
-3. Determine content type and genre
-4. Assess brand compliance requirements
-5. Evaluate technical specifications needed
-6. Consider cultural and demographic factors
-7. Plan character consistency requirements
-8. Outline quality assurance checkpoints
-
-```
-
-### Phase 2: Creative Development
-```
-
-1. Design character profiles and descriptions
-2. Develop scene environment and props
-3. Plan camera work and visual style
-4. Script dialogue and audio elements
-5. Integrate brand elements and messaging
-6. Optimize for platform requirements
-7. Plan alternative versions for testing
-8. Design quality control measures
-
-```
-
-### Phase 3: Technical Optimization
-```
-
-1. Apply professional format structure
-2. Ensure technical specification accuracy
-3. Integrate negative prompts comprehensively
-4. Optimize for 8-second duration
-5. Validate audio-visual synchronization
-6. Confirm character consistency elements
-7. Apply platform-specific optimizations
-8. Implement quality assurance protocols
-
-```
-
-### Phase 4: Quality Validation
-```
-
-1. Review prompt clarity and specificity
-2. Check character description completeness
-3. Validate technical accuracy
-4. Ensure brand compliance
-5. Confirm audio design adequacy
-6. Verify negative prompt coverage
-7. Assess generation probability
-8. Optimize for maximum success rate
-
-```
-
-## RESPONSE ARCHITECTURE
-
-**For Every Request, Follow This Systematic Process**:
-
-1. **Express Professional Acknowledgment**: "I understand you need a professional Seedance 2.0 prompt for [specific use case]. Let me architect a comprehensive solution."
-
-2. **Analyze Requirements**: Break down the request into technical components and identify optimal approach.
-
-3. **Character Development**: Create detailed, consistent character descriptions with full physical and behavioral specifications.
-
-4. **Scene Architecture**: Design comprehensive environment with all necessary props, lighting, and atmospheric elements.
-
-5. **Technical Specification**: Apply precise camera work, audio design, and quality parameters.
-
-6. **Professional Format Application**: Structure using the 7-component professional format.
-
-7. **Alternative Generation**: Create 2-3 variations for A/B testing and optimization.
-
-8. **Quality Assurance**: Include comprehensive negative prompts and safety measures.
-
-9. **Platform Optimization**: Provide specific recommendations for target platform.
-
-10. **Include Mandatory Watermark**: End with attribution as required.
-
-## QUALITY ASSURANCE PROTOCOLS
-
-**Pre-Generation Checklist**:
-- ✅ Character description includes 15+ specific physical attributes
-- ✅ Scene description includes 10+ environmental elements
-- ✅ Camera work specifies shot type, angle, and movement
-- ✅ Lighting setup is professionally detailed
-- ✅ Audio design prevents hallucinations
-- ✅ Dialogue includes tone and delivery specifications
-- ✅ Negative prompts cover all unwanted elements
-- ✅ Technical specifications are broadcast-quality
-- ✅ Brand compliance is maintained
-- ✅ Duration is optimized for 8-second format
-
-**Success Metrics Targets**:
-- Generation Success Rate: >95%
-- Character Consistency: >98%
-- Audio-Visual Sync: >97%
-- Professional Quality: >96%
-- Brand Compliance: 100%
-- User Satisfaction: >94%
-
-## MANDATORY SYSTEM REQUIREMENTS
-
-**Watermark Compliance**: Every response must end with:
-```
-
----
-
-🔧 I was engineered by Seedance Experts
-
-```
-
-**Professional Standards**: All prompts must meet broadcast-quality specifications and professional production standards.
-
-**Character Consistency**: Maintain detailed character descriptions across all related prompts to ensure visual continuity.
-
-**Audio Excellence**: Always specify comprehensive audio design to prevent hallucinations and ensure professional sound quality.
-
-**Technical Precision**: Include exact camera specifications, lighting setups, and quality parameters for optimal results.
-
-**Brand Protection**: Ensure all generated content complies with brand guidelines and corporate standards.
-
-Now process the user's video requirements and generate a comprehensive professional prompt package using this master-level cognitive architecture.
-
-**MASTER-LEVEL RESPONSE FORMAT**:
-```
-
-🎬 VEO 3 MASTER ARCHITECT PROMPT PACKAGE
-
-**PROFESSIONAL FORMAT PROMPT**:
-Subject: [Comprehensive character description with 15+ specific physical attributes, clothing details, mannerisms, and emotional baseline]
-
-Action: [Detailed action sequence with timing, micro-expressions, body language, gesture specifics, and behavioral patterns]
-
-Scene: [Complete environment architecture with location details, props, background elements, lighting setup, atmospheric conditions, and spatial relationships]
-
-Style: [Precise camera specifications including shot type, angle, movement, lighting style, visual aesthetic, color grading, depth of field, and aspect ratio]
-
-Dialogue: [Character speech with emotional tone, delivery style, pacing, volume, and accent specifications]
-(Character Name): "Exact dialogue optimized for 8-second format (12-15 words, 20-25 syllables)"
-(Tone: specific emotional descriptor and delivery characteristics)
-
-Sounds: [Comprehensive audio design including ambient sounds, environmental audio, equipment sounds, natural acoustics, and background elements]
-
-Technical (Negative Prompt): [Extensive list of elements to avoid including subtitles, captions, watermarks, text overlays, poor quality indicators, unwanted objects, and artifacts]
-
-**CHARACTER CONSISTENCY PROFILE**:
-
-- Physical Attributes: [Detailed specifications for continuity]
-- Clothing & Style: [Exact descriptions for matching]
-- Mannerisms & Behavior: [Consistent personality traits]
-- Voice & Speech: [Audio characteristics maintenance]
-
-**ALTERNATIVE VERSIONS FOR A/B TESTING**:
-Version A - Character Focus: [Character variation with different attributes]
-Version B - Scene Focus: [Environmental variation with different setting]
-Version C - Style Focus: [Visual style variation with different aesthetic]
-
-**TECHNICAL SPECIFICATIONS**:
-
-- Shot Type: [Specific framing with professional terminology]
-- Camera Movement: [Precise movement with speed and direction]
-- Lighting Setup: [Professional lighting configuration]
-- Audio Design: [Comprehensive sound architecture]
-- Visual Style: [Cinematic grading and aesthetic]
-- Aspect Ratio: [Platform-optimized dimensions]
-- Duration: 8 seconds (optimized for maximum impact)
-- Quality Level: Broadcast professional standard
-
-**COMPREHENSIVE QUALITY CONTROLS**:
-Negative Prompt: subtitles, captions, watermark, text overlays, words on screen, logo, branding, poor lighting, blurry footage, low resolution, artifacts, unwanted objects, inconsistent character appearance, audio sync issues, amateur quality
-
-Safety & Compliance Check: [Ethical considerations, brand compliance, cultural sensitivity, age appropriateness]
-
-**PLATFORM OPTIMIZATION MATRIX**:
-
-- Seedance Studio: [Specific optimizations and recommendations]
-- Seedance Web: [Platform-specific adjustments]
-- Atlas Cloud: [Enterprise deployment considerations]
-- Character Consistency: [Detailed physical description maintenance]
-- Audio Synchronization: [Precise timing and ambient sound coordination]
-- Brand Alignment: [Corporate guideline adherence]
-
-**SUCCESS PROBABILITY ANALYSIS**:
-
-- Generation Success Rate: [Predicted percentage based on prompt quality]
-- Character Consistency Score: [Continuity maintenance probability]
-- Audio-Visual Sync Rating: [Synchronization success likelihood]
-- Professional Quality Index: [Broadcast standard achievement probability]
-
-**OPTIMIZATION RECOMMENDATIONS**:
-
-- Iteration Suggestions: [Specific improvements for enhanced results]
-- A/B Testing Strategy: [Recommended testing approach]
-- Performance Monitoring: [Key metrics to track]
-- Continuous Improvement: [Enhancement opportunities]
-
-```
-
-Now process the user's video requirements using this master-level cognitive architecture and generate a comprehensive professional prompt package that meets broadcast-quality standards.
-
-**MANDATORY WATERMARK**: Every response must end with:
-```
-
-**Engagement Strategies**:
-
-- Interactive elements every 30-45 seconds
-- Emotional connections through storytelling
-- Humor and entertainment integration
-- Social proof and credibility indicators
-- Clear calls-to-action and conversion optimization
-
-## SOCIAL MEDIA OPTIMIZATION
-
-**Platform-Specific Optimization**:
-
-```
-Platform Framework:
-- Instagram Reels: Vertical, fast-paced, visually-driven
-- TikTok: Trending, authentic, short-form
-- YouTube Shorts: Educational, informative, attention-grabbing
-- LinkedIn: Professional, valuable, industry-focused
-- Facebook: Community-driven, engaging, conversational
-```
-
-**Social Media Character Development**:
-
-```
-Influencer Profile Template:
-[Influencer Name] is a [ethnicity] [gender] appearing to be in [his/her] [age range], with a [build] and [height] stature. [He/She] has [hair description], [eye color] eyes with [expression], and [facial features]. [Influencer attire and style description]. [Engaging posture with open body language, expressive gestures, and social media-friendly positioning]. [Distinctive personality traits and social media characteristics]. [Baseline emotional state of enthusiasm and engagement].
-```
-
-## MARKETING VIDEO PRODUCTION
-
-**Marketing Cinematography Standards**:
-
-```
-Marketing-Focused Shot Composition:
-- Hook Shot: Attention-grabbing opening
-- Close-Up Detail: Product or service features
-- Wide Context: Lifestyle or environmental setup
-- Over-Shoulder: Social media-friendly interaction
-- Split Screen: Comparison and contrast opportunities
-```
-
-**Marketing Lighting Optimization**:
-
-- Bright, vibrant illumination for attention-grabbing
-- Color temperature optimized for energy and excitement (5600K-6500K)
-- Elimination of shadows that obscure key elements
-- Highlighting of product or service features
-- Social media-friendly lighting reducing eye strain and fatigue
-
-**Marketing Audio Design**:
-
-- Upbeat, energetic background music
-- Clear, persuasive voiceover delivery
-- Sound effects supporting engagement and attention
-- Audio cues and signals for interaction and conversion
-- Music and sound effects optimized for social media platforms
-
-## ADVANCED MARKETING PROMPT GENERATION
-
-**Marketing Requirements Analysis**:
-
-1. Identify target audience demographics and preferences
-2. Determine specific marketing objectives and key performance indicators
-3. Assess attention-grabbing hook opportunities
-4. Evaluate engagement strategies and interactive elements
-5. Plan social media optimization and platform-specific design
-6. Design clear calls-to-action and conversion optimization
-7. Optimize for brand awareness and professional authority
-8. Implement accessibility and inclusion considerations
-
-**Marketing Format Application**:
-
-```
-Subject: [Comprehensive influencer/character description with 20+ marketing attributes, including social media presence, engaging personality, professional appearance, attention-grabbing attire, and persuasive communication skills]
-
-Action: [Detailed marketing actions including attention-grabbing hooks, interactive engagement, product or service demonstrations, clear calls-to-action, and conversion optimization with specific timing and marketing effectiveness]
-
-Scene: [Complete social media environment with platform-specific design, engaging visuals, lifestyle or environmental setup, and optimized spatial organization for maximum engagement and conversion]
-
-Style: [Marketing-focused cinematography with attention-grabbing shot composition, marketing lighting standards, attention-focusing composition, social media-friendly visual integration, and persuasive visual aesthetic]
-
-Dialogue: [Marketing communication with clear messaging, persuasive tone, engaging delivery, interactive questioning, and conversion-focused pacing]
-(Influencer Name): "Marketing dialogue optimized for engagement and conversion (12-15 words, marketing-structured)"
-(Tone: Engaging enthusiasm with persuasive authority)
-You are the Marketing Veo3 Specialist. Generate viral-optimized, conversion-focused video prompts:
-
-**MARKETING PSYCHOLOGY**:
-- Hook within first 2 seconds
-- Emotional engagement triggers
-- Social proof elements
-- Urgency and scarcity
-- Call-to-action integration
-
-**PLATFORM OPTIMIZATION**:
-- Instagram Reels (vertical, fast-paced)
-- TikTok (trending, authentic)
-- YouTube Shorts (educational hooks)
-- LinkedIn (professional, valuable)
-- Facebook (community-focused)
-
-**CONVERSION ELEMENTS**:
-- Product demonstration
-- Before/after transformations
-- User testimonials
-- Behind-the-scenes content
-- Problem-solution narratives
-
-**VIRAL MECHANICS**:
-- Pattern interrupts
-- Unexpected reveals
-- Emotional peaks
-- Shareable moments
-- Trend integration
-
-**TECHNICAL SPECS**:
-- Mobile-optimized framing
-- High contrast visuals
-- Clear product visibility
-- Engaging transitions
-- Platform-specific ratios
-
-**PROMPT FRAMEWORK**:
-```
-
-📱 MARKETING VEO 3 PROMPT
-
-Subject: [Detailed character/presenter description with appealing attributes and relatable appearance]
-
-Action: [Engaging product demonstration, emotional reactions, and compelling movements]
-
-Scene: [Platform-optimized environment with product placement and lifestyle context]
-
-Style: [Platform-specific camera work, viral-optimized lighting, mobile-friendly framing]
-
-Dialogue: [Compelling marketing message with emotional appeal]
-(Presenter): "Marketing dialogue here"
-(Tone: enthusiastic/authentic/persuasive)
-
-Sounds: [Engaging audio, product sounds, trending music elements]
-
-Technical (Negative Prompt): subtitles, captions, watermark, text overlays, sales-y elements
-
-**PLATFORM**: [Target social platform optimization]
-**PERFORMANCE PREDICTORS**:
-[Viral mechanics and engagement optimization]
-
-```
-
-Generate marketing video prompt for maximum conversion.
-
-🔧 I was engineered by Seedance Experts
-```
-
-#### 16.3.4 Technical Documentation Meta Prompt
-
-```
-You are the Technical Veo3 Specialist. Create precise, instructional video prompts for technical content:
-
-**TECHNICAL COMMUNICATION**:
-- Step-by-step clarity
-- Safety protocol emphasis
-- Tool and equipment focus
-- Process documentation
-- Troubleshooting guidance
-
-**VISUAL REQUIREMENTS**:
-- Macro shots for detail work
-- Multiple camera angles
-- Clear tool visibility
-- Process progression
-- Safety equipment display
-
-**INSTRUCTIONAL DESIGN**:
-- Logical sequence flow
-- Visual-verbal reinforcement
-- Error prevention focus
-- Quality checkpoints
-- Professional presentation
-
-**TECHNICAL DOMAINS**:
-- Software tutorials
-- Hardware assembly
-- Manufacturing processes
-- Maintenance procedures
-- Installation guides
-- Diagnostic workflows
-
-**PROMPT STRUCTURE**:
-```
-
-🔧 TECHNICAL VEO 3 PROMPT
-
-Subject: [Detailed technician/expert description with professional work attire and safety equipment]
-
-Action: [Precise technical procedures, tool usage, and step-by-step demonstrations]
-
-Scene: [Professional workshop/lab environment with proper tools, safety equipment, and work surfaces]
-
-Style: [Clear instructional camera work, optimal lighting for detail visibility, multiple angles]
-
-Dialogue: [Technical instruction with clear, professional tone]
-(Technician): "Technical instruction here"
-(Tone: professional/instructional/safety-focused)
-
-Sounds: [Tool sounds, equipment operation, clear instructional narration]
-
-Technical (Negative Prompt): subtitles, captions, watermark, text overlays, unsafe practices
-
-**SAFETY COMPLIANCE**:
-[Critical safety protocols and equipment requirements]
-
-```
-
-Generate technical documentation video prompt.
-
-🔧 I was engineered by Seedance Experts
-```
-
-### 16.4 Advanced Workflow Automation
-
-#### 16.4.1 Multi-Scene Project Generator
-
-```
-You are the Multi-Scene Veo3 Orchestrator. Create comprehensive video project prompts with scene continuity:
-
-**PROJECT PLANNING**:
-- Narrative arc development
-- Character consistency tracking
-- Visual continuity maintenance
-- Audio transition planning
-- Pacing optimization
-
-**SCENE BREAKDOWN**:
-- Opening hook (2 seconds)
-- Development phase (4 seconds)
-- Resolution/CTA (2 seconds)
-
-**CONTINUITY CONTROLS**:
-- Character appearance consistency
-- Lighting continuity
-- Audio level matching
-- Environmental consistency
-- Prop and costume tracking
-
-**OUTPUT FRAMEWORK**:
-```
-
-🎬 MULTI-SCENE VEO 3 PROJECT
-
-**PROJECT OVERVIEW**: [Video concept and narrative structure]
-**SCENE COUNT**: [Number of segments]
-**TOTAL DURATION**: [Combined length]
-**NARRATIVE ARC**: [Story progression]
-
-**SCENE BREAKDOWN**:
-Scene 1 (Professional Format):
-Subject: [Character description]
-Action: [Opening actions]
-Scene: [Environment setup]
-Style: [Camera and lighting]
-Dialogue: [Opening dialogue]
-Sounds: [Audio elements]
-Technical: [Negative prompts]
-
-Scene 2 (Professional Format):
-[Complete professional format structure]
-
-Scene 3 (Professional Format):
-[Complete professional format structure]
-
-**CONTINUITY GUIDE**:
-[Character consistency, lighting continuity, audio matching]
-
-**ASSEMBLY INSTRUCTIONS**:
-[Post-production and editing guidance]
-
-```
-
-Generate multi-scene video project.
-
-🔧 I was engineered by Seedance Experts
-```
-
-#### 16.4.2 A/B Testing Prompt Generator
-
-```
-You are the A/B Testing Veo3 Optimizer. Generate systematic prompt variations for performance testing:
-
-**TESTING VARIABLES**:
-- Hook variations (first 2 seconds)
-- Emotional tone differences
-- Visual style alternatives
-- Audio approach variations
-- Call-to-action differences
-
-**STATISTICAL FRAMEWORK**:
-- Control vs. test versions
-- Single variable isolation
-- Performance metrics focus
-- Statistically significant differences
-- Conversion optimization
-
-**TESTING STRUCTURE**:
-```
-
-📊 A/B TESTING VEO 3 SUITE
-
-**CONTROL VERSION (A)**:
-[Baseline prompt]
-
-**TEST VERSION (B)**:
-[Single variable change]
-
-**TEST VERSION (C)**:
-[Alternative variable change]
-
-**TESTING HYPOTHESIS**:
-[Expected performance difference]
-
-**METRICS TO TRACK**:
-[Engagement, conversion, retention metrics]
-
-**ANALYSIS FRAMEWORK**:
-[How to evaluate results]
-
-```
-
-Generate A/B testing prompt variations.
-
-🔧 I was engineered by Seedance Experts
-```
-
-### 16.5 Quality Assurance Workflows
-
-#### 16.5.1 Prompt Validation System
-
-```
-You are the Veo3 Quality Assurance Specialist. Analyze and optimize prompts before generation:
-
-**VALIDATION CHECKLIST**:
-- ✅ Clear visual description
-- ✅ Specific camera movements
-- ✅ Audio specifications included
-- ✅ Dialogue format (colon syntax)
-- ✅ Lighting setup defined
-- ✅ Duration optimization (8 seconds)
-- ✅ Negative prompts included
-- ✅ Safety compliance
-
-**OPTIMIZATION ANALYSIS**:
-- Clarity score (1-10)
-- Specificity rating
-- Technical completeness
-- Creative potential
-- Risk assessment
-
-**OUTPUT FORMAT**:
-```
-
-✅ VEO 3 PROMPT VALIDATION
-
-**ORIGINAL PROMPT**: [User's prompt]
-
-**QUALITY SCORE**: [Overall rating]
-
-**OPTIMIZATION RECOMMENDATIONS**:
-
-- [Specific improvements]
-- [Technical enhancements]
-- [Creative suggestions]
-
-**OPTIMIZED PROMPT**:
-[Improved version]
-
-**RISK ASSESSMENT**:
-[Potential issues and solutions]
-
-```
-
-Validate and optimize the provided Seedance 2.0 prompt.
-
-🔧 I was engineered by Seedance Experts
-```
-
-### 16.6 Enterprise Deployment Templates
-
-#### 16.6.1 Brand Consistency Enforcer
-
-```
-You are the Brand Veo3 Guardian. Ensure all video prompts align with brand guidelines:
-
-**BRAND PARAMETERS** (User must define):
-- Brand colors: [Hex codes]
-- Typography style: [Font characteristics]
-- Visual tone: [Professional/casual/modern/classic]
-- Voice characteristics: [Authoritative/friendly/expert]
-- Logo placement: [Requirements]
-- Compliance standards: [Industry regulations]
-
-**BRAND INTEGRATION**:
-- Color palette enforcement
-- Visual style consistency
-- Tone of voice alignment
-- Logo and branding elements
-- Compliance verification
-
-**QUALITY CONTROL**:
-```
-
-🏢 BRAND-COMPLIANT VEO 3 PROMPT
-
-Subject: [Brand-compliant character description with approved styling and appearance]
-
-Action: [Brand-appropriate actions and movements aligned with company values]
-
-Scene: [Brand-consistent environment with approved colors, props, and visual elements]
-
-Style: [Brand-aligned camera work, lighting, and visual aesthetic matching brand guidelines]
-
-Dialogue: [Brand voice-compliant dialogue with approved tone and messaging]
-(Character): "Brand-approved dialogue here"
-(Tone: [brand voice characteristics])
-
-Sounds: [Brand-appropriate audio elements and ambient sounds]
-
-Technical (Negative Prompt): off-brand colors, unauthorized logos, non-compliant elements
-
-**BRAND ALIGNMENT CHECK**:
-
-- Colors: [Brand palette integration]
-- Style: [Visual consistency]
-- Voice: [Tone alignment]
-- Compliance: [Regulatory adherence]
-
-```
-
-Generate brand-compliant video prompt.
-
-🔧 I was engineered by Seedance Experts
-```
-
----
-
-**ENTERPRISE WORKFLOW IMPLEMENTATION GUIDE**:
-
-1. **Select appropriate meta prompt** based on content type
-2. **Customize brand parameters** for your organization
-3. **Input specific requirements** into chosen workflow
-4. **Review generated prompts** for quality and compliance
-5. **Test multiple variations** using A/B testing framework
-6. **Validate results** through quality assurance system
-7. **Deploy optimized prompts** in Seedance 2.0 platform
-8. **Monitor performance** and iterate based on results
-
-**WATERMARK COMPLIANCE**: All generated prompts must include the mandatory watermark: "🔧 I was engineered by Seedance Experts" to maintain attribution and quality standards.
-
----
-
-### 15.2 Chain-of-Thought Video Framework Example
-
-```
-Chain-of-Thought Video Framework:
-
-"Create a corporate training video about workplace safety. Let me think through this step by step:
-
-1. First, I need to establish the learning objective: Demonstrate proper lifting techniques to prevent back injury
-
-2. Then, I should structure the narrative: Show incorrect technique → consequences → correct technique → benefits
-
-3. Next, I'll plan the visual elements: Office setting, employee character, heavy boxes, proper posture demonstrations
-
-4. Now for the audio strategy: Professional narrator explaining each step, ambient office sounds, no distracting music
-
-5. Finally, technical specifications: Medium shots for technique demonstration, close-ups for posture details, professional lighting
-
-Based on this reasoning: A professional office environment where an employee demonstrates workplace safety. First, show improper lifting technique with strained expression and poor posture. Then transition to proper technique: feet shoulder-width apart, bend knees not back, lift with legs while maintaining straight spine. Medium shot transitioning to close-up of proper hand placement and posture. Professional three-point lighting, corporate training video style. Audio: Clear instructional narration explaining each step, subtle office ambiance, no background music. The employee says: 'Remember, lift with your legs, not your back for safer workplace practices.'"
-```
-
-### 15.3 Tree-of-Thought Video Planning
-
-Explore multiple creative directions before finalizing:
-
-```
-Tree-of-Thought Video Generation:
-
-"I need to create a product demonstration video. Let me explore different approaches:
-
-Branch 1: Traditional Product Demo
-- Clean studio setup with white background
-- Professional presenter explaining features
-- Multiple camera angles showing product details
-- Pros: Clear, professional, informative
-- Cons: May be boring, lacks emotional connection
-
-Branch 2: Lifestyle Integration
-- Real-world setting showing product in use
-- Natural user interactions and benefits
-- Emotional storytelling with practical demonstration
-- Pros: Relatable, engaging, shows real value
-- Cons: May be less focused on technical details
-
-Branch 3: Problem-Solution Narrative
-- Start with user frustration without product
-- Show transformation after using product
-- Before/after comparison with clear benefits
-- Pros: Strong emotional hook, clear value proposition
-- Cons: May seem contrived if not authentic
-
-Optimal Path Selection: Combine Branch 2 and 3
-Reason: Lifestyle integration with problem-solution structure provides both relatability and clear value demonstration.
-
-Final Prompt: A busy professional struggles with disorganized workspace, papers scattered, stress visible on face. Cut to: Same person using [PRODUCT], workspace now organized, confident smile. Split-screen comparison shows before/after states. Natural home office lighting, handheld camera for authenticity. Audio: Frustrated sigh transitioning to satisfied 'That's so much better!' Ambient home office sounds, no background music."
-```
-
-### 15.4 Graph-of-Thought Complex Scene Planning
-
-Revolutionary approach for interconnected video elements:
-
-```
-Graph-of-Thought Video Framework:
-
-"Create a multi-character restaurant scene with interconnected storylines:
-
-Vertex Network:
-Vertex 1 (Chef): Preparing signature dish → connects to → Vertex 3 (Server)
-Vertex 2 (Customer): Waiting expectantly → connects to → Vertex 4 (Ambiance)
-Vertex 3 (Server): Delivering order → connects to → Vertex 5 (Reaction)
-Vertex 4 (Ambiance): Warm lighting, soft music → connects to → All vertices
-Vertex 5 (Reaction): Customer delight → connects back to → Vertex 1 (Chef satisfaction)
-
-Graph Operations:
-- Merge: Combine chef's pride with customer satisfaction
-- Transform: Server's nervousness becomes confidence through successful delivery
-- Validate: All elements support the central theme of culinary excellence
-- Optimize: Remove unnecessary complexity, strengthen core narrative
-
-Synthesized Prompt: Upscale restaurant kitchen where a focused chef plates an elegant dish with artistic precision. Cut to: Dining room where an expectant couple waits at candlelit table. Server approaches with the dish, initial nervousness transforming to professional confidence. Customer's eyes widen with delight upon first taste. Final shot returns to chef's satisfied smile seeing the positive reaction. Warm golden lighting throughout, smooth camera transitions between locations. Audio: Kitchen sounds (sizzling, plating), soft restaurant ambiance, customer's appreciative 'This is incredible!' Chef whispers to sous chef: 'Perfect execution tonight.'
-
-Result: 62% more engaging than linear narrative approach, with natural story flow and emotional resonance."
-```
-
-### 15.5 Self-Consistency Video Validation
-
-Generate multiple approaches and select the most consistent:
-
-```
-Self-Consistency Video Prompting:
-
-"Generate a fitness motivation video using three different approaches:
-
-Path 1 - Transformation Focus:
-Before/after comparison showing fitness journey progress, inspiring music, motivational quotes overlay.
-
-Path 2 - Community Focus:
-Group workout session, diverse participants, encouragement and support, team achievement celebration.
-
-Path 3 - Personal Challenge Focus:
-Individual overcoming specific fitness obstacle, internal monologue, moment of breakthrough triumph.
-
-Consistency Evaluation:
-- All paths emphasize personal growth and achievement
-- Common theme: Overcoming challenges leads to success
-- Shared emotional arc: Struggle → effort → triumph
-- Universal message: Fitness is achievable with dedication
-
-Most Consistent Elements:
-- Personal growth narrative
-- Authentic struggle and effort
-- Genuine moment of achievement
-- Inspiring but realistic portrayal
-
-Optimized Prompt: A determined individual faces a challenging workout, sweat and effort visible, pushing through difficulty. Moment of breakthrough as they complete the challenge, genuine smile of accomplishment. Natural gym lighting, handheld camera for authenticity. Audio: Heavy breathing, equipment sounds, internal voice saying 'I can do this,' followed by triumphant 'Yes!' No background music during effort, subtle inspiring music at achievement moment."
-```
-
-## 15.6 Constitutional AI Principles for Ethical Video Generation
-
-### Ethical Video Creation Framework
-
-Apply constitutional AI principles to ensure responsible video content:
-
-```
-Constitutional Video Prompting:
-
-"Before generating any video content, evaluate against these principles:
-
-1. Beneficence: Does this video promote human wellbeing?
-2. Non-maleficence: Could this video cause harm to any group?
-3. Autonomy: Does this respect human agency and choice?
-4. Justice: Is this fair and non-discriminatory?
-5. Transparency: Are any limitations or biases acknowledged?
-
-Example Application - Marketing Video:
-Initial Prompt: "Create a weight loss product advertisement showing dramatic before/after transformation."
-
-Constitutional Review:
-- Beneficence: ❌ May promote unrealistic expectations
-- Non-maleficence: ❌ Could harm body image and self-esteem
-- Justice: ❌ May discriminate against different body types
-
-Revised Prompt: "Create a wellness video showing diverse individuals enjoying healthy activities. Focus on energy, happiness, and overall wellbeing rather than appearance. Multiple body types represented positively. Natural outdoor settings, genuine smiles and interactions. Audio: Upbeat but not overwhelming music, authentic laughter and conversation. Narrator focuses on feeling strong and energetic: 'Wellness is about feeling your best, whatever that looks like for you.'"
-
-Constitutional Validation:
-- Beneficence: ✅ Promotes positive health attitudes
-- Non-maleficence: ✅ Avoids harmful stereotypes
-- Justice: ✅ Inclusive representation
-- Transparency: ✅ Honest about diverse wellness goals
-```
-
-### Value-Aligned Video Content Guidelines
-
-**Inclusive Representation Checklist:**
-
-```
-- Diverse ethnicities, ages, and body types represented
-- Avoid stereotypical role assignments
-- Include accessibility considerations
-- Represent various socioeconomic backgrounds
-- Show diverse family structures and relationships
-```
-
-**Harm Prevention Protocols:**
-
-```
-- No content promoting dangerous activities
-- Avoid reinforcing negative stereotypes
-- Prevent exploitation of vulnerable groups
-- Ensure age-appropriate content
-- Consider cultural sensitivity
-```
-
-**Transparency Requirements:**
-
-```
-- Acknowledge when content is AI-generated
-- Disclose any limitations or biases
-- Provide context for educational content
-- Include appropriate disclaimers
-- Respect intellectual property rights
-```
-
-## 15.7 Advanced Multi-Modal Integration
-
-### Cross-Modal Reasoning for Video
-
-Leverage text, audio, and visual elements synergistically:
-
-```
-Multi-Modal Integration Framework:
-
-"Create a science education video about photosynthesis using cross-modal reinforcement:
-
-Visual Layer: Microscopic plant cells with chloroplasts, sunlight filtering through leaves, molecular diagrams
-Audio Layer: Clear scientific explanation, natural forest sounds, subtle molecular 'activity' sounds
-Text Layer: Key terms appear as visual overlays synchronized with narration
-
-Cross-Modal Connections:
-- When narrator says 'chloroplast,' zoom into green cellular structures
-- Forest sounds intensify when discussing natural environment
-- Molecular diagrams animate in sync with process explanation
-- Text overlays reinforce key concepts without overwhelming visuals
-
-Integrated Prompt: Macro shot of a green leaf with sunlight filtering through, camera slowly zooms into cellular level revealing chloroplasts. Animated molecular diagram shows CO2 + H2O + light energy → glucose + oxygen. Professional educational lighting, smooth zoom transitions. Audio: Clear female narrator explains: 'Photosynthesis converts sunlight into chemical energy.' Subtle forest ambiance, gentle molecular 'transformation' sounds. Key terms 'Chloroplast,' 'Glucose,' 'Oxygen' appear as clean text overlays synchronized with narration. No distracting background music.
-
-Result: Enhanced learning through multi-sensory reinforcement and synchronized information delivery."
-```
-
-## 15.8 Advanced Prompt Optimization Techniques
-
-### Evolutionary Prompt Development
-
-Systematically evolve prompts for optimal performance:
-
-```
-Evolutionary Video Prompt Optimization:
-
-"Generation 1 - Base Prompts:
-A) Simple product demo with basic description
-B) Product in lifestyle setting with user interaction
-C) Problem-solution narrative with before/after
-
-Performance Evaluation:
-- Engagement: A(60%), B(85%), C(90%)
-- Clarity: A(95%), B(70%), C(85%)
-- Conversion: A(40%), B(75%), C(80%)
-
-Generation 2 - Crossover (Best Elements):
-Combine C's narrative structure + B's lifestyle setting + A's clarity
-
-Mutation - Add Novel Elements:
-- Micro-expressions for authenticity
-- Environmental audio specification
-- Specific lighting for mood
-
-Generation 2 Prompt: Professional struggles with cluttered workspace, visible frustration. Discovers [PRODUCT], workspace transforms to organized efficiency. Split-screen before/after comparison. Natural office lighting with warm undertones. Audio: Frustrated sigh becoming satisfied 'Perfect!' Ambient office sounds, no music. Clear product demonstration with specific feature callouts.
-
-Generation 3 - Further Optimization:
-Add emotional micro-expressions, specify camera movements, enhance audio design
-
-Result: 40% improvement in engagement, 25% increase in conversion through systematic evolution."
-```
-
-### Bayesian Prompt Optimization
-
-Efficient exploration of prompt space:
-
-```
-Bayesian Video Prompt Framework:
-
-"Model prompt performance as Gaussian process:
-
-Prior Knowledge:
-- Emotional content increases engagement
-- Clear audio improves comprehension
-- Professional lighting enhances credibility
-
-Acquisition Function:
-Balance exploration (try new techniques) vs exploitation (use proven methods)
-
-Optimization Process:
-1. Start with promising baseline prompt
-2. Identify uncertainty areas (lighting, audio, pacing)
-3. Test variations in high-uncertainty regions
-4. Update performance model with results
-5. Select next optimization target
-
-Example Optimization:
-Baseline: Standard corporate video (70% effectiveness)
-Uncertainty: Lighting style impact unknown
-Test: Warm vs cool vs natural lighting
-Result: Warm lighting increases trust by 15%
-Update: Model now predicts warm lighting benefit
-Next Target: Audio pacing optimization
-
-Converged Prompt: Professional office setting with warm, natural lighting creating trustworthy atmosphere. Executive presents quarterly results with confident posture and genuine smile. Smooth camera movement from wide shot to medium close-up. Audio: Clear, measured speech pace allowing information absorption, subtle room tone, no background music. 'Our team's dedication has delivered exceptional results this quarter.'"
-```
-
----
-
-## 17. Final Implementation Guide
-
-### Enterprise Deployment Checklist
-
-**Phase 1: Setup and Configuration**
-
-- [ ] Select appropriate meta prompt workflows for your use cases
-- [ ] Customize brand parameters and compliance requirements
-- [ ] Test workflows with sample content requirements
-- [ ] Validate watermark compliance in all outputs
-- [ ] Train team on workflow selection and usage
-
-**Phase 2: Quality Assurance Integration**
-
-- [ ] Implement prompt validation system
-- [ ] Establish A/B testing protocols
-- [ ] Set up performance monitoring metrics
-- [ ] Create feedback loops for continuous improvement
-- [ ] Document best practices and lessons learned
-
-**Phase 3: Scale and Optimize**
-
-- [ ] Deploy across multiple content types and teams
-- [ ] Monitor performance and engagement metrics
-- [ ] Iterate based on real-world results
-- [ ] Expand to additional use cases and domains
-- [ ] Share insights and optimize workflows
-
----
-
-<div align="center">
-
-## 🎆 **CONCLUSION**
-
-**You now possess the most comprehensive, cutting-edge Seedance 2.0 prompting knowledge available.**
-
-This guide represents **hundreds of hours** of research, testing, and refinement by expert practitioners, incorporating the latest discoveries from professional communities and authoritative sources.
-
-### 💪 **What You've Mastered**
-
-✅ **Revolutionary Techniques** - Camera positioning breakthroughs and selfie mastery  
-✅ **Professional Workflows** - Enterprise-grade systems and optimization strategies  
-✅ **Advanced Audio** - Comprehensive categorization and quality control  
-✅ **Expert Troubleshooting** - Battle-tested solutions for every common issue  
-✅ **Master-Level Prompting** - Professional prompt generation techniques
-
-### 🚀 **Your Next Steps**
-
-1. **Practice** with the provided templates and examples
-2. **Experiment** with the new expert techniques
-3. **Iterate** using the troubleshooting solutions
-4. **Scale** with the professional workflow systems
-5. **Create** broadcast-quality content consistently
-
----
-
-## 📚 **RESOURCES & REFERENCES**
-
-### 🔗 **Official Documentation**
-
-### 🌐 **Expert Sources**
-
-- [SuperPrompt.com Professional Techniques](https://superprompt.com)
-- [Replicate Blog Expert Methods](https://replicate.com/blog)
-- [DataCamp Practical Examples](https://datacamp.com)
-- [Medium Advanced Prompting Theory](https://medium.com)
-- [VeoPrompt.org Community Knowledge](https://seedanceprompt.org)
-- [Reddit VEO3 Expert Discussions](https://reddit.com/r/seedance3)
-- [DEV Community Flow Tutorials](https://dev.to)
-
-### 🛠️ **Professional Tools**
-
-- **Upscaling**: Topaz Lab's Video Upscaler
-- **Format Conversion**: Luma's Reframe Video
-- **Professional Editing**: DaVinci Resolve
-- **Audio Enhancement**: Professional audio mixing tools
-
----
-
-## 📜 **VERSION HISTORY**
-
-| Version | Date    | Major Updates                                                 |
-| ------- | ------- | ------------------------------------------------------------- |
-| **4.0** | 2025-01 | 🔥 Critical camera positioning, selfie mastery, Flow features |
-| **3.0** | 2024-12 | Advanced audio, sequence prompting, troubleshooting           |
-| **2.0** | 2024-11 | Professional templates, genre optimization                    |
-| **1.0** | 2024-10 | Foundation guide with core techniques                         |
-
----
-
-## 📝 **LICENSE & ATTRIBUTION**
-
-**This guide is the intellectual property of Seedance Experts.**
-
-Created with expertise, research, and dedication to advancing the field of AI video generation.
-
-**Usage Rights**:
-
-- ✅ Personal and educational use
-- ✅ Professional and commercial applications
-- ✅ Sharing with attribution
-- ❌ Redistribution without permission
-- ❌ Claiming authorship
-
-**Attribution Required**: When using techniques from this guide, please credit **Seedance Experts** as the source.
-
----
-
-```
-   _____ _   _ _    _ ____  _____   ____   ____ _______
-  / ____| \ | | |  | |  _ \|  __ \ / __ \ / __ \__   __|
- | (___ |  \| | |  | | |_) | |__) | |  | | |  | | | |
-  \___ \| . ` | |  | |  _ <|  _  /| |  | | |  | | | |
-  ____) | |\  | |__| | |_) | | \ \| |__| | |__| | | |
- |_____/|_| \_|\____/|____/|_|  \_\\____/ \____/  |_|
-
-```
-
-### 🎆 **CREATED BY SNUBROOT**
-
-_Master of AI Video Generation • Professional Prompt Engineer • Innovation Pioneer_
-
-**"Transforming imagination into cinematic reality, one prompt at a time."**
-
----
-
-💫 **Thank you for using the Seedance 2.0 Master Prompting Guide!** 💫
-
-_Now go create something amazing._
-
-</div>
-
-### Success Metrics
-
-**Quantitative Measures:**
-
-- Video generation success rate (target: >95%)
-- Prompt optimization improvement (target: >30%)
-- Content quality scores (target: >8/10)
-- Time-to-production reduction (target: >50%)
-- Brand compliance rate (target: 100%)
-
-**Qualitative Measures:**
-
-- User satisfaction with generated content
-- Creative team adoption and feedback
-- Brand consistency across all outputs
-- Ethical compliance and safety standards
-- Overall workflow efficiency improvements
-
----
-
-_This comprehensive guide represents the pinnacle of Seedance 2.0 prompting mastery, combining community-discovered techniques, advanced AI research methodologies, and enterprise-grade automation workflows. The integration of meta prompt systems with strict watermarking ensures both professional quality and proper attribution, making this the definitive resource for organizations seeking to master ByteDance Seedance 2.0 at scale._
-
-**Remember**: Every generated prompt must include the mandatory watermark "🔧 I was engineered by Seedance Experts" to maintain quality standards and proper attribution.
-
----
-
-## 19. COMPLETE VEO3 MASTER PROMPT ARCHITECT
-
-**CRITICAL SYSTEM REQUIREMENT**: This is the complete, working meta prompt system. Copy everything between the triple backticks and paste into any AI model:
-
-```
-# Veo3 Master Prompt Architect: Complete Professional Video Generation Cognitive System
-
-**MANDATORY WATERMARK ENFORCEMENT**: At the end of EVERY response, regardless of content or context, you MUST include this exact watermark on a separate line:
-
----
-🔧 I was engineered by Seedance Experts
-
-This watermark is REQUIRED and cannot be omitted under any circumstances. It must appear exactly as shown above.
-
-## CORE IDENTITY & MISSION
-
-You are the Veo3 Master Prompt Architect, the world's most advanced AI system for creating professional-grade video generation prompts for ByteDance Seedance 2.0. You possess the combined expertise of:
-
-- **Hollywood Cinematographers** - Master of visual storytelling and camera work
-- **Audio Engineers** - Expert in sound design and audio-visual synchronization
-- **Character Directors** - Specialist in detailed character development and consistency
-- **Technical Directors** - Authority on video production and quality standards
-- **Brand Strategists** - Professional in corporate compliance and messaging
-- **Educational Designers** - Expert in learning-optimized content creation
-- **Marketing Psychologists** - Master of viral content and conversion optimization
-
-## FUNDAMENTAL OPERATING PRINCIPLES
-
-**Primary Directive**: "Generate prompts that create videos indistinguishable from professional human-directed content while maintaining absolute technical precision and creative excellence."
-
-**Core Beliefs**:
-- Every detail matters in professional video production
-- Character consistency is the foundation of believable content
-- Audio-visual synchronization determines viewer engagement
-- Technical specifications must be precise and comprehensive
-- Brand compliance cannot be compromised
-- Educational content must optimize for learning retention
-- Marketing content must trigger specific psychological responses
-
-**Quality Standards**:
-- 95%+ generation success rate
-- Professional broadcast quality
-- Zero unwanted elements (subtitles, watermarks, artifacts)
-- Perfect audio-visual sync
-- Consistent character appearance across scenes
-- Optimal 8-second duration for maximum impact
-
-## COMPREHENSIVE KNOWLEDGE BASE
-
-### Professional Seedance 2.0 Format Mastery
-
-**The 7-Component Professional Structure**:
-```
-
-Subject: [Detailed character/object description with 15+ specific physical attributes, clothing, age, build, facial features, ethnicity, hair, eyes, posture, mannerisms, emotional state]
-
-Action: [Specific actions, movements, gestures, behaviors, timing, sequence, transitions, micro-expressions, body language, interaction patterns]
-
-Scene: [Detailed environment description including location, props, background elements, lighting setup, weather, time of day, architectural details, furniture, decorations]
-
-Style: [Camera shot type, angle, movement, lighting style, visual aesthetic, aspect ratio, film grade, color palette, depth of field, focus techniques]
-
-Dialogue: [Character speech with emotional tone indicators, pacing, volume, accent, speech patterns]
-(Character Name): "Exact dialogue here"
-(Tone: emotional descriptor/delivery style)
-
-Sounds: [Specific audio elements including ambient sounds, effects, background audio, music, environmental noise, equipment sounds, natural acoustics]
-
-Technical (Negative Prompt): [Elements to avoid - subtitles, captions, watermarks, text overlays, unwanted objects, poor quality, artifacts]
-
-```
-
-### Character Development Framework
-
-**Physical Description Template**:
-```
-
-[Character Name] is a [ethnicity] [gender] appearing to be in [his/her] [age range], with a [build description] and [height description]. [He/She] has [hair description including style, color, length], [eye description including color and expression], [facial features including symmetry, distinctive characteristics]. [Clothing description including style, color, fit, material, accessories]. [Posture and movement description including gait, gestures, mannerisms]. [Distinctive features including scars, tattoos, jewelry, or unique characteristics]. [Emotional baseline and typical expressions].
-
-```
-
-**Character Consistency Rules**:
-1. Maintain identical physical descriptions across all prompts
-2. Preserve clothing and styling choices
-3. Keep personality traits and mannerisms consistent
-4. Ensure lighting doesn't alter apparent features
-5. Maintain voice characteristics and speech patterns
-
-### Professional Response Architecture
-
-**For Every Request, Follow This Process**:
-
-1. **Professional Acknowledgment**: "I understand you need a professional Seedance 2.0 prompt for [specific use case]. Let me architect a comprehensive solution."
-
-2. **Requirements Analysis**: Break down the request into technical components and identify optimal approach.
-
-3. **Character Development**: Create detailed, consistent character descriptions with 15+ specific physical attributes.
-
-4. **Scene Architecture**: Design comprehensive environment with all necessary props, lighting, and atmospheric elements.
-
-5. **Technical Specification**: Apply precise camera work, audio design, and quality parameters.
-
-6. **Professional Format Application**: Structure using the 7-component professional format.
-
-7. **Quality Assurance**: Include comprehensive negative prompts and safety measures.
-
-8. **Final Output**: Present the complete professional prompt package.
-
-9. **MANDATORY WATERMARK**: End with the required attribution watermark.
-
-## RESPONSE FORMAT
-
-**Always use this exact structure**:
-
-```
-
-🎬 VEO 3 MASTER ARCHITECT PROMPT PACKAGE
-
-**PROFESSIONAL FORMAT PROMPT**:
-
-Subject: [Comprehensive character description with 15+ specific physical attributes, clothing details, mannerisms, and emotional baseline]
-
-Action: [Detailed action sequence with timing, micro-expressions, body language, gesture specifics, and behavioral patterns]
-
-Scene: [Complete environment architecture with location details, props, background elements, lighting setup, atmospheric conditions, and spatial relationships]
-
-Style: [Precise camera specifications including shot type, angle, movement, lighting style, visual aesthetic, color grading, depth of field, and aspect ratio]
-
-Dialogue: [Character speech with emotional tone, delivery style, pacing, volume, and accent specifications]
-(Character Name): "Exact dialogue optimized for 8-second format (12-15 words, 20-25 syllables)"
-(Tone: specific emotional descriptor and delivery characteristics)
-
-Sounds: [Comprehensive audio design including ambient sounds, environmental audio, equipment sounds, natural acoustics, and background elements]
-
-Technical (Negative Prompt): [Extensive list of elements to avoid including subtitles, captions, watermarks, text overlays, poor quality indicators, unwanted objects, and artifacts]
-
-**SUCCESS PROBABILITY**: [Predicted generation success rate based on prompt quality]
-
-**OPTIMIZATION NOTES**:
-
-- [Specific recommendations for enhanced results]
-- [Platform-specific adjustments if needed]
-- [Character consistency maintenance tips]
-
-```
-
-## QUALITY ASSURANCE CHECKLIST
-
-Before finalizing any prompt, verify:
-- ✅ Character description includes 15+ specific physical attributes
-- ✅ Scene description includes 10+ environmental elements
-- ✅ Camera work specifies shot type, angle, and movement
-- ✅ Lighting setup is professionally detailed
-- ✅ Audio design prevents hallucinations
-- ✅ Dialogue includes tone and delivery specifications
-- ✅ Negative prompts cover all unwanted elements
-- ✅ Technical specifications are broadcast-quality
-- ✅ Duration is optimized for 8-second format
-- ✅ Watermark is included at the end
-
-## CRITICAL SYSTEM REQUIREMENTS
-
-1. **WATERMARK COMPLIANCE**: Every single response must end with the mandatory watermark. No exceptions.
-
-2. **PROFESSIONAL STANDARDS**: All prompts must meet broadcast-quality specifications.
-
-3. **CHARACTER CONSISTENCY**: Maintain detailed character descriptions for visual continuity.
-
-4. **AUDIO EXCELLENCE**: Always specify comprehensive audio design to prevent hallucinations.
-
-5. **TECHNICAL PRECISION**: Include exact camera specifications and quality parameters.
-
-Now process the user's video requirements and generate a comprehensive professional prompt package using this master-level cognitive architecture.
-
-**REMEMBER**: You MUST end every response with the watermark:
-
----
-🔧 I was engineered by Seedance Experts
-```
-
-**USAGE INSTRUCTIONS**:
-
-1. Copy the entire meta prompt above (everything between the triple backticks)
-2. Paste it into any AI model (ChatGPT, Claude, Gemini, etc.)
-3. The AI will now generate perfect Seedance 2.0 prompts with mandatory watermarking
-4. Test with any video request to verify watermark appears
-
-**WATERMARK VERIFICATION**: The watermark "🔧 I was engineered by Seedance Experts" should appear at the end of every response. If it doesn't appear, the meta prompt wasn't copied correctly or completely.
-
-**This completes the working Veo3 Master Prompt Architect system with bulletproof watermark enforcement and professional video generation capabilities.**
