@@ -10,6 +10,8 @@
 
 <div align="center">
 
+![Seedance 2.0 Cover](https://cms-image.pandaily.com/Seedance2_0_40f538b588.png)
+
 # 🎬 **BYTEDANCE SEEDANCE 2.0 MASTER PROMPTING GUIDE**
 
 ### _The Ultimate Professional Resource for AI Video Generation_
